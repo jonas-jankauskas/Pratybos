@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 573662  -->
+  <question type="numerical">
+    <name>
+      <text>Matricos rangas (11)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
+1 & 2 & 4 & -2 \\
+-2 & -3 & -7 & 2 \\
+-2 & -1 & -5 & -2 \\
+0 & -1 & -1 & 2 \\
+-2 & -2 & -6 & 0
+\end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
+1 & 0 & 2 & 2 \\
+0 & 1 & 1 & -2 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0
+\end{array}\right) \)</p><br><p></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+</quiz>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 569611  -->
+  <question type="shortanswer">
+    <name>
+      <text>Rangas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Suskaičiuokite matricos<br>\( $latex_formula$ \)<br>rangą ir gautą skaičių įrašykite laukelyje (2 bandymai).<br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber>$id$</idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>$number$</text>
+      <feedback format="html">
+        <text><![CDATA[<p dir="ltr" style="text-align: left;">Atsakymas teisingas.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>*</text>
+      <feedback format="html">
+        <text><![CDATA[<p dir="ltr" style="text-align: left;">Atsakymas neteisingas</p>]]></text>
+      </feedback>
+    </answer>
+    <hint format="html">
+      <text><![CDATA[<span>1 bandymas nesėkmingas. Praradote</span>&nbsp;<span>pusę</span>&nbsp;už šį uždavinį skirto įverčio.]]></text>
+    </hint>
+  </question>
+
+</quiz>

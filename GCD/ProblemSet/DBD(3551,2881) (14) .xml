@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 582180  -->
+  <question type="shortanswer">
+    <name>
+      <text>Didžiausias bendras daliklis (14)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((3551, 2881)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(3551u+2881v=\)DBD(\(3551, 2881)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((3551, 2881)\)=67</p><p dir="ltr" style="text-align: left;">\(u=13, v=-16\)</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>13,-16,67</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

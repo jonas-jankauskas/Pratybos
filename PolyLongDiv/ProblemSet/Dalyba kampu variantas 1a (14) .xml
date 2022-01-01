@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 621096  -->
+  <question type="numerical">
+    <name>
+      <text>Dalyba kampu, variantas 1a (14)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=3x^{4} - 7x^{3} + 6x^{2} - 8x + 6\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} - x + 1\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(2)\)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=3x^{2} - 4x - 1\)</p><p dir="ltr" style="text-align: left;">\(r(x)=-5x + 7\)</p><p dir="ltr" style="text-align: left;">\(r(2)=-3\)</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-3</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+</quiz>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 582912  -->
+  <question type="shortanswer">
+    <name>
+      <text>Koordinatės bazėje (3)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Duota erdvės \(\mathbb{R}^3\) bazė</p><p dir="ltr" style="text-align: left;">\(v_1 = (-2, -1, -1), v_2 = (-1, -1, -1), v_3 = (1, -2, -1)\).</p><p dir="ltr" style="text-align: left;">Rasti vektoriaus \(v=(6, 5, 5)=c_1v_1+c_2v_2+c_3v_3\) koordinates \((c_1, c_2, c_3)\) šioje bazėje.</p><p dir="ltr" style="text-align: left;"><strong>Pastaba:</strong></p><p dir="ltr" style="text-align: left;"><span>Atsakymą įvesti pavidalu</span></p><p dir="ltr" style="text-align: left;"><span>\(c_1\),\(c_2\),\(c_3\)</span></p><p dir="ltr" style="text-align: left;"><span>skiriant skaičius <strong>kableliu</strong>,<strong> be tarpų</strong> ir kitų pašalinių simbolių, pvz.:</span></p><p dir="ltr" style="text-align: left;"><span>\(-7\),\(9\),\(11\)</span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">ATS.:</p><p dir="ltr" style="text-align: left;">Matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrr}
+-2 & -1 & 1 \\
+-1 & -1 & -2 \\
+-1 & -1 & -1
+\end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">atvirkštinė</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrr}
+-1 & -2 & 3 \\
+1 & 3 & -5 \\
+0 & -1 & 1
+\end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">Koordinatės duotoje bazėje:</p><p dir="ltr" style="text-align: left;">\((c_1, c_2, c_3)=(-1,-4,0)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-1,-4,0</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

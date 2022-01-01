@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 596902  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionali šaknis variantas 1 (11)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 - 5x^2 - 7x + 26\) racionaliąją šaknį.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 - 5x^2 - 7x + 26 = (x - 2)  (x^2 - 3x - 13)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

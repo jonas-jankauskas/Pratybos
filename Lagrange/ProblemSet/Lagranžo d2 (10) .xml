@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 573681  -->
+  <question type="numerical">
+    <name>
+      <text>Lagranžo polinomas (10)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-1)=5, \qquad f(2)=-28, \qquad f(3)=-63 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-3)=? \)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= -6x^{2} - 5x + 6\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-33</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+</quiz>

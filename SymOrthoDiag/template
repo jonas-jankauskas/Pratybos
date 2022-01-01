@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 409829  -->
+  <question type="essay">
+    <name>
+      <text>Simetrinės matricos ortodiagonalizacija, $nr$ variantas </text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ortodiagonalizuoti matricą</p><p dir="ltr" style="text-align: left;">\(A=$A$\)</p><p dir="ltr" style="text-align: left;">t.y. suskaičiuoti \($dim$ \times $dim$\) matricas \(D\) ir \(Q\), kur \(D\) yra diagonalinė, o \(Q\) yra ortogonali, tokias, kad \(QAQ^t=D\).</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">ATS.:</p><p dir="ltr" style="text-align: left;">\(D=$D$\)</p><p dir="ltr" style="text-align: left;">\(Q=$Q$\)</p><p dir="ltr" style="text-align: left;">PASTABA: matricos \(D\) ir \(Q\) randamos nevienareikšmiškai.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>noinline</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>10</responsefieldlines>
+    <minwordlimit></minwordlimit>
+    <maxwordlimit></maxwordlimit>
+    <attachments>1</attachments>
+    <attachmentsrequired>1</attachmentsrequired>
+    <maxbytes>20971520</maxbytes>
+    <filetypeslist>document,.pdf</filetypeslist>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+</quiz>
