@@ -9,13 +9,13 @@ load('matrix_utils.sage')
 try:
     meth
 except NameError:
-    meth = 'I'
+    meth = 'II'
 
 #number of rows and columns
 try:
     ndim
 except NameError:
-    ndim = 4
+    ndim = 2
 
 #bound on the largest entry size
 try:
@@ -107,8 +107,10 @@ for num_tries in range(lim_tries):
             break
     
     if not mat_found:
-        ort_mat_rep_dict[lkey].append(ort_mat)
-        ort_mat_all_dict[lkey].append(flip_and_permute(ort_mat))        
+        new_class = flip_and_permute(ort_mat)
+        new_class.sort()
+        ort_mat_rep_dict[lkey].append(new_class[-1])
+        ort_mat_all_dict[lkey].append(new_class)        
 
 save(sort_dict(ort_mat_rep_dict), full_matrix_path + '_rep')
 save(sort_dict(ort_mat_all_dict), full_matrix_path + '_all')
