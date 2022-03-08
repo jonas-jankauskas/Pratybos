@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 1614771  -->
+  <question type="shortanswer">
+    <name>
+      <text>Teiloro skleidinys, 8 var.</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=3 \, x^{4} - 4 \, x^{3} - 2 \, x^{2} + 2 \, x - 5 \)<br>skleidinį \((x +2)\) laipsniais:<br>\(f(x)=c_0+c_1(x +2)+c_2(x +2)^2+c_3(x +2)^3+c_4(x +2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=63 + {(-134)} {(x + 2)} + 94 {(x + 2)}^{2} + {(-28)} {(x + 2)}^{3} + 3 {(x + 2)}^{4}\)</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>63,-134,94,-28,3</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

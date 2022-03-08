@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 1614771  -->
+  <question type="shortanswer">
+    <name>
+      <text>Teiloro skleidinys, $id$ var.</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=$f$ \)<br>skleidinį \((x $s$)\) laipsniais:<br>\(f(x)=c_0+c_1(x $s$)+c_2(x $s$)^2+c_3(x $s$)^3+c_4(x $s$)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=$h$\)</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>$answ$</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
