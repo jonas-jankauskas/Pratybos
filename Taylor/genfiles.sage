@@ -2,6 +2,12 @@ import random as rnd
 
 load('../text_utils.sage')
 
+#number of tests to make
+try:
+    num_probs
+except NameError:
+    num_probs=20 
+
 #data file path
 try:
     data_path
@@ -11,7 +17,7 @@ except NameError:
 try:
     data_name
 except NameError:
-    data_name = 'horner-deg'+str(deg)+'-h'+str(h_max)+'-c'+str(c_max)+'-s'+str(s_max)
+    data_name = 'taylor'
 full_data_path=data_path+data_name
 
 try:

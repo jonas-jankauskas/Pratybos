@@ -1,6 +1,37 @@
 import itertools as itt
 import random as rnd
 
+
+#---------------------------------------------------------------------
+def num_div(n):
+	'''
+		Returns a number of divisors of n
+	'''
+	if n != 0:
+		return number_of_divisors(n)
+	else:
+		return +oo
+#---------------------------------------------------------------------
+def prime_factors(n):
+	'''
+		Returns a list of all prime factors of integer n
+	'''
+	if n != 0:
+		return [tp[0] for tp in list(factor(n))]
+	else:
+		return []
+#---------------------------------------------------------------------
+def largest_prime_factor(n):
+	'''
+		Returns the largest prime factor of integer n
+	'''
+	if (abs(n)>1):
+		return max(prime_factors(n))
+	elif n != 0:
+		return 0
+	else:
+		return +oo
+	
 #---------------------------------------------------------------------
 def vec_cden(v):
     ''' LCM of denominators of vector v coordinates'''

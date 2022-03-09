@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 1</text>
+      <text>Racionalioji šaknis 10 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 + 15x^2 + 24x - 26\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(10x^{3} + 9x^{2} + 7x + 2\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 + 15x^2 + 24x - 26 = (x + 13)  (x^2 + 2x - 2)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((5x + 2) \cdot (2x^{2} + x + 1)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -17,23 +17,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-13</text>
+      <text>-2/5</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 2</text>
+      <text>Racionalioji šaknis 11 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 - 15x^2 + 28x - 26\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(10x^{3} + 4x^{2} - x - 3\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 - 15x^2 + 28x - 26 = (x - 13)  (x^2 - 2x + 2)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((5x - 3) \cdot (2x^{2} + 2x + 1)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -41,23 +41,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>13</text>
+      <text>3/5</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 3</text>
+      <text>Racionalioji šaknis 12 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 + x^2 - 5x - 21\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(2x^{3} + 9x^{2} + 6x - 10\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 + x^2 - 5x - 21 = (x - 3)  (x^2 + 4x + 7)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((2x + 5) \cdot (x^{2} + 2x - 2)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -65,23 +65,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>3</text>
+      <text>-5/2</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 4</text>
+      <text>Racionalioji šaknis 13 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 - 8x^2 + 12x + 15\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(5x^{3} + 7x^{2} + 9x - 9\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 - 8x^2 + 12x + 15 = (x - 5)  (x^2 - 3x - 3)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((5x - 3) \cdot (x^{2} + 2x + 3)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -89,23 +89,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>5</text>
+      <text>3/5</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 5</text>
+      <text>Racionalioji šaknis 14 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 - 4x^2 - 8x + 15\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(10x^{3} + 6x^{2} - 9x + 2\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 - 4x^2 - 8x + 15 = (x - 5)  (x^2 + x - 3)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((5x - 2) \cdot (2x^{2} + 2x - 1)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -113,23 +113,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>5</text>
+      <text>2/5</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 6</text>
+      <text>Racionalioji šaknis 15 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 - 8x^2 + 18x - 15\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(9x^{3} - 9x^{2} - 7x - 5\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 - 8x^2 + 18x - 15 = (x - 5)  (x^2 - 3x + 3)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((3x - 5) \cdot (3x^{2} + 2x + 1)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -137,23 +137,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>5</text>
+      <text>5/3</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 7</text>
+      <text>Racionalioji šaknis 16 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 - 10x^2 - 9x - 22\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(5x^{3} - x^{2} + 6x + 8\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 - 10x^2 - 9x - 22 = (x - 11)  (x^2 + x + 2)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((5x + 4) \cdot (x^{2} - x + 2)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -161,23 +161,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>11</text>
+      <text>-4/5</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 8</text>
+      <text>Racionalioji šaknis 17 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 + 6x^2 + 2x - 21\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(5x^{3} + 6x^{2} + 2x - 8\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 + 6x^2 + 2x - 21 = (x + 3)  (x^2 + 3x - 7)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((5x - 4) \cdot (x^{2} + 2x + 2)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -185,23 +185,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-3</text>
+      <text>4/5</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 9</text>
+      <text>Racionalioji šaknis 18 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 + 7x^2 + 8x - 10\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(5x^{3} - 6x^{2} + 2x + 8\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 + 7x^2 + 8x - 10 = (x + 5)  (x^2 + 2x - 2)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((5x + 4) \cdot (x^{2} - 2x + 2)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -209,23 +209,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-5</text>
+      <text>-4/5</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 10</text>
+      <text>Racionalioji šaknis 19 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 + x^2 + 5x + 14\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(5x^{3} - 8x^{2} + 6x + 4\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 + x^2 + 5x + 14 = (x + 2)  (x^2 - x + 7)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((5x + 2) \cdot (x^{2} - 2x + 2)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -233,23 +233,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-2</text>
+      <text>-2/5</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 11</text>
+      <text>Racionalioji šaknis 1 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 + 9x^2 - 24x - 22\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(3x^{3} - x^{2} + 2x - 8\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 + 9x^2 - 24x - 22 = (x + 11)  (x^2 - 2x - 2)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((3x - 4) \cdot (x^{2} + x + 2)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -257,23 +257,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-11</text>
+      <text>4/3</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 12</text>
+      <text>Racionalioji šaknis 20 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 + x^2 + 5x + 14\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(7x^{3} - 3x^{2} + 10x + 8\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 + x^2 + 5x + 14 = (x + 2)  (x^2 - x + 7)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((7x + 4) \cdot (x^{2} - x + 2)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -281,23 +281,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-2</text>
+      <text>-4/7</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 13</text>
+      <text>Racionalioji šaknis 2 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 + 8x^2 + 4x - 21\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(7x^{3} + 3x^{2} + 10x - 8\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 + 8x^2 + 4x - 21 = (x + 7)  (x^2 + x - 3)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((7x - 4) \cdot (x^{2} + x + 2)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -305,23 +305,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-7</text>
+      <text>4/7</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 14</text>
+      <text>Racionalioji šaknis 3 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 - x^2 - 7x + 10\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(4x^{3} - 6x^{2} - 8x - 5\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 - x^2 - 7x + 10 = (x - 2)  (x^2 + x - 5)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((2x - 5) \cdot (2x^{2} + 2x + 1)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -329,23 +329,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>2</text>
+      <text>5/2</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 15</text>
+      <text>Racionalioji šaknis 4 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 - 2x^2 - 6x + 9\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(3x^{3} + 10x^{2} + 2x - 8\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 - 2x^2 - 6x + 9 = (x - 3)  (x^2 + x - 3)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((3x + 4) \cdot (x^{2} + 2x - 2)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -353,23 +353,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>3</text>
+      <text>-4/3</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 16</text>
+      <text>Racionalioji šaknis 5 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 + 9x^2 + 16x + 14\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(8x^{3} - 2x^{2} - 6x - 5\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 + 9x^2 + 16x + 14 = (x + 7)  (x^2 + 2x + 2)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((4x - 5) \cdot (2x^{2} + 2x + 1)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -377,23 +377,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-7</text>
+      <text>5/4</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 17</text>
+      <text>Racionalioji šaknis 6 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 + 5x^2 - 11x + 21\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(2x^{3} - 9x^{2} + 6x + 10\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 + 5x^2 - 11x + 21 = (x + 7)  (x^2 - 2x + 3)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((2x - 5) \cdot (x^{2} - 2x - 2)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -401,23 +401,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-7</text>
+      <text>5/2</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 18</text>
+      <text>Racionalioji šaknis 7 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 - 12x^2 + 13x - 22\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(3x^{3} + 8x^{2} - 10x - 8\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 - 12x^2 + 13x - 22 = (x - 11)  (x^2 - x + 2)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((3x - 4) \cdot (x^{2} + 4x + 2)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -425,23 +425,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>11</text>
+      <text>4/3</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 19</text>
+      <text>Racionalioji šaknis 8 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 - 15x^2 + 24x + 26\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(5x^{3} + 3x^{2} + 8x - 4\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 - 15x^2 + 24x + 26 = (x - 13)  (x^2 - 2x - 2)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((5x - 2) \cdot (x^{2} + x + 2)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -449,23 +449,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>13</text>
+      <text>2/5</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 596902  -->
+<!-- question: 1642645  -->
   <question type="shortanswer">
     <name>
-      <text>Racionali šaknis variantas 20</text>
+      <text>Racionalioji šaknis 9 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(x^3 + 2x^2 - 15x + 14\) racionaliąją šaknį.</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(7x^{3} + 9x^{2} + 4x - 10\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^3 + 2x^2 - 15x + 14 = (x - 2)  (x^2 + 4x - 7)\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((7x - 5) \cdot (x^{2} + 2x + 2)\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -473,11 +473,492 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>2</text>
+      <text>5/7</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-</quiz>
+<\quiz>
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 10 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(10x^{3} + 9x^{2} + 7x + 2\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((5x + 2) \cdot (2x^{2} + x + 1)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-2/5</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 11 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(10x^{3} + 4x^{2} - x - 3\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((5x - 3) \cdot (2x^{2} + 2x + 1)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>3/5</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 12 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(2x^{3} + 9x^{2} + 6x - 10\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((2x + 5) \cdot (x^{2} + 2x - 2)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-5/2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 13 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(5x^{3} + 7x^{2} + 9x - 9\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((5x - 3) \cdot (x^{2} + 2x + 3)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>3/5</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 14 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(10x^{3} + 6x^{2} - 9x + 2\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((5x - 2) \cdot (2x^{2} + 2x - 1)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>2/5</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 15 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(9x^{3} - 9x^{2} - 7x - 5\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((3x - 5) \cdot (3x^{2} + 2x + 1)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>5/3</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 16 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(5x^{3} - x^{2} + 6x + 8\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((5x + 4) \cdot (x^{2} - x + 2)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-4/5</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 17 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(5x^{3} + 6x^{2} + 2x - 8\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((5x - 4) \cdot (x^{2} + 2x + 2)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>4/5</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 18 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(5x^{3} - 6x^{2} + 2x + 8\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((5x + 4) \cdot (x^{2} - 2x + 2)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-4/5</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 19 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(5x^{3} - 8x^{2} + 6x + 4\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((5x + 2) \cdot (x^{2} - 2x + 2)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-2/5</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 1 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(3x^{3} - x^{2} + 2x - 8\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((3x - 4) \cdot (x^{2} + x + 2)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>4/3</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 20 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(7x^{3} - 3x^{2} + 10x + 8\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((7x + 4) \cdot (x^{2} - x + 2)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-4/7</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 2 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(7x^{3} + 3x^{2} + 10x - 8\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((7x - 4) \cdot (x^{2} + x + 2)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>4/7</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 3 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(4x^{3} - 6x^{2} - 8x - 5\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((2x - 5) \cdot (2x^{2} + 2x + 1)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>5/2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 4 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(3x^{3} + 10x^{2} + 2x - 8\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((3x + 4) \cdot (x^{2} + 2x - 2)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-4/3</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 5 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(8x^{3} - 2x^{2} - 6x - 5\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((4x - 5) \cdot (2x^{2} + 2x + 1)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>5/4</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 6 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(2x^{3} - 9x^{2} + 6x + 10\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((2x - 5) \cdot (x^{2} - 2x - 2)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>5/2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 7 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(3x^{3} + 8x^{2} - 10x - 8\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((3x - 4) \cdot (x^{2} + 4x + 2)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>4/3</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 8 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(5x^{3} + 3x^{2} + 8x - 4\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((5x - 2) \cdot (x^{2} + x + 2)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>2/5</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1642645  -->
+  <question type="shortanswer">
+    <name>
+      <text>Racionalioji šaknis 9 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti daugianario \(7x^{3} + 9x^{2} + 4x - 10\) racionaliąją šaknį.</p><p dir="ltr" style="text-align: left;">Atsakymą įvesti kaip suprastintą trupmeną \(a/b\) arba \(-a/b\) , pvz: \(13/7\), \(-8/9\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\((7x - 5) \cdot (x^{2} + 2x + 2)\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>5/7</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<\quiz>

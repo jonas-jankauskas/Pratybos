@@ -3,37 +3,13 @@
 <!-- question: 1614771  -->
   <question type="shortanswer">
     <name>
-      <text>Teiloro skleidinys, 1 var.</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=x^{4} + 4 \, x^{3} + 3 \, x^{2} + x - 2 \)<br>skleidinį \((x +2)\) laipsniais:<br>\(f(x)=c_0+c_1(x +2)+c_2(x +2)^2+c_3(x +2)^3+c_4(x +2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)={(-8)} + 5 {(x + 2)} + 3 {(x + 2)}^{2} + {(-4)} {(x + 2)}^{3} + 1 {(x + 2)}^{4}\)</p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <usecase>0</usecase>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>-8,5,3,-4,1</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 1614771  -->
-  <question type="shortanswer">
-    <name>
       <text>Teiloro skleidinys, 10 var.</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=3 \, x^{4} - 3 \, x^{3} - 3 \, x^{2} - 3 \, x + 2 \)<br>skleidinį \((x -3)\) laipsniais:<br>\(f(x)=c_0+c_1(x -3)+c_2(x -3)^2+c_3(x -3)^3+c_4(x -3)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=2 \, x^{4} + x^{3} - 2 \, x^{2} - 5 \, x + 5 \)<br>skleidinį \((x -3)\) laipsniais:<br>\(f(x)=c_0+c_1(x -3)+c_2(x -3)^2+c_3(x -3)^3+c_4(x -3)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=128 + 222 {(x - 3)} + 132 {(x - 3)}^{2} + 33 {(x - 3)}^{3} + 3 {(x - 3)}^{4}\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=161 + 226 {(x - 3)} + 115 {(x - 3)}^{2} + 25 {(x - 3)}^{3} + 2 {(x - 3)}^{4}\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -41,7 +17,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>128,222,132,33,3</text>
+      <text>161,226,115,25,2</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -54,10 +30,10 @@
       <text>Teiloro skleidinys, 11 var.</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=x^{4} - 4 \, x^{3} + 2 \, x^{2} - 5 \, x - 2 \)<br>skleidinį \((x +2)\) laipsniais:<br>\(f(x)=c_0+c_1(x +2)+c_2(x +2)^2+c_3(x +2)^3+c_4(x +2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=x^{4} + 5 \, x^{3} + 3 \, x^{2} + x + 3 \)<br>skleidinį \((x +3)\) laipsniais:<br>\(f(x)=c_0+c_1(x +3)+c_2(x +3)^2+c_3(x +3)^3+c_4(x +3)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=64 + {(-93)} {(x + 2)} + 50 {(x + 2)}^{2} + {(-12)} {(x + 2)}^{3} + 1 {(x + 2)}^{4}\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)={(-27)} + 10 {(x + 3)} + 12 {(x + 3)}^{2} + {(-7)} {(x + 3)}^{3} + 1 {(x + 3)}^{4}\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -65,7 +41,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>64,-93,50,-12,1</text>
+      <text>-27,10,12,-7,1</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -78,10 +54,10 @@
       <text>Teiloro skleidinys, 12 var.</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=2 \, x^{4} - 5 \, x^{2} + 5 \, x - 2 \)<br>skleidinį \((x +3)\) laipsniais:<br>\(f(x)=c_0+c_1(x +3)+c_2(x +3)^2+c_3(x +3)^3+c_4(x +3)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=4 \, x^{4} - 5 \, x^{3} - 4 \, x^{2} - 3 \)<br>skleidinį \((x -2)\) laipsniais:<br>\(f(x)=c_0+c_1(x -2)+c_2(x -2)^2+c_3(x -2)^3+c_4(x -2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=100 + {(-181)} {(x + 3)} + 103 {(x + 3)}^{2} + {(-24)} {(x + 3)}^{3} + 2 {(x + 3)}^{4}\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=5 + 52 {(x - 2)} + 62 {(x - 2)}^{2} + 27 {(x - 2)}^{3} + 4 {(x - 2)}^{4}\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -89,7 +65,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>100,-181,103,-24,2</text>
+      <text>5,52,62,27,4</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -102,10 +78,10 @@
       <text>Teiloro skleidinys, 13 var.</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=x^{4} + x^{3} - x^{2} - 5 \, x + 2 \)<br>skleidinį \((x -4)\) laipsniais:<br>\(f(x)=c_0+c_1(x -4)+c_2(x -4)^2+c_3(x -4)^3+c_4(x -4)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=3 \, x^{4} - 2 \, x^{3} - 5 \, x^{2} - 4 \)<br>skleidinį \((x +2)\) laipsniais:<br>\(f(x)=c_0+c_1(x +2)+c_2(x +2)^2+c_3(x +2)^3+c_4(x +2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=286 + 291 {(x - 4)} + 107 {(x - 4)}^{2} + 17 {(x - 4)}^{3} + 1 {(x - 4)}^{4}\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=40 + {(-100)} {(x + 2)} + 79 {(x + 2)}^{2} + {(-26)} {(x + 2)}^{3} + 3 {(x + 2)}^{4}\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -113,7 +89,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>286,291,107,17,1</text>
+      <text>40,-100,79,-26,3</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -126,10 +102,10 @@
       <text>Teiloro skleidinys, 14 var.</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=x^{4} - 4 \, x^{3} - 3 \, x^{2} - 2 \, x + 5 \)<br>skleidinį \((x -3)\) laipsniais:<br>\(f(x)=c_0+c_1(x -3)+c_2(x -3)^2+c_3(x -3)^3+c_4(x -3)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=x^{4} - 2 \, x^{3} + x^{2} - 4 \, x - 4 \)<br>skleidinį \((x +2)\) laipsniais:<br>\(f(x)=c_0+c_1(x +2)+c_2(x +2)^2+c_3(x +2)^3+c_4(x +2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)={(-55)} + {(-20)} {(x - 3)} + 15 {(x - 3)}^{2} + 8 {(x - 3)}^{3} + 1 {(x - 3)}^{4}\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=40 + {(-64)} {(x + 2)} + 37 {(x + 2)}^{2} + {(-10)} {(x + 2)}^{3} + 1 {(x + 2)}^{4}\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -137,7 +113,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-55,-20,15,8,1</text>
+      <text>40,-64,37,-10,1</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -150,10 +126,10 @@
       <text>Teiloro skleidinys, 15 var.</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=2 \, x^{4} + 3 \, x^{3} - 4 \, x^{2} + 5 \, x + 1 \)<br>skleidinį \((x +3)\) laipsniais:<br>\(f(x)=c_0+c_1(x +3)+c_2(x +3)^2+c_3(x +3)^3+c_4(x +3)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=x^{4} - 3 \, x^{2} - x + 3 \)<br>skleidinį \((x -3)\) laipsniais:<br>\(f(x)=c_0+c_1(x -3)+c_2(x -3)^2+c_3(x -3)^3+c_4(x -3)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=31 + {(-106)} {(x + 3)} + 77 {(x + 3)}^{2} + {(-21)} {(x + 3)}^{3} + 2 {(x + 3)}^{4}\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=54 + 89 {(x - 3)} + 51 {(x - 3)}^{2} + 12 {(x - 3)}^{3} + 1 {(x - 3)}^{4}\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -161,7 +137,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>31,-106,77,-21,2</text>
+      <text>54,89,51,12,1</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -174,10 +150,10 @@
       <text>Teiloro skleidinys, 16 var.</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=2 \, x^{4} + 4 \, x^{3} + 4 \, x^{2} - 3 \, x - 4 \)<br>skleidinį \((x +3)\) laipsniais:<br>\(f(x)=c_0+c_1(x +3)+c_2(x +3)^2+c_3(x +3)^3+c_4(x +3)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=2 \, x^{4} + 3 \, x^{3} - 2 \, x - 2 \)<br>skleidinį \((x -3)\) laipsniais:<br>\(f(x)=c_0+c_1(x -3)+c_2(x -3)^2+c_3(x -3)^3+c_4(x -3)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=95 + {(-135)} {(x + 3)} + 76 {(x + 3)}^{2} + {(-20)} {(x + 3)}^{3} + 2 {(x + 3)}^{4}\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=235 + 295 {(x - 3)} + 135 {(x - 3)}^{2} + 27 {(x - 3)}^{3} + 2 {(x - 3)}^{4}\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -185,7 +161,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>95,-135,76,-20,2</text>
+      <text>235,295,135,27,2</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -198,10 +174,10 @@
       <text>Teiloro skleidinys, 17 var.</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=x^{4} - x^{3} + 2 \, x^{2} - 5 \, x - 2 \)<br>skleidinį \((x +3)\) laipsniais:<br>\(f(x)=c_0+c_1(x +3)+c_2(x +3)^2+c_3(x +3)^3+c_4(x +3)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=x^{4} + x^{3} - x^{2} - 4 \, x + 1 \)<br>skleidinį \((x +3)\) laipsniais:<br>\(f(x)=c_0+c_1(x +3)+c_2(x +3)^2+c_3(x +3)^3+c_4(x +3)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=139 + {(-152)} {(x + 3)} + 65 {(x + 3)}^{2} + {(-13)} {(x + 3)}^{3} + 1 {(x + 3)}^{4}\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=58 + {(-79)} {(x + 3)} + 44 {(x + 3)}^{2} + {(-11)} {(x + 3)}^{3} + 1 {(x + 3)}^{4}\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -209,7 +185,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>139,-152,65,-13,1</text>
+      <text>58,-79,44,-11,1</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -222,10 +198,10 @@
       <text>Teiloro skleidinys, 18 var.</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=x^{4} + 5 \, x^{3} + 4 \, x^{2} + 2 \, x + 3 \)<br>skleidinį \((x +5)\) laipsniais:<br>\(f(x)=c_0+c_1(x +5)+c_2(x +5)^2+c_3(x +5)^3+c_4(x +5)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=5 \, x^{4} + 3 \, x^{3} - 5 \, x^{2} - x - 1 \)<br>skleidinį \((x -2)\) laipsniais:<br>\(f(x)=c_0+c_1(x -2)+c_2(x -2)^2+c_3(x -2)^3+c_4(x -2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=93 + {(-163)} {(x + 5)} + 79 {(x + 5)}^{2} + {(-15)} {(x + 5)}^{3} + 1 {(x + 5)}^{4}\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=81 + 175 {(x - 2)} + 133 {(x - 2)}^{2} + 43 {(x - 2)}^{3} + 5 {(x - 2)}^{4}\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -233,7 +209,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>93,-163,79,-15,1</text>
+      <text>81,175,133,43,5</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -246,10 +222,10 @@
       <text>Teiloro skleidinys, 19 var.</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=x^{4} + 4 \, x^{3} + 3 \, x^{2} + 3 \, x - 1 \)<br>skleidinį \((x -2)\) laipsniais:<br>\(f(x)=c_0+c_1(x -2)+c_2(x -2)^2+c_3(x -2)^3+c_4(x -2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=4 \, x^{4} - 4 \, x^{3} + 3 \, x^{2} - 3 \)<br>skleidinį \((x +2)\) laipsniais:<br>\(f(x)=c_0+c_1(x +2)+c_2(x +2)^2+c_3(x +2)^3+c_4(x +2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=65 + 95 {(x - 2)} + 51 {(x - 2)}^{2} + 12 {(x - 2)}^{3} + 1 {(x - 2)}^{4}\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=105 + {(-188)} {(x + 2)} + 123 {(x + 2)}^{2} + {(-36)} {(x + 2)}^{3} + 4 {(x + 2)}^{4}\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -257,7 +233,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>65,95,51,12,1</text>
+      <text>105,-188,123,-36,4</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -267,13 +243,13 @@
 <!-- question: 1614771  -->
   <question type="shortanswer">
     <name>
-      <text>Teiloro skleidinys, 2 var.</text>
+      <text>Teiloro skleidinys, 1 var.</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=3 \, x^{4} - 2 \, x^{3} - 2 \, x^{2} + x - 1 \)<br>skleidinį \((x +2)\) laipsniais:<br>\(f(x)=c_0+c_1(x +2)+c_2(x +2)^2+c_3(x +2)^3+c_4(x +2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=5 \, x^{4} + 5 \, x^{3} - 5 \, x^{2} - x + 4 \)<br>skleidinį \((x +2)\) laipsniais:<br>\(f(x)=c_0+c_1(x +2)+c_2(x +2)^2+c_3(x +2)^3+c_4(x +2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=53 + {(-111)} {(x + 2)} + 82 {(x + 2)}^{2} + {(-26)} {(x + 2)}^{3} + 3 {(x + 2)}^{4}\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=26 + {(-81)} {(x + 2)} + 85 {(x + 2)}^{2} + {(-35)} {(x + 2)}^{3} + 5 {(x + 2)}^{4}\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -281,7 +257,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>53,-111,82,-26,3</text>
+      <text>26,-81,85,-35,5</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -294,10 +270,10 @@
       <text>Teiloro skleidinys, 20 var.</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=x^{4} + 4 \, x^{3} - 5 \, x^{2} - 1 \)<br>skleidinį \((x -2)\) laipsniais:<br>\(f(x)=c_0+c_1(x -2)+c_2(x -2)^2+c_3(x -2)^3+c_4(x -2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=3 \, x^{4} - 3 \, x^{3} - 4 \, x^{2} - 4 \)<br>skleidinį \((x -3)\) laipsniais:<br>\(f(x)=c_0+c_1(x -3)+c_2(x -3)^2+c_3(x -3)^3+c_4(x -3)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=27 + 60 {(x - 2)} + 43 {(x - 2)}^{2} + 12 {(x - 2)}^{3} + 1 {(x - 2)}^{4}\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=122 + 219 {(x - 3)} + 131 {(x - 3)}^{2} + 33 {(x - 3)}^{3} + 3 {(x - 3)}^{4}\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -305,7 +281,31 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>27,60,43,12,1</text>
+      <text>122,219,131,33,3</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1614771  -->
+  <question type="shortanswer">
+    <name>
+      <text>Teiloro skleidinys, 2 var.</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=4 \, x^{4} + 5 \, x^{3} + 3 \, x^{2} + x + 5 \)<br>skleidinį \((x -2)\) laipsniais:<br>\(f(x)=c_0+c_1(x -2)+c_2(x -2)^2+c_3(x -2)^3+c_4(x -2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=123 + 201 {(x - 2)} + 129 {(x - 2)}^{2} + 37 {(x - 2)}^{3} + 4 {(x - 2)}^{4}\)</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>123,201,129,37,4</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -318,10 +318,10 @@
       <text>Teiloro skleidinys, 3 var.</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=3 \, x^{4} - 4 \, x^{3} + 5 \, x^{2} + 4 \, x - 3 \)<br>skleidinį \((x -3)\) laipsniais:<br>\(f(x)=c_0+c_1(x -3)+c_2(x -3)^2+c_3(x -3)^3+c_4(x -3)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=4 \, x^{4} + 3 \, x^{3} - x^{2} - x - 2 \)<br>skleidinį \((x -2)\) laipsniais:<br>\(f(x)=c_0+c_1(x -2)+c_2(x -2)^2+c_3(x -2)^3+c_4(x -2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=189 + 250 {(x - 3)} + 131 {(x - 3)}^{2} + 32 {(x - 3)}^{3} + 3 {(x - 3)}^{4}\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=80 + 159 {(x - 2)} + 113 {(x - 2)}^{2} + 35 {(x - 2)}^{3} + 4 {(x - 2)}^{4}\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -329,7 +329,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>189,250,131,32,3</text>
+      <text>80,159,113,35,4</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -342,10 +342,10 @@
       <text>Teiloro skleidinys, 4 var.</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=x^{4} + x^{3} + 5 \, x^{2} - 2 \, x + 1 \)<br>skleidinį \((x +3)\) laipsniais:<br>\(f(x)=c_0+c_1(x +3)+c_2(x +3)^2+c_3(x +3)^3+c_4(x +3)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=x^{4} - 2 \, x^{3} + 2 \, x^{2} + 5 \, x + 4 \)<br>skleidinį \((x +3)\) laipsniais:<br>\(f(x)=c_0+c_1(x +3)+c_2(x +3)^2+c_3(x +3)^3+c_4(x +3)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=106 + {(-113)} {(x + 3)} + 50 {(x + 3)}^{2} + {(-11)} {(x + 3)}^{3} + 1 {(x + 3)}^{4}\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=142 + {(-169)} {(x + 3)} + 74 {(x + 3)}^{2} + {(-14)} {(x + 3)}^{3} + 1 {(x + 3)}^{4}\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -353,7 +353,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>106,-113,50,-11,1</text>
+      <text>142,-169,74,-14,1</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -366,10 +366,10 @@
       <text>Teiloro skleidinys, 5 var.</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=3 \, x^{4} + 2 \, x^{3} - 2 \, x^{2} - 3 \, x + 1 \)<br>skleidinį \((x +2)\) laipsniais:<br>\(f(x)=c_0+c_1(x +2)+c_2(x +2)^2+c_3(x +2)^3+c_4(x +2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=x^{4} - 2 \, x^{3} - 2 \, x^{2} + 2 \, x - 5 \)<br>skleidinį \((x -2)\) laipsniais:<br>\(f(x)=c_0+c_1(x -2)+c_2(x -2)^2+c_3(x -2)^3+c_4(x -2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=31 + {(-67)} {(x + 2)} + 58 {(x + 2)}^{2} + {(-22)} {(x + 2)}^{3} + 3 {(x + 2)}^{4}\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)={(-9)} + 2 {(x - 2)} + 10 {(x - 2)}^{2} + 6 {(x - 2)}^{3} + 1 {(x - 2)}^{4}\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -377,7 +377,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>31,-67,58,-22,3</text>
+      <text>-9,2,10,6,1</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -390,10 +390,10 @@
       <text>Teiloro skleidinys, 6 var.</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=x^{4} - 5 \, x^{3} - 2 \, x^{2} - 3 \, x + 4 \)<br>skleidinį \((x -6)\) laipsniais:<br>\(f(x)=c_0+c_1(x -6)+c_2(x -6)^2+c_3(x -6)^3+c_4(x -6)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=3 \, x^{4} - x^{3} - 2 \, x + 3 \)<br>skleidinį \((x -3)\) laipsniais:<br>\(f(x)=c_0+c_1(x -3)+c_2(x -3)^2+c_3(x -3)^3+c_4(x -3)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=130 + 297 {(x - 6)} + 124 {(x - 6)}^{2} + 19 {(x - 6)}^{3} + 1 {(x - 6)}^{4}\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=213 + 295 {(x - 3)} + 153 {(x - 3)}^{2} + 35 {(x - 3)}^{3} + 3 {(x - 3)}^{4}\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -401,7 +401,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>130,297,124,19,1</text>
+      <text>213,295,153,35,3</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -414,10 +414,10 @@
       <text>Teiloro skleidinys, 7 var.</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=3 \, x^{4} - 4 \, x^{3} - 3 \, x^{2} + x - 2 \)<br>skleidinį \((x -3)\) laipsniais:<br>\(f(x)=c_0+c_1(x -3)+c_2(x -3)^2+c_3(x -3)^3+c_4(x -3)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=4 \, x^{4} + 3 \, x^{3} - x^{2} - 3 \, x + 5 \)<br>skleidinį \((x -2)\) laipsniais:<br>\(f(x)=c_0+c_1(x -2)+c_2(x -2)^2+c_3(x -2)^3+c_4(x -2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=109 + 199 {(x - 3)} + 123 {(x - 3)}^{2} + 32 {(x - 3)}^{3} + 3 {(x - 3)}^{4}\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=83 + 157 {(x - 2)} + 113 {(x - 2)}^{2} + 35 {(x - 2)}^{3} + 4 {(x - 2)}^{4}\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -425,7 +425,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>109,199,123,32,3</text>
+      <text>83,157,113,35,4</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -438,10 +438,10 @@
       <text>Teiloro skleidinys, 8 var.</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=3 \, x^{4} - 4 \, x^{3} - 2 \, x^{2} + 2 \, x - 5 \)<br>skleidinį \((x +2)\) laipsniais:<br>\(f(x)=c_0+c_1(x +2)+c_2(x +2)^2+c_3(x +2)^3+c_4(x +2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=x^{4} + 5 \, x^{3} - 5 \, x^{2} + 5 \, x - 1 \)<br>skleidinį \((x -2)\) laipsniais:<br>\(f(x)=c_0+c_1(x -2)+c_2(x -2)^2+c_3(x -2)^3+c_4(x -2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=63 + {(-134)} {(x + 2)} + 94 {(x + 2)}^{2} + {(-28)} {(x + 2)}^{3} + 3 {(x + 2)}^{4}\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=45 + 77 {(x - 2)} + 49 {(x - 2)}^{2} + 13 {(x - 2)}^{3} + 1 {(x - 2)}^{4}\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -449,7 +449,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>63,-134,94,-28,3</text>
+      <text>45,77,49,13,1</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -462,10 +462,10 @@
       <text>Teiloro skleidinys, 9 var.</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=5 \, x^{4} - 5 \, x^{3} + 4 \, x^{2} - x + 4 \)<br>skleidinį \((x -2)\) laipsniais:<br>\(f(x)=c_0+c_1(x -2)+c_2(x -2)^2+c_3(x -2)^3+c_4(x -2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Rasti polinomo</p>\( f(x)=3 \, x^{4} + x^{3} + 5 \, x - 5 \)<br>skleidinį \((x -2)\) laipsniais:<br>\(f(x)=c_0+c_1(x -2)+c_2(x -2)^2+c_3(x -2)^3+c_4(x -2)^4\)<br>PASTABA: atsakymą (koeficientų skaitines reikšmes) įvesti taip<br><p>\(c_0,c_1,c_2,c_3,c_4\)<br>Be tarpų, atskiriant kableliais.<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=58 + 115 {(x - 2)} + 94 {(x - 2)}^{2} + 35 {(x - 2)}^{3} + 5 {(x - 2)}^{4}\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)=61 + 113 {(x - 2)} + 78 {(x - 2)}^{2} + 25 {(x - 2)}^{3} + 3 {(x - 2)}^{4}\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -473,7 +473,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>58,115,94,35,5</text>
+      <text>61,113,78,25,3</text>
       <feedback format="html">
         <text></text>
       </feedback>
