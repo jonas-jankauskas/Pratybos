@@ -28,7 +28,7 @@ except NameError:
 try:
     test_path
 except NameError:
-    test_path='ProblemSet/'
+    test_path='ProblemSet2022/'
 
 try:
     test_ext
@@ -50,9 +50,17 @@ tmpl = open(tmpl_file_name, 'r')
 otxt = tmpl.read()
 tmpl.close()
 
+R.<t>=ZZ['t']
 x=var('x')
 
-problem_data = rnd.sample(poly_data, num_probs);
+#sample by different shifts
+shifts = set([tp[2] for tp in poly_data])
+numreq = ceil(num_probs/ len(shifts))
+select = {s: rnd.sample([tp for tp in poly_data if tp[2]==s], numreq) for s in shifts}
+problem_data = rnd.sample(sum(select.values(),[]), num_probs);
+
+print('------------------------ Test data ------------------------')
+
 
 for nr, triple in enumerate(problem_data):
 
@@ -70,9 +78,9 @@ for nr, triple in enumerate(problem_data):
         strs = '+'+str(abs(s))
 
     subs = {'$f$': latex(f(x)), '$s$': strs, '$h$': latex(h), '$answ$': answ, '$id$': str(nr+1)}
-
     ntxt = make_subs(otxt, subs)
-
-    
     full_test_path = test_path+test_name+' '+str(nr+1)+' variantas'+test_ext
     write_file(full_test_path, ntxt)
+
+	#test printout
+    print('f(x)=', str(f(x)), '=', str(SR(f(x)).series(x==s,+oo)))
