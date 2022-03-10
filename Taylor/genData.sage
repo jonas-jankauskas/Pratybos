@@ -1,57 +1,40 @@
-try:
-    deg
-except NameError:
-    deg = 4
+reset()
+#the following parameters must be set-up before launching this script:
+#---------------------------------------------------------------------
 
-#maximal inital height
-try:
-    h_max
-except NameError:
-    h_max = 5
+#degree of polynomials
+deg = 4
 
-#maximal resulting height
-try:
-    c_max
-except NameError:
-    c_max = 100
+#maximal height
+h_max = 5
+
+#maximal height after shift
+c_max = 100
 
 #maximal shift
-try:
-    s_max
-except NameError:
-    s_max = 5
+s_max = 5
 
 #maximal number of zero terms
-try:
-    z_max
-except:
-    z_max = 1
+z_max = 1
 
 #maximal number of examples
-try:
-    pol_max
-except:
-    pol_max = 10000
+pol_max = 10000
 
 #number of tries
-try:
-    num_tries
-except:
-    num_tries = 10000
+num_tries = 10000
 
 #data file path
-try:
-    data_path
-except NameError:
-    data_path='../Data/'
+data_path='../Data/'
     
 #data file names
-try:
-    data_name
-except NameError:
-    data_name = 'taylor'
+data_name = 'taylor'
 
 full_data_path=data_path+data_name
+
+#---------------------------------------------------------------------
+#set up polynomial rings
+R.<t> = ZZ['t']
+x=var('x')
 
 #load the earlier generated data
 try:
@@ -61,12 +44,12 @@ except:
 
 shifts = [s for s in range(-s_max, s_max+1) if abs(s) >=2]
 
-R.<t> = ZZ['t']
-x=var('x')
-
 print('------------------------ New data ------------------------')
 
 for attempts in range(num_tries):
+
+    if len(poly_data) >= pol_max:
+        break
 
     f = R.random_element(deg, x=-h_max,y=h_max+1)
     cf = f.list()
@@ -94,9 +77,6 @@ for attempts in range(num_tries):
         if tp not in poly_data:
             poly_data.append(tp)
             print('f(x)=', str(f(x)), '=', str(SR(f(x)).series(x==s,+oo)))
-
-    if len(poly_data) >= pol_max:
-        break
 
 poly_data.sort(key=lambda tp: tp[1].norm(+oo))
 save(poly_data, full_data_path)

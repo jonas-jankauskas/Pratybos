@@ -14,7 +14,7 @@ except NameError:
 try:
     h_max
 except NameError:
-    h_max = 10
+    h_max = 250
 
 #maximal number of divisors
 try:
@@ -79,19 +79,23 @@ except NameError:
 
 full_data_path=data_path+data_name
 
+#---------------------------------------------------------------------
+#set up polynomial ring
+R.<x>=ZZ['x']
+
 #load the earlier generated data
 try:
     poly_data = load(full_data_path)
 except:
     poly_data = []
 
-R.<x> = ZZ['x']
-
 num_lst = [num for num in range(-h_max, h_max+1) if (num_div(num) <= div_max) and (largest_prime_factor(num) <= prime_max)]
 
 p_lst = [num for num in num_lst if num >= p_min]
 q_lst = [num for num in num_lst if abs(num) >= q_min]
 r_lst = [num for num in num_lst if num > 0]
+
+print('------------------------ New data ------------------------')
 
 for attempts in range(num_tries):
 

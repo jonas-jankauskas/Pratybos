@@ -2,38 +2,29 @@ import random as rnd
 
 load('../text_utils.sage')
 
-#number of tests to make
-try:
-    num_probs
-except NameError:
-    num_probs=20 
+#---------------------------------------------------------------------
+#the following parameters must be set-up before launching this script:
 
-#data file path
-try:
-    data_path
-except NameError:
-    data_path='../Data/' 
-#data file names
-try:
-    data_name
-except NameError:
-    data_name = 'taylor'
+#number of tests to make
+num_probs=20 
+
+#data file naming and location
+data_path='../Data/' 
+data_name = 'taylor'
 full_data_path=data_path+data_name
 
-try:
-    test_name
-except NameError:
-    test_name='Teiloro skleidinys'
+#test file naming and location
+test_path='ProblemSet/'
+test_name='Teiloro skleidinys'
+test_ext='.xml'
 
-try:
-    test_path
-except NameError:
-    test_path='ProblemSet2022/'
+#template file name
+tmpl_name = 'template'
 
-try:
-    test_ext
-except:
-    test_ext='.xml'
+#---------------------------------------------------------------------
+#set up polynomial rings
+R.<t>=ZZ['t']
+x=var('x')
 
 #load the earlier generated data
 try:
@@ -41,26 +32,17 @@ try:
 except:
     poly_data = []
 
-try:
-    tmpl_file_name
-except:
-    tmpl_file_name = 'template'
-
-tmpl = open(tmpl_file_name, 'r')
+tmpl = open(tmpl_name, 'r')
 otxt = tmpl.read()
 tmpl.close()
 
-R.<t>=ZZ['t']
-x=var('x')
-
-#sample by different shifts
+#sample shifts uniformly
 shifts = set([tp[2] for tp in poly_data])
 numreq = ceil(num_probs/ len(shifts))
 select = {s: rnd.sample([tp for tp in poly_data if tp[2]==s], numreq) for s in shifts}
 problem_data = rnd.sample(sum(select.values(),[]), num_probs);
 
 print('------------------------ Test data ------------------------')
-
 
 for nr, triple in enumerate(problem_data):
 
