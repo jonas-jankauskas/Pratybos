@@ -6,40 +6,15 @@ load('../text_utils.sage')
 #the following parameters must be set-up before launching this script:
 
 #number of tests to make
-try:
-	num_probs
-except NameError:
-	num_probs=20
-
-#data file path
-try:
-    data_path
-except NameError:
-    data_path='../Data/'
-    
-#data file name and path to it
-try:
-    data_name
-except NameError:
-    data_name = 'rational-root'
-
-#test file name and path to it
-try:
-    test_name
-except NameError:
-    test_name='Racionalioji šaknis'
-
-try:
-    test_path
-except NameError:
-    test_path='ProblemSet/'
-
-try:
-    test_ext
-except:
-    test_ext='.xml'
-
+num_probs=20
+#data file location
+data_path='../Data/'
+data_name = 'rational-root'
 full_data_path=data_path+data_name
+#test file name location and naming
+test_name='Racionalioji šaknis'
+test_path='ProblemSet/'
+test_ext='.xml'
 
 #---------------------------------------------------------------------
 #set up polynomial ring

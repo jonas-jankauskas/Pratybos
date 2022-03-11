@@ -3,7 +3,7 @@
 <!-- question: 573681  -->
   <question type="numerical">
     <name>
-      <text>Lagranžo polinomas ($id$)</text>
+      <text>Lagranžo polinomas $id$ variantas</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f($x1$)=$y1$, \qquad f($x2$)=$y2$, \qquad f($x3$)=$y3$ \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f($x0$)=? \)</p>]]></text>

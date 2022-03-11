@@ -5,77 +5,28 @@ load('../matrix_utils.sage')
 #the following parameters must be set-up before launching this script:
 
 #maximal prime
-try:
-    prime_max
-except NameError:
-    prime_max = 7
-
+prime_max = 7
 #size of coefficients
-try:
-    h_max
-except NameError:
-    h_max = 250
-
+h_max = 250
 #maximal number of divisors
-try:
-    div_max
-except NameError:
-    div_max=8
-
+div_max=8
 #minimal number of divisors
-try:
-    div_min
-except NameError:
-    div_min=6
-    
+div_min=6
 #maximal number of zero terms
-try:
-    z_max
-except NameError:
-    z_max = 1
-
+z_max = 1
 #minimal allowed numerator
-try:
-    q_min
-except NameError:
-    q_min=2
-    
+q_min=2
 #minimal allowed denominator
-try:
-	p_min
-except NameError:
-	p_min = 2
-
+p_min = 2
 #minimal complexity of a rational root:
-try:
-    pq_min
-except NameError:
-    pq_min=3
-
-
+pq_min=3
 #maximal number of examples
-try:
-    pol_max
-except:
-    pol_max = 10000
-
+pol_max = 10000
 #number of tries
-try:
-    num_tries
-except:
-    num_tries = 10000
-
-#data file path
-try:
-    data_path
-except NameError:
-    data_path='../Data/'
-    
-#data file names
-try:
-    data_name
-except NameError:
-    data_name = 'rational-root'
+num_tries = 10000
+#data file location
+data_path='../Data/'
+data_name = 'rational-root'
 
 full_data_path=data_path+data_name
 

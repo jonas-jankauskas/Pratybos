@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 1643884  -->
+  <question type="shortanswer">
+    <name>
+      <text>Skleidimas paprastosiomis daugianarių trupmenomis $id$ variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite tokius skaičius \(A, B,\) ir \(C\),&nbsp; su kuriais yra teisinga tapatybė<br></p><p dir="ltr" style="text-align: left;">\($poly$=$formula$\)</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymą \(A,B,C\) įvesti be tarpų, skaičius atskiriant kableliu.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\($poly$=$sol$\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>$A$,$B$,$C$</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
