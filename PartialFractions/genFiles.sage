@@ -16,8 +16,8 @@ test_path='ProblemSet/'
 test_ext='.xml'
 
 #---------------------------------------------------------------------
-#set up polynomial ring
-R.<A,B,C> = QQ[]
+#set up polynomial rings
+R.<A,B,C, D, E, F, G, H> = QQ[]
 K.<x>=R[]
 
 #load the earlier generated data
@@ -53,7 +53,7 @@ for nr,poly in enumerate(problem_data):
     
     poly_str = '\\frac{' + latex(poly.numerator()) + '}{' + latex(factor(poly.denominator()))+'}'
 
-    cof = [A,B,C]
+    cof = [A,B,C,D,E,F,G,H]
 
     cfS = {}
     cfN = {}
@@ -61,22 +61,20 @@ for nr,poly in enumerate(problem_data):
     formula_str = ""
 
     for part in parts:
-        degD = part.denominator().degree()
+        degD = (part.denominator().factor())[0][0].degree()
         degN = part.numerator().degree()
-        lstD = cof[degSum:degSum+degD]; lstD.reverse()
+        lstD = cof[degSum:degSum+degD]; lstD.reverse() #SAGE lists polynomial in reversed order; reverse it back
         cfS[part] = lstD
-        difDeg=0
-        if part.denominator().discriminant() < 0:
-            difDeg = degD-1-degN
-        lstN = part.numerator().list()+[0]*(difDeg); lstN.reverse()
+        difDeg = degD-1-degN #degree difference between symbolic formula and true coefficients
+        lstN = part.numerator().list()+[0]*(difDeg); #append zeros in place of 'missing' coefficients
         cfN[part] = lstN
         degSum += degD
         formula_str += ' '.join([' + \\frac{', latex(K(cfS[part])), '}{', latex(part.denominator().factor()), '}'])
 
     formula_str = formula_str[3:]
-    matches = sum([[zp for zp in zip(cfS[part],cfN[part])] for part in parts],[])
+    matches = sum([[tp for tp in zip(cfS[part],cfN[part])] for part in parts],[]) #match symbolic coefficients and their values and store in a list
    
-    subCOF={'$'+str(tp[0])+'$':str(tp[1]) for tp in matches}
+    subCOF={'$'+str(tp[0])+'$':str(tp[1]) for tp in matches} #write matched substitutions
     subPOL = {'$poly$': poly_str, '$formula$': formula_str, '$id$': str(nr+1), '$sol$': latex(SR(poly).partial_fraction())}
     subs = {**subCOF, **subPOL}
     ntxt = make_subs(otxt, subs)
@@ -85,4 +83,4 @@ for nr,poly in enumerate(problem_data):
     write_file(full_test_path, ntxt)
     
     #test printout
-    print(poly_str, '=')
+    print(poly_str, '=', SR(poly).partial_fraction())

@@ -1,5 +1,7 @@
 reset()
 
+import itertools as itt
+
 #---------------------------------------------------------------------
 #the following parameters must be set-up before launching this script:
 
@@ -32,9 +34,10 @@ try:
 except:
     poly_data = []
 
-roots_lst = [num for num in range(-r_max, r_max+1)]
-quads_lst = [ (num1, num2) for num1 in roots_lst for num2 in roots_lst if num1^2 < 4*num2]
-const_lst = [num for num in range(-c_max, c_max+1)]
+num_lst = [num for num in range(-r_max, r_max+1)]
+roots_lst = [num for num in num_lst if num != 0]
+quads_lst = [tp for tp in itt.product(num_lst, num_lst) if tp[0]^2 < 4*tp[1]]
+const_lst = [tp for tp in itt.product([c for c in range(-c_max, c_max+1) if c != 0], repeat=3)]
 
 print('------------------------ New data ------------------------')
 
@@ -51,12 +54,13 @@ for attempts in range(num_tries):
     p, q = choice(quads_lst)
 
 	#numerator constants
-    A,B,C = tuple(sample(const_lst,3))
+    A,B,C = choice(const_lst)
 
 	#if too many zeros then skip
     if [a,b,c,p,q].count(0) > z_max:
         continue
-    if [A, B, C].count(0) > z_max:
+
+    if abs(gcd([A,B,C])) > 1:
         continue
 
     new_fracs =[]
@@ -73,7 +77,7 @@ for attempts in range(num_tries):
     if A*(B^2+C^2) != 0:
         new_fracs.append(A/(x-a)+(B*x+C)/(x^2+p*x+q))
 
-    small_fracs=filter(lambda poly: (poly.numerator().norm(+oo) <= h_max) and (poly.denominator().norm(+oo) <= h_max), new_fracs)
+    small_fracs=filter(lambda poly: (poly.numerator().norm(+oo) <= h_max), new_fracs)
 	            
     for poly in small_fracs:
         if poly not in poly_data:
