@@ -1,4 +1,5 @@
 reset()
+
 #the following parameters must be set-up before launching this script:
 #---------------------------------------------------------------------
 
@@ -44,7 +45,11 @@ except:
 
 shifts = [s for s in range(-s_max, s_max+1) if abs(s) >=2]
 
-print('------------------------ New data ------------------------')
+#print header with timestamp
+from datetime import datetime
+now = datetime.now()
+time_stamp = now.strftime("%Y/%m/%d %H:%M:%S")
+print('------------------------ New data for %s ------------------------' % time_stamp)
 
 for attempts in range(num_tries):
 

@@ -39,7 +39,11 @@ roots_lst = [num for num in num_lst if num != 0]
 quads_lst = [tp for tp in itt.product(num_lst, num_lst) if tp[0]^2 < 4*tp[1]]
 const_lst = [tp for tp in itt.product([c for c in range(-c_max, c_max+1) if c != 0], repeat=3)]
 
-print('------------------------ New data ------------------------')
+#print header with timestamp
+from datetime import datetime
+now = datetime.now()
+time_stamp = now.strftime("%Y/%m/%d %H:%M:%S")
+print('------------------------ New data for %s ------------------------' % time_stamp)
 
 for attempts in range(num_tries):
 

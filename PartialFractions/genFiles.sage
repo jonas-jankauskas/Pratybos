@@ -36,16 +36,14 @@ tmpl = open(tmpl_file_name, 'r')
 otxt = tmpl.read()
 tmpl.close()
 
-#sample uniformly  pfd type
-#root_data = {f: f.roots(QQ,multiplicities=False)[0] for f in poly_data}
-#rep_root = set(root_data.values())
-#candidates = {r: [f for f in poly_data if root_data[f] == r] for r in rep_root}
-#sample the data for the required number of problems
-#numreq = ceil(num_probs/ len(rep_root))
-#select = sum([rnd.sample(candidates[r], numreq) for r in rep_root],[])
 problem_data = sample(poly_data, num_probs);
 
-print('------------------------ Test data ------------------------')
+#print header with  timestamp
+from datetime import datetime
+now = datetime.now()
+time_stamp = now.strftime("%Y/%m/%d %H:%M:%S")
+print('------------------------ Test data for %s ------------------------' % time_stamp)
+
 
 for nr,poly in enumerate(problem_data):
 

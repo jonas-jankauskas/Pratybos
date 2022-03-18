@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 1661146  -->
+  <question type="shortanswer">
+    <name>
+      <text>Daugianarių dalyba kampu, $id$ variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=$f$\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=$g$.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\($sol$\)</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>$answ$</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

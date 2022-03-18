@@ -1,563 +1,523 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 1</text>
+      <text>Daugianarių dalyba kampu, 10 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=4x^{4} - x^{3} + 8x^{2} + 5x - 8\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} + x + 2\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(1)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=5x^{4} + 5x^{3} - 3x^{2} + x - 6\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} - x + 1.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=4x^{2} - 5x + 5\)</p><p dir="ltr" style="text-align: left;">\(r(x)=10x - 18\)</p><p dir="ltr" style="text-align: left;">\(r(1)=-8\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(5x^{4} + 5x^{3} - 3x^{2} + x - 6 =( x^{2} - x + 1 )( 5x^{2} + 10x + 2 ) + ( -7x - 8 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-8</text>
+      <text>5,10,2</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 2</text>
+      <text>Daugianarių dalyba kampu, 11 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=2x^{4} - x^{3} - 6x^{2} + 8x - 6\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} - 3x + 2\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(-2)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=5x^{4} + x^{3} + 2x^{2} - 3x - 5\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} - x + 2.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=2x^{2} + 5x + 5\)</p><p dir="ltr" style="text-align: left;">\(r(x)=13x - 16\)</p><p dir="ltr" style="text-align: left;">\(r(-2)=-42\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(5x^{4} + x^{3} + 2x^{2} - 3x - 5 =( x^{2} - x + 2 )( 5x^{2} + 6x - 2 ) + ( -17x - 1 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-42</text>
+      <text>5,6,-2</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 3</text>
+      <text>Daugianarių dalyba kampu, 12 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=6x^{4} - 5x^{3} + x^{2} - 6x + 7\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} - 2x + 2\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(-2)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=x^{4} + 3x^{3} - 3x^{2} + 2x - 7\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} - 2x + 3.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=6x^{2} + 7x + 3\)</p><p dir="ltr" style="text-align: left;">\(r(x)=-14x + 1\)</p><p dir="ltr" style="text-align: left;">\(r(-2)=29\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^{4} + 3x^{3} - 3x^{2} + 2x - 7 =( x^{2} - 2x + 3 )( x^{2} + 5x + 4 ) + ( -5x - 19 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>29</text>
+      <text>1,5,4</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 4</text>
+      <text>Daugianarių dalyba kampu, 13 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=5x^{4} + 7x^{3} + 6x^{2} - 3x + 7\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} - x + 1\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(-3)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=4x^{4} - 2x^{3} + x^{2} - 8x + 1\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} + x + 2.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=5x^{2} + 12x + 13\)</p><p dir="ltr" style="text-align: left;">\(r(x)=-2x - 6\)</p><p dir="ltr" style="text-align: left;">\(r(-3)=0\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(4x^{4} - 2x^{3} + x^{2} - 8x + 1 =( x^{2} + x + 2 )( 4x^{2} - 6x - 1 ) + ( 5x + 3 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>0</text>
+      <text>4,-6,-1</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 5</text>
+      <text>Daugianarių dalyba kampu, 14 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=2x^{4} - 5x^{3} + 2x^{2} + 7x - 2\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} - 2x + 2\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(-2)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=x^{4} - 4x^{3} + 5x^{2} - 3x + 3\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} - x + 5.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=2x^{2} - x - 4\)</p><p dir="ltr" style="text-align: left;">\(r(x)=x + 6\)</p><p dir="ltr" style="text-align: left;">\(r(-2)=4\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^{4} - 4x^{3} + 5x^{2} - 3x + 3 =( x^{2} - x + 5 )( x^{2} - 3x - 3 ) + ( 9x + 18 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>4</text>
+      <text>1,-3,-3</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 6</text>
+      <text>Daugianarių dalyba kampu, 15 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=6x^{4} - 6x^{3} + 8x^{2} + x - 2\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} - 2x + 3\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(-2)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=x^{4} - 2x^{3} + x^{2} + x + 5\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} + x - 1.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=6x^{2} + 6x + 2\)</p><p dir="ltr" style="text-align: left;">\(r(x)=-13x - 8\)</p><p dir="ltr" style="text-align: left;">\(r(-2)=18\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^{4} - 2x^{3} + x^{2} + x + 5 =( x^{2} + x - 1 )( x^{2} - 3x + 5 ) + ( -7x + 10 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>18</text>
+      <text>1,-3,5</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 7</text>
+      <text>Daugianarių dalyba kampu, 16 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=3x^{4} - 7x^{3} + 6x^{2} - 8x + 6\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} - x + 1\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(2)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=x^{4} - 6x^{3} + 4x^{2} - 5x - 3\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} - x - 3.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=3x^{2} - 4x - 1\)</p><p dir="ltr" style="text-align: left;">\(r(x)=-5x + 7\)</p><p dir="ltr" style="text-align: left;">\(r(2)=-3\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^{4} - 6x^{3} + 4x^{2} - 5x - 3 =( x^{2} - x - 3 )( x^{2} - 5x + 2 ) + ( -18x + 3 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-3</text>
+      <text>1,-5,2</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 8</text>
+      <text>Daugianarių dalyba kampu, 17 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=3x^{4} + 3x^{3} + 3x^{2} + 8x - 3\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} - x + 1\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(-1)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=4x^{4} - 3x^{3} + 4x^{2} + 3x - 5\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} + x + 2.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=3x^{2} + 6x + 6\)</p><p dir="ltr" style="text-align: left;">\(r(x)=8x - 9\)</p><p dir="ltr" style="text-align: left;">\(r(-1)=-17\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(4x^{4} - 3x^{3} + 4x^{2} + 3x - 5 =( x^{2} + x + 2 )( 4x^{2} - 7x + 3 ) + ( 14x - 11 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-17</text>
+      <text>4,-7,3</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 9</text>
+      <text>Daugianarių dalyba kampu, 18 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=x^{4} + 3x^{3} + 4x^{2} + 4x - 6\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} + 4x + 7\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(2)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=x^{4} - 6x^{3} - x^{2} - x - 5\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} + x + 1.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=x^{2} - x + 1\)</p><p dir="ltr" style="text-align: left;">\(r(x)=7x - 13\)</p><p dir="ltr" style="text-align: left;">\(r(2)=1\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^{4} - 6x^{3} - x^{2} - x - 5 =( x^{2} + x + 1 )( x^{2} - 7x + 5 ) + ( x - 10 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>1</text>
+      <text>1,-7,5</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 10</text>
+      <text>Daugianarių dalyba kampu, 19 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=3x^{4} - 6x^{3} - 3x^{2} - 2x - 6\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} - x - 3\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(-2)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=8x^{4} - 2x^{3} - x^{2} + 8x - 4\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} + x - 1.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=3x^{2} - 3x + 3\)</p><p dir="ltr" style="text-align: left;">\(r(x)=-8x + 3\)</p><p dir="ltr" style="text-align: left;">\(r(-2)=19\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(8x^{4} - 2x^{3} - x^{2} + 8x - 4 =( x^{2} + x - 1 )( 8x^{2} - 10x + 17 ) + ( -19x + 13 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>19</text>
+      <text>8,-10,17</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 11</text>
+      <text>Daugianarių dalyba kampu, 1 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=4x^{4} - 6x^{3} - 8x^{2} + x - 3\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} - 3x + 1\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(1)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=7x^{4} + 6x^{3} - 2x^{2} + 2x - 8\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} + x - 1.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=4x^{2} + 6x + 6\)</p><p dir="ltr" style="text-align: left;">\(r(x)=13x - 9\)</p><p dir="ltr" style="text-align: left;">\(r(1)=4\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(7x^{4} + 6x^{3} - 2x^{2} + 2x - 8 =( x^{2} + x - 1 )( 7x^{2} - x + 6 ) + ( -5x - 2 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>4</text>
+      <text>7,-1,6</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 12</text>
+      <text>Daugianarių dalyba kampu, 20 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=3x^{4} + 8x^{3} - 8x^{2} - 3x - 2\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} + 4x + 2\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(2)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=x^{4} + 5x^{3} - 5x^{2} - 2x - 5\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} + x - 1.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=3x^{2} - 4x + 2\)</p><p dir="ltr" style="text-align: left;">\(r(x)=-3x - 6\)</p><p dir="ltr" style="text-align: left;">\(r(2)=-12\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^{4} + 5x^{3} - 5x^{2} - 2x - 5 =( x^{2} + x - 1 )( x^{2} + 4x - 8 ) + ( 10x - 13 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-12</text>
+      <text>1,4,-8</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 13</text>
+      <text>Daugianarių dalyba kampu, 2 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=x^{4} - 7x^{3} + x^{2} - 7x - 4\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} - x + 1\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(-2)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=2x^{4} - 5x^{3} - 7x^{2} + x + 5\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} - 3x + 1.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=x^{2} - 6x - 6\)</p><p dir="ltr" style="text-align: left;">\(r(x)=-7x + 2\)</p><p dir="ltr" style="text-align: left;">\(r(-2)=16\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(2x^{4} - 5x^{3} - 7x^{2} + x + 5 =( x^{2} - 3x + 1 )( 2x^{2} + x - 6 ) + ( -18x + 11 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>16</text>
+      <text>2,1,-6</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 14</text>
+      <text>Daugianarių dalyba kampu, 3 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=x^{4} - 5x^{3} - x^{2} + 7x - 7\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} - 3x - 6\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(-2)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=3x^{4} + 5x^{3} + 3x^{2} + x + 1\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} + 2x + 1.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=x^{2} - 2x - 1\)</p><p dir="ltr" style="text-align: left;">\(r(x)=-8x - 13\)</p><p dir="ltr" style="text-align: left;">\(r(-2)=3\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(3x^{4} + 5x^{3} + 3x^{2} + x + 1 =( x^{2} + 2x + 1 )( 3x^{2} - x + 2 ) + ( -2x - 1 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>3</text>
+      <text>3,-1,2</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 15</text>
+      <text>Daugianarių dalyba kampu, 4 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=3x^{4} + 7x^{3} + 5x^{2} - 6x - 8\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} + x - 2\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(-1)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=x^{4} + 7x^{3} + 7x^{2} + 8x + 4\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} + 6x - 2.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=3x^{2} + 4x + 7\)</p><p dir="ltr" style="text-align: left;">\(r(x)=-5x + 6\)</p><p dir="ltr" style="text-align: left;">\(r(-1)=11\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(x^{4} + 7x^{3} + 7x^{2} + 8x + 4 =( x^{2} + 6x - 2 )( x^{2} + x + 3 ) + ( -8x + 10 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>11</text>
+      <text>1,1,3</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 16</text>
+      <text>Daugianarių dalyba kampu, 5 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=5x^{4} + 4x^{3} - 8x^{2} + 7x + 6\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} - x + 1\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(-3)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=8x^{4} + 6x^{3} - 3x^{2} + 6x - 8\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} + x + 1.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=5x^{2} + 9x - 4\)</p><p dir="ltr" style="text-align: left;">\(r(x)=-6x + 10\)</p><p dir="ltr" style="text-align: left;">\(r(-3)=28\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(8x^{4} + 6x^{3} - 3x^{2} + 6x - 8 =( x^{2} + x + 1 )( 8x^{2} - 2x - 9 ) + ( 17x + 1 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>28</text>
+      <text>8,-2,-9</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 17</text>
+      <text>Daugianarių dalyba kampu, 6 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=x^{4} - 7x^{3} + 8x^{2} - 5x + 4\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} - 6x + 3\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(2)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=4x^{4} + 5x^{3} - 3x^{2} + 3x - 3\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} + x + 1.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=x^{2} - x - 1\)</p><p dir="ltr" style="text-align: left;">\(r(x)=-8x + 7\)</p><p dir="ltr" style="text-align: left;">\(r(2)=-9\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(4x^{4} + 5x^{3} - 3x^{2} + 3x - 3 =( x^{2} + x + 1 )( 4x^{2} + x - 8 ) + ( 10x + 5 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-9</text>
+      <text>4,1,-8</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 18</text>
+      <text>Daugianarių dalyba kampu, 7 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=x^{4} - 6x^{3} + 4x^{2} - 6x - 3\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} - 4x - 3\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(1)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=8x^{4} - 7x^{3} - x^{2} - 6x + 6\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} - x + 1.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=x^{2} - 2x - 1\)</p><p dir="ltr" style="text-align: left;">\(r(x)=-16x - 6\)</p><p dir="ltr" style="text-align: left;">\(r(1)=-22\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(8x^{4} - 7x^{3} - x^{2} - 6x + 6 =( x^{2} - x + 1 )( 8x^{2} + x - 8 ) + ( -15x + 14 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-22</text>
+      <text>8,1,-8</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 19</text>
+      <text>Daugianarių dalyba kampu, 8 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=2x^{4} - 7x^{3} - 4x^{2} - 4x + 2\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} - 5x + 3\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(-3)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=3x^{4} + 3x^{3} - 3x^{2} - 2x - 3\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} - x + 2.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=2x^{2} + 3x + 5\)</p><p dir="ltr" style="text-align: left;">\(r(x)=12x - 13\)</p><p dir="ltr" style="text-align: left;">\(r(-3)=-49\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(3x^{4} + 3x^{3} - 3x^{2} - 2x - 3 =( x^{2} - x + 2 )( 3x^{2} + 6x - 3 ) + ( -17x + 3 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-49</text>
+      <text>3,6,-3</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
-<!-- question: 621096  -->
-  <question type="numerical">
+<!-- question: 1661146  -->
+  <question type="shortanswer">
     <name>
-      <text>Dalyba kampu, variantas 20</text>
+      <text>Daugianarių dalyba kampu, 9 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span>P</span>adalijus <em>kampu</em> daugianarį</p><p dir="ltr" style="text-align: left;">\(f(x)=5x^{4} - 4x^{3} - 7x^{2} + 2x - 5\)</p><p dir="ltr" style="text-align: left;">iš</p><p dir="ltr" style="text-align: left;">\(g(x)=x^{2} - x + 1\),</p><p dir="ltr" style="text-align: left;">gauti nepilnasis dalmuo \(q(x)\) ir liekana \(r(x)\).<br></p><p dir="ltr" style="text-align: left;">Kam lygu \(r(-3)\)?</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Padalykite kampu daugianarį</p><p dir="ltr">\(f(x)=2x^{4} - 7x^{3} + 2x^{2} - 7x - 8\)</p><p dir="ltr">iš</p><p dir="ltr">\(g(x)=x^{2} - 3x - 2.\)</p><p dir="ltr">Kam lygus dalmuo \(q(x)\)?</p><p dir="ltr">Pastaba:
+ įvesti ieškomo daugianario koeficientus iš eilės nuo aukščiausiojo iki 
+žemiausiojo \(x\) laipsnio, be tarpų, atskiriant kableliu, be pašalinių simbolių.<br></p><p dir="ltr">Pvz.: \(3x^3-2x+1\) įvedamas kaip \(3,0,-2,1\)</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(q(x)=5x^{2} + x - 11\)</p><p dir="ltr" style="text-align: left;">\(r(x)=-10x + 6\)</p><p dir="ltr" style="text-align: left;">\(r(-3)=36\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(2x^{4} - 7x^{3} + 2x^{2} - 7x - 8 =( x^{2} - 3x - 2 )( 2x^{2} - x + 3 ) + ( -2 )\)</p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
+    <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>36</text>
+      <text>2,-1,3</text>
       <feedback format="html">
         <text></text>
       </feedback>
-      <tolerance>0</tolerance>
     </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
   </question>
 
 </quiz>

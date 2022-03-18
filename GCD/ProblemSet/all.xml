@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 1 var.</text>
+      <text>Didžiausias bendras daliklis 10 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((1577, 1387)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(1577u+1387v=\)DBD(\(1577, 1387)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((2491, 2021)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(2491u+2021v=\)DBD(\(2491, 2021)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((1577, 1387)\)=19</p><p dir="ltr" style="text-align: left;">\(u=22, v=-25\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((2491, 2021)\)=47</p><p dir="ltr" style="text-align: left;">\(u=13, v=-16\)<br></p><p dir="ltr" style="text-align: left;">\(2491 = 1\cdot2021 + 470\)<br></p><p dir="ltr" style="text-align: left;">\(2021 = 4\cdot470 + 141\)<br></p><p dir="ltr" style="text-align: left;">\(470 = 3\cdot141 + 47\)<br></p><p dir="ltr" style="text-align: left;">\(141 = 3\cdot47 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(47 = 13\cdot2491 - 16\cdot2021\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -17,23 +17,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>22,-25,19</text>
+      <text>47,13,-16</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 2 var.</text>
+      <text>Didžiausias bendras daliklis 11 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((2071, 1577)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(2071u+1577v=\)DBD(\(2071, 1577)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((5053, 1891)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(5053u+1891v=\)DBD(\(5053, 1891)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((2071, 1577)\)=19</p><p dir="ltr" style="text-align: left;">\(u=16, v=-21\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((5053, 1891)\)=31</p><p dir="ltr" style="text-align: left;">\(u=3, v=-8\)<br></p><p dir="ltr" style="text-align: left;">\(5053 = 2\cdot1891 + 1271\)<br></p><p dir="ltr" style="text-align: left;">\(1891 = 1\cdot1271 + 620\)<br></p><p dir="ltr" style="text-align: left;">\(1271 = 2\cdot620 + 31\)<br></p><p dir="ltr" style="text-align: left;">\(620 = 20\cdot31 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(31 = 3\cdot5053 - 8\cdot1891\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -41,23 +41,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>16,-21,19</text>
+      <text>31,3,-8</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 3 var.</text>
+      <text>Didžiausias bendras daliklis 12 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((2147, 1501)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(2147u+1501v=\)DBD(\(2147, 1501)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((3551, 2881)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(3551u+2881v=\)DBD(\(3551, 2881)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((2147, 1501)\)=19</p><p dir="ltr" style="text-align: left;">\(u=7, v=-10\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((3551, 2881)\)=67</p><p dir="ltr" style="text-align: left;">\(u=13, v=-16\)<br></p><p dir="ltr" style="text-align: left;">\(3551 = 1\cdot2881 + 670\)<br></p><p dir="ltr" style="text-align: left;">\(2881 = 4\cdot670 + 201\)<br></p><p dir="ltr" style="text-align: left;">\(670 = 3\cdot201 + 67\)<br></p><p dir="ltr" style="text-align: left;">\(201 = 3\cdot67 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(67 = 13\cdot3551 - 16\cdot2881\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -65,23 +65,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>7,-10,19</text>
+      <text>67,13,-16</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 4 var.</text>
+      <text>Didžiausias bendras daliklis 13 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((2407, 2117)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(2407u+2117v=\)DBD(\(2407, 2117)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((3503, 1457)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(3503u+1457v=\)DBD(\(3503, 1457)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((2407, 2117)\)=29</p><p dir="ltr" style="text-align: left;">\(u=22, v=-25\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((3503, 1457)\)=31</p><p dir="ltr" style="text-align: left;">\(u=5, v=-12\)<br></p><p dir="ltr" style="text-align: left;">\(3503 = 2\cdot1457 + 589\)<br></p><p dir="ltr" style="text-align: left;">\(1457 = 2\cdot589 + 279\)<br></p><p dir="ltr" style="text-align: left;">\(589 = 2\cdot279 + 31\)<br></p><p dir="ltr" style="text-align: left;">\(279 = 9\cdot31 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(31 = 5\cdot3503 - 12\cdot1457\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -89,23 +89,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>22,-25,29</text>
+      <text>31,5,-12</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 5 var.</text>
+      <text>Didžiausias bendras daliklis 14 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((2419, 1003)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(2419u+1003v=\)DBD(\(2419, 1003)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((7421, 1271)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(7421u+1271v=\)DBD(\(7421, 1271)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((2419, 1003)\)=59</p><p dir="ltr" style="text-align: left;">\(u=5, v=-12\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((7421, 1271)\)=41</p><p dir="ltr" style="text-align: left;">\(u=6, v=-35\)<br></p><p dir="ltr" style="text-align: left;">\(7421 = 5\cdot1271 + 1066\)<br></p><p dir="ltr" style="text-align: left;">\(1271 = 1\cdot1066 + 205\)<br></p><p dir="ltr" style="text-align: left;">\(1066 = 5\cdot205 + 41\)<br></p><p dir="ltr" style="text-align: left;">\(205 = 5\cdot41 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(41 = 6\cdot7421 - 35\cdot1271\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -113,23 +113,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>5,-12,59</text>
+      <text>41,6,-35</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 6 var.</text>
+      <text>Didžiausias bendras daliklis 15 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((2567, 1139)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(2567u+1139v=\)DBD(\(2567, 1139)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((4843, 1189)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(4843u+1189v=\)DBD(\(4843, 1189)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((2567, 1139)\)=17</p><p dir="ltr" style="text-align: left;">\(u=4, v=-9\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((4843, 1189)\)=29</p><p dir="ltr" style="text-align: left;">\(u=14, v=-57\)<br></p><p dir="ltr" style="text-align: left;">\(4843 = 4\cdot1189 + 87\)<br></p><p dir="ltr" style="text-align: left;">\(1189 = 13\cdot87 + 58\)<br></p><p dir="ltr" style="text-align: left;">\(87 = 1\cdot58 + 29\)<br></p><p dir="ltr" style="text-align: left;">\(58 = 2\cdot29 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(29 = 14\cdot4843 - 57\cdot1189\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -137,23 +137,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>4,-9,17</text>
+      <text>29,14,-57</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 7 var.</text>
+      <text>Didžiausias bendras daliklis 16 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((2573, 2077)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(2573u+2077v=\)DBD(\(2573, 2077)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((5063, 1769)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(5063u+1769v=\)DBD(\(5063, 1769)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((2573, 2077)\)=31</p><p dir="ltr" style="text-align: left;">\(u=21, v=-26\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((5063, 1769)\)=61</p><p dir="ltr" style="text-align: left;">\(u=7, v=-20\)<br></p><p dir="ltr" style="text-align: left;">\(5063 = 2\cdot1769 + 1525\)<br></p><p dir="ltr" style="text-align: left;">\(1769 = 1\cdot1525 + 244\)<br></p><p dir="ltr" style="text-align: left;">\(1525 = 6\cdot244 + 61\)<br></p><p dir="ltr" style="text-align: left;">\(244 = 4\cdot61 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(61 = 7\cdot5063 - 20\cdot1769\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -161,23 +161,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>21,-26,31</text>
+      <text>61,7,-20</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 8 var.</text>
+      <text>Didžiausias bendras daliklis 17 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((2747, 1139)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(2747u+1139v=\)DBD(\(2747, 1139)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((3233, 1007)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(3233u+1007v=\)DBD(\(3233, 1007)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((2747, 1139)\)=67</p><p dir="ltr" style="text-align: left;">\(u=5, v=-12\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((3233, 1007)\)=53</p><p dir="ltr" style="text-align: left;">\(u=5, v=-16\)<br></p><p dir="ltr" style="text-align: left;">\(3233 = 3\cdot1007 + 212\)<br></p><p dir="ltr" style="text-align: left;">\(1007 = 4\cdot212 + 159\)<br></p><p dir="ltr" style="text-align: left;">\(212 = 1\cdot159 + 53\)<br></p><p dir="ltr" style="text-align: left;">\(159 = 3\cdot53 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(53 = 5\cdot3233 - 16\cdot1007\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -185,23 +185,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>5,-12,67</text>
+      <text>53,5,-16</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 9 var.</text>
+      <text>Didžiausias bendras daliklis 18 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((2911, 1271)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(2911u+1271v=\)DBD(\(2911, 1271)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((6031, 1369)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(6031u+1369v=\)DBD(\(6031, 1369)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((2911, 1271)\)=41</p><p dir="ltr" style="text-align: left;">\(u=7, v=-16\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((6031, 1369)\)=37</p><p dir="ltr" style="text-align: left;">\(u=5, v=-22\)<br></p><p dir="ltr" style="text-align: left;">\(6031 = 4\cdot1369 + 555\)<br></p><p dir="ltr" style="text-align: left;">\(1369 = 2\cdot555 + 259\)<br></p><p dir="ltr" style="text-align: left;">\(555 = 2\cdot259 + 37\)<br></p><p dir="ltr" style="text-align: left;">\(259 = 7\cdot37 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(37 = 5\cdot6031 - 22\cdot1369\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -209,23 +209,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>7,-16,41</text>
+      <text>37,5,-22</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 10 var.</text>
+      <text>Didžiausias bendras daliklis 19 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((3053, 1247)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(3053u+1247v=\)DBD(\(3053, 1247)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((5597, 1363)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(5597u+1363v=\)DBD(\(5597, 1363)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((3053, 1247)\)=43</p><p dir="ltr" style="text-align: left;">\(u=9, v=-22\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((5597, 1363)\)=29</p><p dir="ltr" style="text-align: left;">\(u=19, v=-78\)<br></p><p dir="ltr" style="text-align: left;">\(5597 = 4\cdot1363 + 145\)<br></p><p dir="ltr" style="text-align: left;">\(1363 = 9\cdot145 + 58\)<br></p><p dir="ltr" style="text-align: left;">\(145 = 2\cdot58 + 29\)<br></p><p dir="ltr" style="text-align: left;">\(58 = 2\cdot29 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(29 = 19\cdot5597 - 78\cdot1363\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -233,23 +233,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>9,-22,43</text>
+      <text>29,19,-78</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 11 var.</text>
+      <text>Didžiausias bendras daliklis 1 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((3077, 1003)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(3077u+1003v=\)DBD(\(3077, 1003)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((4687, 1247)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(4687u+1247v=\)DBD(\(4687, 1247)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((3077, 1003)\)=17</p><p dir="ltr" style="text-align: left;">\(u=15, v=-46\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((4687, 1247)\)=43</p><p dir="ltr" style="text-align: left;">\(u=4, v=-15\)<br></p><p dir="ltr" style="text-align: left;">\(4687 = 3\cdot1247 + 946\)<br></p><p dir="ltr" style="text-align: left;">\(1247 = 1\cdot946 + 301\)<br></p><p dir="ltr" style="text-align: left;">\(946 = 3\cdot301 + 43\)<br></p><p dir="ltr" style="text-align: left;">\(301 = 7\cdot43 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(43 = 4\cdot4687 - 15\cdot1247\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -257,23 +257,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>15,-46,17</text>
+      <text>43,4,-15</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 12 var. </text>
+      <text>Didžiausias bendras daliklis 20 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((3149, 1363)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(3149u+1363v=\)DBD(\(3149, 1363)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((7097, 1363)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(7097u+1363v=\)DBD(\(7097, 1363)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((3149, 1363)\)=47</p><p dir="ltr" style="text-align: left;">\(u=13, v=-30\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((7097, 1363)\)=47</p><p dir="ltr" style="text-align: left;">\(u=5, v=-26\)<br></p><p dir="ltr" style="text-align: left;">\(7097 = 5\cdot1363 + 282\)<br></p><p dir="ltr" style="text-align: left;">\(1363 = 4\cdot282 + 235\)<br></p><p dir="ltr" style="text-align: left;">\(282 = 1\cdot235 + 47\)<br></p><p dir="ltr" style="text-align: left;">\(235 = 5\cdot47 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(47 = 5\cdot7097 - 26\cdot1363\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -281,23 +281,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>13,-30,47</text>
+      <text>47,5,-26</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 13 var.</text>
+      <text>Didžiausias bendras daliklis 2 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((3233, 2257)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(3233u+2257v=\)DBD(\(3233, 2257)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((7093, 1517)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(7093u+1517v=\)DBD(\(7093, 1517)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((3233, 2257)\)=61</p><p dir="ltr" style="text-align: left;">\(u=7, v=-10\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((7093, 1517)\)=41</p><p dir="ltr" style="text-align: left;">\(u=3, v=-14\)<br></p><p dir="ltr" style="text-align: left;">\(7093 = 4\cdot1517 + 1025\)<br></p><p dir="ltr" style="text-align: left;">\(1517 = 1\cdot1025 + 492\)<br></p><p dir="ltr" style="text-align: left;">\(1025 = 2\cdot492 + 41\)<br></p><p dir="ltr" style="text-align: left;">\(492 = 12\cdot41 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(41 = 3\cdot7093 - 14\cdot1517\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -305,23 +305,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>7,-10,61</text>
+      <text>41,3,-14</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 14 var.</text>
+      <text>Didžiausias bendras daliklis 3 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((3431, 1241)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(3431u+1241v=\)DBD(\(3431, 1241)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((7303, 1943)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(7303u+1943v=\)DBD(\(7303, 1943)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((3431, 1241)\)=73</p><p dir="ltr" style="text-align: left;">\(u=4, v=-11\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((7303, 1943)\)=67</p><p dir="ltr" style="text-align: left;">\(u=4, v=-15\)<br></p><p dir="ltr" style="text-align: left;">\(7303 = 3\cdot1943 + 1474\)<br></p><p dir="ltr" style="text-align: left;">\(1943 = 1\cdot1474 + 469\)<br></p><p dir="ltr" style="text-align: left;">\(1474 = 3\cdot469 + 67\)<br></p><p dir="ltr" style="text-align: left;">\(469 = 7\cdot67 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(67 = 4\cdot7303 - 15\cdot1943\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -329,23 +329,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>4,-11,73</text>
+      <text>67,4,-15</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 15 var.</text>
+      <text>Didžiausias bendras daliklis 4 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((3551, 2881)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(3551u+2881v=\)DBD(\(3551, 2881)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((3077, 1003)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(3077u+1003v=\)DBD(\(3077, 1003)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((3551, 2881)\)=67</p><p dir="ltr" style="text-align: left;">\(u=13, v=-16\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((3077, 1003)\)=17</p><p dir="ltr" style="text-align: left;">\(u=15, v=-46\)<br></p><p dir="ltr" style="text-align: left;">\(3077 = 3\cdot1003 + 68\)<br></p><p dir="ltr" style="text-align: left;">\(1003 = 14\cdot68 + 51\)<br></p><p dir="ltr" style="text-align: left;">\(68 = 1\cdot51 + 17\)<br></p><p dir="ltr" style="text-align: left;">\(51 = 3\cdot17 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(17 = 15\cdot3077 - 46\cdot1003\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -353,23 +353,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>13,-16,67</text>
+      <text>17,15,-46</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 16  var.</text>
+      <text>Didžiausias bendras daliklis 5 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((3569, 1247)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(3569u+1247v=\)DBD(\(3569, 1247)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((4033, 1961)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(4033u+1961v=\)DBD(\(4033, 1961)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((3569, 1247)\)=43</p><p dir="ltr" style="text-align: left;">\(u=7, v=-20\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((4033, 1961)\)=37</p><p dir="ltr" style="text-align: left;">\(u=18, v=-37\)<br></p><p dir="ltr" style="text-align: left;">\(4033 = 2\cdot1961 + 111\)<br></p><p dir="ltr" style="text-align: left;">\(1961 = 17\cdot111 + 74\)<br></p><p dir="ltr" style="text-align: left;">\(111 = 1\cdot74 + 37\)<br></p><p dir="ltr" style="text-align: left;">\(74 = 2\cdot37 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(37 = 18\cdot4033 - 37\cdot1961\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -377,23 +377,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>7,-20,43</text>
+      <text>37,18,-37</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 17 var.</text>
+      <text>Didžiausias bendras daliklis 6 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((3781, 1843)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(3781u+1843v=\)DBD(\(3781, 1843)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((3953, 1711)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(3953u+1711v=\)DBD(\(3953, 1711)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((3781, 1843)\)=19</p><p dir="ltr" style="text-align: left;">\(u=39, v=-80\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((3953, 1711)\)=59</p><p dir="ltr" style="text-align: left;">\(u=13, v=-30\)<br></p><p dir="ltr" style="text-align: left;">\(3953 = 2\cdot1711 + 531\)<br></p><p dir="ltr" style="text-align: left;">\(1711 = 3\cdot531 + 118\)<br></p><p dir="ltr" style="text-align: left;">\(531 = 4\cdot118 + 59\)<br></p><p dir="ltr" style="text-align: left;">\(118 = 2\cdot59 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(59 = 13\cdot3953 - 30\cdot1711\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -401,23 +401,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>39,-80,19</text>
+      <text>59,13,-30</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 18 var.</text>
+      <text>Didžiausias bendras daliklis 7 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((3799, 1537)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(3799u+1537v=\)DBD(\(3799, 1537)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((7313, 3337)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(7313u+3337v=\)DBD(\(7313, 3337)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((3799, 1537)\)=29</p><p dir="ltr" style="text-align: left;">\(u=17, v=-42\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((7313, 3337)\)=71</p><p dir="ltr" style="text-align: left;">\(u=21, v=-46\)<br></p><p dir="ltr" style="text-align: left;">\(7313 = 2\cdot3337 + 639\)<br></p><p dir="ltr" style="text-align: left;">\(3337 = 5\cdot639 + 142\)<br></p><p dir="ltr" style="text-align: left;">\(639 = 4\cdot142 + 71\)<br></p><p dir="ltr" style="text-align: left;">\(142 = 2\cdot71 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(71 = 21\cdot7313 - 46\cdot3337\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -425,23 +425,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>17,-42,29</text>
+      <text>71,21,-46</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 19 var.</text>
+      <text>Didžiausias bendras daliklis 8 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((3827, 1763)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(3827u+1763v=\)DBD(\(3827, 1763)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((5183, 1633)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(5183u+1633v=\)DBD(\(5183, 1633)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((3827, 1763)\)=43</p><p dir="ltr" style="text-align: left;">\(u=6, v=-13\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((5183, 1633)\)=71</p><p dir="ltr" style="text-align: left;">\(u=6, v=-19\)<br></p><p dir="ltr" style="text-align: left;">\(5183 = 3\cdot1633 + 284\)<br></p><p dir="ltr" style="text-align: left;">\(1633 = 5\cdot284 + 213\)<br></p><p dir="ltr" style="text-align: left;">\(284 = 1\cdot213 + 71\)<br></p><p dir="ltr" style="text-align: left;">\(213 = 3\cdot71 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(71 = 6\cdot5183 - 19\cdot1633\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -449,23 +449,23 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>6,-13,43</text>
+      <text>71,6,-19</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 582180  -->
+<!-- question: 1659822  -->
   <question type="shortanswer">
     <name>
-      <text>Didžiausias bendras daliklis 20 var.</text>
+      <text>Didžiausias bendras daliklis 9 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Euklido algoritmas: rasti DBD\((3979, 1403)\) ir&nbsp;<strong>sveikuosius</strong> skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(3979u+1403v=\)DBD(\(3979, 1403)\).<br></p><p dir="ltr"><strong>Pastaba:</strong></p><p dir="ltr">Tris atsakymo skaičius įvesti tokia tvarka:</p><p dir="ltr">\(u\),\(v\),\(DBD\)</p><p dir="ltr"><span>atskiriant</span> skaičius <strong>kableliu</strong>, <strong>be</strong> <strong>tarpų</strong> <span><span style="">ir kitų pašalinių simbolių</span>.</span> Pvz.,&nbsp;</p><p dir="ltr">1,-2,3</p><br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\((8201, 2537)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\(8201u+2537v=\)DBD(\(8201, 2537)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((3979, 1403)\)=23</p><p dir="ltr" style="text-align: left;">\(u=6, v=-17\)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\((8201, 2537)\)=59</p><p dir="ltr" style="text-align: left;">\(u=13, v=-42\)<br></p><p dir="ltr" style="text-align: left;">\(8201 = 3\cdot2537 + 590\)<br></p><p dir="ltr" style="text-align: left;">\(2537 = 4\cdot590 + 177\)<br></p><p dir="ltr" style="text-align: left;">\(590 = 3\cdot177 + 59\)<br></p><p dir="ltr" style="text-align: left;">\(177 = 3\cdot59 + 0\)<br></p><p dir="ltr" style="text-align: left;">\(59 = 13\cdot8201 - 42\cdot2537\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -473,7 +473,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>6,-17,23</text>
+      <text>59,13,-42</text>
       <feedback format="html">
         <text></text>
       </feedback>

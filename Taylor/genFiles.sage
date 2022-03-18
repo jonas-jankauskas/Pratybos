@@ -1,7 +1,8 @@
+reset()
+
 import random as rnd
 
 load('../text_utils.sage')
-
 #---------------------------------------------------------------------
 #the following parameters must be set-up before launching this script:
 
@@ -42,7 +43,12 @@ numreq = ceil(num_probs/ len(shifts))
 select = {s: rnd.sample([tp for tp in poly_data if tp[2]==s], numreq) for s in shifts}
 problem_data = rnd.sample(sum(select.values(),[]), num_probs);
 
-print('------------------------ Test data ------------------------')
+#print header with timestamp
+from datetime import datetime
+now = datetime.now()
+time_stamp = now.strftime("%Y/%m/%d %H:%M:%S")
+print('------------------------ Test data for %s ------------------------' % time_stamp)
+
 
 for nr, triple in enumerate(problem_data):
 

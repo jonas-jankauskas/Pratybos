@@ -31,6 +31,33 @@ def largest_prime_factor(n):
 		return 0
 	else:
 		return +oo
+
+#---------------------------------------------------------------------
+def rfunc_to_cfrac(R):
+	'''
+		Returns the list of partial quotients for the continued fraction expansion of the rational function f=P/Q
+	'''
+	P = R.numerator()
+	Q = R.denominator()
+
+	cfr_lst = []
+
+	while (Q != 0):
+		S, R = P.quo_rem(Q)
+		cfr_lst.append(S)
+		P, Q = Q, R
+
+	return(cfr_lst)
+
+#---------------------------------------------------------------------
+def cfrac_to_rfun(cfr_lst):
+	'''
+		Returns the rational function f=P/Q provided its continued fraction expansion lst
+	'''
+	P = cfr_lst[-1]
+	for Q in reversed(cfr_lst[:-1]):
+		P = 1/P + Q
+	return P
 	
 #---------------------------------------------------------------------
 def vec_cden(v):

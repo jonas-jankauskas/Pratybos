@@ -1,4 +1,4 @@
-
+reset()
 load('../matrix_utils.sage')
 
 #---------------------------------------------------------------------
@@ -46,7 +46,11 @@ p_lst = [num for num in num_lst if num >= p_min]
 q_lst = [num for num in num_lst if abs(num) >= q_min]
 r_lst = [num for num in num_lst if num > 0]
 
-print('------------------------ New data ------------------------')
+#print header with timestamp
+from datetime import datetime
+now = datetime.now()
+time_stamp = now.strftime("%Y/%m/%d %H:%M:%S")
+print('------------------------ New data for %s ------------------------' % time_stamp)
 
 for attempts in range(num_tries):
 

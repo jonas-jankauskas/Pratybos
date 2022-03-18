@@ -1,0 +1,5 @@
+Polynomial version of a GCD Test
+Finish tuning nice_svd()
+Rewrite nice_sym_matrix in terms of nice_SVD()
+'nice_Jordan_form'
+fully document and factor the code in matrix_utils in to a stand-alone SAGE package

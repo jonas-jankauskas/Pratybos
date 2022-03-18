@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 1659822  -->
+  <question type="shortanswer">
+    <name>
+      <text>Didžiausias bendras daliklis $id$ variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti DBD\(($a$, $b$)\) ir&nbsp;sveikuosius skaičius&nbsp; \(u\) ir&nbsp; \(v\), tokius kad</p><p dir="ltr">\($a$u+$b$v=\)DBD(\($a$, $b$)\).<br></p><p dir="ltr">Pastaba: atsakymą įvesti taip:</p><p dir="ltr">\(DBD\),\(u\),\(v\)</p><p dir="ltr">be tarpų <span><span style="">ar kitų pašalinių simbolių</span>.</span> atskiriant skaičius kableliu. Pvz.: <br></p><p dir="ltr">3,1,-2</p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\(($a$, $b$)\)=$gcd$</p><p dir="ltr" style="text-align: left;">\(u=$u$, v=$v$\)<br></p>$sol$]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>$gcd$,$u$,$v$</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
