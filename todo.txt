@@ -1,4 +1,5 @@
-Polynomial version of a GCD Test
+Polynomial version of a GCD Test -> Done!
+Derivative test for multiple root detection
 Finish tuning nice_svd()
 Rewrite nice_sym_matrix in terms of nice_SVD()
 'nice_Jordan_form'

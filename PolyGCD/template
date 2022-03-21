@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 1659822  -->
+  <question type="shortanswer">
+    <name>
+      <text>Daugianarių DBD $id$ variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Rasti daugianarių<br></p><p dir="ltr" style="text-align: left;">\(f(x)=$f$\),<br></p><p dir="ltr" style="text-align: left;">\(g(x)=$g$\)<br></p><p dir="ltr" style="text-align: left;">didžiausiąjį bendrąjį daliklį DBD\((f(x), g(x))\) ir tokius daugianarius \(u(x), v(x)\), kad<br></p><p dir="ltr" style="text-align: left;">\(u(x)f(x)+v(x)g(x)=\)DBD(\(f(x), g(x)\)).<br></p><p dir="ltr" style="text-align: left;">Pastaba. Atsakymą įvesti taip:<br></p><p dir="ltr" style="text-align: left;">\(DBD\);\(u\);\(v\)<br></p><p dir="ltr" style="text-align: left;">Čia vietoj \(DBD\), \(u\) ir \(v\) reikia įrašyti šių daugianarių koeficientų, atskirtų tarpusavyje kableliais, sekas nuo aukščiausio iki žemiausio \(x\) laipsnio, be tarpų ar kitų pašalinių simbolių. Pačios sekos atskiriamos kabliataškiais.<br></p><p dir="ltr" style="text-align: left;">Pvz.: atsakymas <br></p><p dir="ltr">1,0,-7;2,5;-1,5</p><p> reiškia <br></p><p dir="ltr" style="text-align: left;">\(DBD=x^2-7\), \(u(x)=2x+5\), ir \(v(x)= -x+5\)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DBD\(($f$, $g$)=$gcd$\)<br></p></p><p dir="ltr" style="text-align: left;">\(u(x)=$u$, v(x)=$v$\)<br></p><p dir="ltr" style="text-align: left;">Dalyba kampu:<br></p>$sol$]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>$answ$</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
