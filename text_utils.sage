@@ -1,3 +1,5 @@
+from datetime import datetime
+
 #-----------------------------------------------
 def make_subs(old_text, changes):
     '''
@@ -16,3 +18,12 @@ def write_file(file_name, text):
     outf = open(file_name, 'w')
     outf.write(text)
     outf.close()
+
+#-----------------------------------------------
+def get_date_time():
+    '''
+        Returns pre-formated current date-time string
+    '''
+    now = datetime.now()
+    time_stamp = now.strftime("%Y/%m/%d %H:%M:%S")
+    return time_stamp

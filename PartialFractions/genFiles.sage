@@ -39,10 +39,7 @@ tmpl.close()
 problem_data = sample(poly_data, num_probs);
 
 #print header with  timestamp
-from datetime import datetime
-now = datetime.now()
-time_stamp = now.strftime("%Y/%m/%d %H:%M:%S")
-print('------------------------ Test data for %s ------------------------' % time_stamp)
+print('------------------------ Test data for %s ------------------------' % get_date_time())
 
 
 for nr,poly in enumerate(problem_data):

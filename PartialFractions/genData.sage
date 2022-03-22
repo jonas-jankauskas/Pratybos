@@ -87,5 +87,6 @@ for attempts in range(num_tries):
         if poly not in poly_data:
             poly_data.append(poly)
             print(poly, '=', SR(poly).partial_fraction())
-        
+
+poly_data.sort()        
 save(poly_data, full_data_path)

@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 10 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left(-2,\,3,\,{\lambda}\right), \qquad v_{2} = \left(0,\,-1,\,-3\right), \qquad v_{3} = \left(1,\,2,\,1\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+-2 & 3 & {\lambda} \\
+0 & -1 & -3 \\
+1 & 2 & 1
+\end{array}\right) = {\lambda} - 19
+\implies \lambda=19 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>19</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 11 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left(-3,\,2,\,0\right), \qquad v_{2} = \left(2,\,1,\,-3\right), \qquad v_{3} = \left(-1,\,2,\,{\lambda}\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+-3 & 2 & 0 \\
+2 & 1 & -3 \\
+-1 & 2 & {\lambda}
+\end{array}\right) = -7 \, {\lambda} - 12
+\implies \lambda=-12/7 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-12/7</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 12 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left(1,\,-2,\,4\right), \qquad v_{2} = \left(2,\,-1,\,-2\right), \qquad v_{3} = \left(-2,\,{\lambda},\,0\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+1 & -2 & 4 \\
+2 & -1 & -2 \\
+-2 & {\lambda} & 0
+\end{array}\right) = 10 \, {\lambda} - 16
+\implies \lambda=8/5 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>8/5</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 13 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left(-1,\,3,\,2\right), \qquad v_{2} = \left(-2,\,-3,\,-2\right), \qquad v_{3} = \left(-1,\,-5,\,{\lambda}\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+-1 & 3 & 2 \\
+-2 & -3 & -2 \\
+-1 & -5 & {\lambda}
+\end{array}\right) = 9 \, {\lambda} + 30
+\implies \lambda=-10/3 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-10/3</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 14 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left(-2,\,{\lambda},\,1\right), \qquad v_{2} = \left(1,\,-2,\,1\right), \qquad v_{3} = \left(-5,\,0,\,-1\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+-2 & {\lambda} & 1 \\
+1 & -2 & 1 \\
+-5 & 0 & -1
+\end{array}\right) = -4 \, {\lambda} - 14
+\implies \lambda=-7/2 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-7/2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 15 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left(1,\,-2,\,1\right), \qquad v_{2} = \left(-2,\,2,\,-1\right), \qquad v_{3} = \left(1,\,-1,\,{\lambda}\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+1 & -2 & 1 \\
+-2 & 2 & -1 \\
+1 & -1 & {\lambda}
+\end{array}\right) = -2 \, {\lambda} + 1
+\implies \lambda=1/2 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>1/2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 16 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left(2,\,-1,\,3\right), \qquad v_{2} = \left(-1,\,-2,\,-4\right), \qquad v_{3} = \left(-2,\,1,\,{\lambda}\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+2 & -1 & 3 \\
+-1 & -2 & -4 \\
+-2 & 1 & {\lambda}
+\end{array}\right) = -5 \, {\lambda} - 15
+\implies \lambda=-3 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-3</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 17 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left(2,\,{\lambda},\,1\right), \qquad v_{2} = \left(-2,\,3,\,2\right), \qquad v_{3} = \left(-1,\,-2,\,-2\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+2 & {\lambda} & 1 \\
+-2 & 3 & 2 \\
+-1 & -2 & -2
+\end{array}\right) = -6 \, {\lambda} + 3
+\implies \lambda=1/2 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>1/2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 18 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left(-1,\,1,\,-1\right), \qquad v_{2} = \left(1,\,1,\,3\right), \qquad v_{3} = \left(4,\,{\lambda},\,2\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+-1 & 1 & -1 \\
+1 & 1 & 3 \\
+4 & {\lambda} & 2
+\end{array}\right) = 2 \, {\lambda} + 12
+\implies \lambda=-6 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-6</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 19 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left({\lambda},\,-1,\,-2\right), \qquad v_{2} = \left(-1,\,0,\,1\right), \qquad v_{3} = \left(-4,\,3,\,0\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+{\lambda} & -1 & -2 \\
+-1 & 0 & 1 \\
+-4 & 3 & 0
+\end{array}\right) = -3 \, {\lambda} + 10
+\implies \lambda=10/3 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>10/3</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 1 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left(1,\,-1,\,-1\right), \qquad v_{2} = \left(-5,\,-5,\,2\right), \qquad v_{3} = \left({\lambda},\,0,\,1\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+1 & -1 & -1 \\
+-5 & -5 & 2 \\
+{\lambda} & 0 & 1
+\end{array}\right) = -7 \, {\lambda} - 10
+\implies \lambda=-10/7 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-10/7</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 20 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left(2,\,-2,\,-1\right), \qquad v_{2} = \left(0,\,-2,\,-3\right), \qquad v_{3} = \left(1,\,-2,\,{\lambda}\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+2 & -2 & -1 \\
+0 & -2 & -3 \\
+1 & -2 & {\lambda}
+\end{array}\right) = -4 \, {\lambda} - 8
+\implies \lambda=-2 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 2 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left(-2,\,3,\,{\lambda}\right), \qquad v_{2} = \left(-1,\,0,\,-3\right), \qquad v_{3} = \left(-3,\,1,\,-4\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+-2 & 3 & {\lambda} \\
+-1 & 0 & -3 \\
+-3 & 1 & -4
+\end{array}\right) = -{\lambda} + 9
+\implies \lambda=9 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>9</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 3 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left(1,\,1,\,2\right), \qquad v_{2} = \left(-1,\,-1,\,3\right), \qquad v_{3} = \left({\lambda},\,-2,\,-3\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+1 & 1 & 2 \\
+-1 & -1 & 3 \\
+{\lambda} & -2 & -3
+\end{array}\right) = 5 \, {\lambda} + 10
+\implies \lambda=-2 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 4 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left(1,\,0,\,-2\right), \qquad v_{2} = \left({\lambda},\,1,\,-3\right), \qquad v_{3} = \left(-2,\,-1,\,-5\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+1 & 0 & -2 \\
+{\lambda} & 1 & -3 \\
+-2 & -1 & -5
+\end{array}\right) = 2 \, {\lambda} - 12
+\implies \lambda=6 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>6</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 5 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left(2,\,1,\,{\lambda}\right), \qquad v_{2} = \left(-1,\,-1,\,2\right), \qquad v_{3} = \left(2,\,-1,\,-4\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+2 & 1 & {\lambda} \\
+-1 & -1 & 2 \\
+2 & -1 & -4
+\end{array}\right) = 3 \, {\lambda} + 12
+\implies \lambda=-4 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-4</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 6 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left(1,\,1,\,{\lambda}\right), \qquad v_{2} = \left(1,\,2,\,1\right), \qquad v_{3} = \left(-2,\,4,\,-1\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+1 & 1 & {\lambda} \\
+1 & 2 & 1 \\
+-2 & 4 & -1
+\end{array}\right) = 8 \, {\lambda} - 7
+\implies \lambda=7/8 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>7/8</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 7 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left(1,\,1,\,{\lambda}\right), \qquad v_{2} = \left(3,\,4,\,2\right), \qquad v_{3} = \left(-1,\,1,\,1\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+1 & 1 & {\lambda} \\
+3 & 4 & 2 \\
+-1 & 1 & 1
+\end{array}\right) = 7 \, {\lambda} - 3
+\implies \lambda=3/7 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>3/7</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 8 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left(-5,\,-3,\,{\lambda}\right), \qquad v_{2} = \left(1,\,0,\,1\right), \qquad v_{3} = \left(4,\,1,\,2\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+-5 & -3 & {\lambda} \\
+1 & 0 & 1 \\
+4 & 1 & 2
+\end{array}\right) = {\lambda} - 1
+\implies \lambda=1 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>1</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1674768  -->
+  <question type="shortanswer">
+    <name>
+      <text>Tiesinė priklausomybė, 9 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Su kokia parametro \( \lambda \) reikšme vektorių sistema</p><p dir="ltr" style="text-align: left;">\( v_{1} = \left(5,\,3,\,0\right), \qquad v_{2} = \left({\lambda},\,0,\,-2\right), \qquad v_{3} = \left(2,\,1,\,2\right) \)<br>yra tiesiškai priklausoma?</p><p dir="ltr" style="text-align: left;">Pastaba: atsakymas yra sveikasis skaičius arba trupmena \(a/b\) arba \(-a/b\); kurios skaitiklis ir vardiklis \(a,b \in \mathbb{N}\) - tarpusavyje pirminiai.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektoriai tiesiškai priklausomi, jeigu iš jų sudarytos matricos rangas \( &lt; 3\), t.y. didžiausias nenulinis minoras \(= 0\),<br></p><p dir="ltr" style="text-align: left;">\( \text{det } \left(\begin{array}{rrr}
+5 & 3 & 0 \\
+{\lambda} & 0 & -2 \\
+2 & 1 & 2
+\end{array}\right) = -6 \, {\lambda} - 2
+\implies \lambda=-1/3 \)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-1/3</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
