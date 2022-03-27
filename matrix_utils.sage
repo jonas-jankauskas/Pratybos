@@ -115,6 +115,22 @@ def vec_snza(vec):
     return snza
 
 #---------------------------------------------------------------------
+def accept_vector(vec, max_height=10000, max_zeros=10000, is_prim=False):
+    '''
+        Tests if vector properties are within limits 
+    ''' 
+    if vec.norm(+oo)> max_height:
+        return False
+
+    if vec.list().count(0) > max_zeros:
+        return False
+
+    if is_prim and abs(gcd(vec)) != 1:
+        return False
+
+    return True
+
+#---------------------------------------------------------------------
 def mat_cfactor(mat):
     '''diagonal matrix D, such that D*mat has rows with all coordinates coprime and integral'''
     return diagonal_matrix(vec_cfactor(rw) for rw in mat.rows())

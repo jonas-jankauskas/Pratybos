@@ -26,4 +26,119 @@ def get_date_time():
     '''
     now = datetime.now()
     time_stamp = now.strftime("%Y/%m/%d %H:%M:%S")
+
+
     return time_stamp
+
+#-----------------------------------------------
+def latex_linear_combination(cfs, xvars):
+    '''
+        Given list of real scalar coefficients cfs=[c_1,c_2,...,c_n] and list of symbolic variables xvars=[x_1,x_2,...,x_n], returns nicely formated latex formula for
+        c_1*x_1+c_2*x_2+...c_n*x_n
+    '''
+    if len(cfs) != len(xvars):
+        raise Exception('Coefficients do not match variables!')
+
+    lc_str = ''
+
+    was_nonzero = False
+	
+    for cf, xvar in zip(cfs, xvars):
+
+        #check if all previous coeffs where zeros
+        if was_nonzero:
+            sg_str = '+\\,'
+        else:
+            sg_str = ' '
+        	
+        cf_str = latex(xvar)
+        
+        if cf < 0:
+            sg_str = '-\\,'
+
+        if cf == 0:
+            sg_str = ' '
+            cf_str = ' '
+        else:
+            was_nonzero = True
+        	        	
+        if abs(cf) > 1:
+            cf_str = latex(abs(cf))+cf_str
+
+        lc_str += '%s%s&' % (sg_str, cf_str)
+
+    if lc_str[0] == '+':
+        lc_str = lc_str[1:]
+
+    return lc_str
+
+#-----------------------------------------------
+def latex_single_eq(cfs, xvars, yvar, eq_type='right'):
+    '''
+        Given a list of real scalar coefficients cfs=[c_1,c_2,...,c_n], list of symbolic variables xvars=[x_1,x_2,...,x_n], and a symbolix variable y, returns nicely formated latex formula for
+            c_1*x_1+c_2*x_2+...c_n*x_n = y,
+        when eq_type='right', and
+            y= c_1*x_1+c_2*x_2+...c_n*x_n,
+        when type = 'left'.
+    '''
+    lc_str = latex_linear_combination(cfs, xvars)
+
+    if eq_type == 'right':
+        eq_str = lc_str +'&=&'+latex(yvar)
+    elif eq_type == 'left':
+        eq_str = latex(yvar) + '&=&' + lc_str
+    else:
+        raise Exception('Unknown equation type!') 
+
+    return eq_str
+    
+
+#-----------------------------------------------
+def latex_LSE(A, b, xNames, eq_type='right'):
+
+    '''
+        Given a m x n square matrix of real scalar coefficients A=[[a_11,a_12,...]...[...,a_mn]], list of symbolic indeterminate variables xvars=[x_1,x_2,...,x_n], and a list of symbolic variables or contants b=[y_1 ... y_m] returns nicely formated latex formula for
+
+            /a_11*x_1+a_12*x_2+...a_1n*x_n = y_1,
+            |a_21*x_1+a_22*x_2+...a_2n*x_n = y_1
+            |                  ...
+            \a_m1*x_1+a_m2*x_2+...a_mn*x_n = y_1
+            
+        when eq_type='right', and
+        
+            /y_1 = a_11*x_1+a_12*x_2+...a_1n*x_n,
+            |y_2 = a_21*x_1+a_22*x_2+...a_2n*x_n,
+            |                  ...
+            \y_m = a_m1*x_1+a_m2*x_2+...a_mn*x_n.
+            
+        when type = 'left'.
+    '''
+
+    if A.nrows() != len(b):
+        raise Exception('A rows do not match entries of b!')
+        return
+
+    if len(xNames) == 1:
+        if A.ncols() > 1:
+            x_str = [xNames+ str(j+1) for j in range(A.ncols())]
+        else:
+            x_str = [xNames]
+    else:
+        if A.ncols() == len(xNames):
+            x_str = [xNames]
+        else:
+            raise Exception('A columns do not match variables!')
+            
+    var_str = (str().join([s+',' for s in x_str]))[:-1]
+    x_vars = var(var_str)
+
+    eqs_list = []
+
+    for row, c in zip(A.rows(), b):
+        eq_str = latex_single_eq(row, x_vars, c, eq_type) + '\\\\'
+        eqs_list.append(eq_str)
+
+    form_str = 'r'*(len(x_vars))+'cr'
+    syst_str = '\\left\\{\\begin{array}{%s}%s \\end{array} \\right.' %(form_str, str().join(eqs_list))
+
+    return syst_str
