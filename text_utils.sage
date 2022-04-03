@@ -31,10 +31,11 @@ def get_date_time():
     return time_stamp
 
 #-----------------------------------------------
-def latex_linear_combination(cfs, xvars):
+def latex_linear_combination_aligned(cfs, xvars):
     '''
         Given list of real scalar coefficients cfs=[c_1,c_2,...,c_n] and list of symbolic variables xvars=[x_1,x_2,...,x_n], returns nicely formated latex formula for
         c_1*x_1+c_2*x_2+...c_n*x_n
+        in aligned form
     '''
     if len(cfs) != len(xvars):
         raise Exception('Coefficients do not match variables!')
@@ -58,7 +59,10 @@ def latex_linear_combination(cfs, xvars):
 
         if cf == 0:
             sg_str = ' '
-            cf_str = ' '
+            if (xvar != xvars[-1]) or was_nonzero:
+                cf_str = ' '
+            else:
+                cf_str = '0'
         else:
             was_nonzero = True
         	        	
@@ -73,15 +77,24 @@ def latex_linear_combination(cfs, xvars):
     return lc_str
 
 #-----------------------------------------------
-def latex_single_eq(cfs, xvars, yvar, eq_type='right'):
+def latex_linear_combination_lax(cfs, xvars):
+    '''
+        Given list of real scalar coefficients cfs=[c_1,c_2,...,c_n] and list of symbolic variables xvars=[x_1,x_2,...,x_n], returns nicely formated latex formula for
+            c_1*x_1+c_2*x_2+...c_n*x_n
+        in a non--aligned (lax) form
+    '''
+    return latex(vector(cfs)*vector(xvars))
+
+#-----------------------------------------------
+def latex_single_eq_aligned(cfs, xvars, yvar, eq_type='right'):
     '''
         Given a list of real scalar coefficients cfs=[c_1,c_2,...,c_n], list of symbolic variables xvars=[x_1,x_2,...,x_n], and a symbolix variable y, returns nicely formated latex formula for
             c_1*x_1+c_2*x_2+...c_n*x_n = y,
         when eq_type='right', and
             y= c_1*x_1+c_2*x_2+...c_n*x_n,
-        when type = 'left'.
+        when type = 'left', in aligned form
     '''
-    lc_str = latex_linear_combination(cfs, xvars)
+    lc_str = latex_linear_combination_aligned(cfs, xvars)
 
     if eq_type == 'right':
         eq_str = lc_str +'&=&'+latex(yvar)
@@ -91,10 +104,29 @@ def latex_single_eq(cfs, xvars, yvar, eq_type='right'):
         raise Exception('Unknown equation type!') 
 
     return eq_str
-    
 
 #-----------------------------------------------
-def latex_LSE(A, b, xNames, eq_type='right'):
+def latex_single_eq_lax(cfs, xvars, yvar, eq_type='right'):
+    '''
+        Given a list of real scalar coefficients cfs=[c_1,c_2,...,c_n], list of symbolic variables xvars=[x_1,x_2,...,x_n], and a symbolix variable y, returns nicely formated latex formula for
+            c_1*x_1+c_2*x_2+...c_n*x_n = y,
+        when eq_type='right', and
+            y= c_1*x_1+c_2*x_2+...c_n*x_n,
+        when type = 'left', in non-aligned (lax) form
+    '''
+    lc_str = latex_linear_combination_lax(cfs, xvars)
+
+    if eq_type == 'right':
+        eq_str = lc_str +'='+latex(yvar)
+    elif eq_type == 'left':
+        eq_str = latex(yvar) + '=' + lc_str
+    else:
+        raise Exception('Unknown equation type!') 
+
+    return eq_str
+    
+#-----------------------------------------------
+def latex_SLE(A, b, xNames, eq_type='right'):
 
     '''
         Given a m x n square matrix of real scalar coefficients A=[[a_11,a_12,...]...[...,a_mn]], list of symbolic indeterminate variables xvars=[x_1,x_2,...,x_n], and a list of symbolic variables or contants b=[y_1 ... y_m] returns nicely formated latex formula for
@@ -135,7 +167,7 @@ def latex_LSE(A, b, xNames, eq_type='right'):
     eqs_list = []
 
     for row, c in zip(A.rows(), b):
-        eq_str = latex_single_eq(row, x_vars, c, eq_type) + '\\\\'
+        eq_str = latex_single_eq_aligned(row, x_vars, c, eq_type) + '\\\\'
         eqs_list.append(eq_str)
 
     form_str = 'r'*(len(x_vars))+'cr'

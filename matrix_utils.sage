@@ -78,6 +78,19 @@ def vec_cfactor(v):
     return vec_cden(v)/vcn
 
 #---------------------------------------------------------------------
+def vec_nice(v):
+    '''
+        Produces a scalar multiple c*v of a rational vector v, such that:
+        
+        -- the coordinates of c*v are integers with gcd=1
+        
+        -- the first non zero coordinate of c*v is positive
+    '''
+    vec = vec_cfactor(v)*v
+    vec *= vec_fsgn(vec)
+    return(vec)
+
+#---------------------------------------------------------------------
 def vec_index(vec):
     '''
         Returns numbers of positive, negative and zero entries of vec
@@ -113,6 +126,34 @@ def vec_snza(vec):
     if len(nza) > 0:
        snza = min(nza)
     return snza
+
+#---------------------------------------------------------------------
+def vec_fnz(vec):
+    '''
+        Returns first non-zero entry of vec or zero if no such entry exists
+    ''' 
+    nz = [c for c in vec if c !=0]
+    if len(nz) > 0:
+       return  nz[0]
+    else:
+       return 0
+
+#---------------------------------------------------------------------
+def vec_fsgn(vec):
+    '''
+        Returns sign of first non-zero entry or zero if no such entry exists
+    ''' 
+    return sign(vec_fnz(vec))
+
+#---------------------------------------------------------------------
+def vec_fnzi(vec):
+    '''
+        Returns the position of the first non-zero entry of vec or +oo if no such entry exists
+    ''' 
+    for j, c in enumerate(vec):
+        if c != 0:
+            return j
+    return +oo
 
 #---------------------------------------------------------------------
 def accept_vector(vec, max_height=10000, max_zeros=10000, is_prim=False):
@@ -181,6 +222,85 @@ def skew_down(M):
     '''Skew-symmetric matrix by reflection of the lower triangular part of M'''
     down = lt_part(M)
     return(down - down.transpose())
+
+#---------------------------------------------------------------------
+def find_lead_cols(M):
+    '''
+        Returns the list containing the first non-zero position in each non-zero row of M
+    '''
+    S = set()
+    for r in M.rows():
+        c = vec_fnzi(r)
+        if c < +oo:
+            S.add(c)
+    lst = list(S)
+    lst.sort()
+    return(lst)
+
+#---------------------------------------------------------------------
+def find_free_cols(M):
+    '''
+        Returns the list containing the positions of free (non-leading) columns of M
+    '''
+    lcols = find_lead_cols(M)
+    fcols = [j for j in range(M.ncols()) if j not in lcols] 
+    return fcols
+
+#---------------------------------------------------------------------
+def standard_solution_SLE(A, b):
+    '''
+        For a given matrix A and a vector b, returns the standard solution to A*x=b as tuple
+
+        (p, [h_1,..., h_n])
+
+        where:
+
+        p -- a particular solution corresponding to the zero values of free variables in RREF of A; p=None if A*x=b has no solution.
+        
+        [h_1, ..., h_n] -- a list containing standard basis of homogenous solutions A*x=O, namely: k-th homegenous solution h_k is obtained by setting the k-th free variable of x to 1 and all other free variables to 0.
+    '''
+    if len(b) != A.nrows():
+        raise Exception("Column b does not match rows of A!")
+    mat = A.augment(b)
+    rmat = mat.rref()
+    rrmat = rmat[:,:-1]
+    lvars = find_lead_cols(rrmat)
+    fvars = find_free_cols(rrmat)
+    R = rrmat.base_ring()
+    nc = A.ncols()
+    #particular solution
+    p=zero_vector(R, nc)
+    for j in range(len(lvars)):
+    	p[lvars[j]]=rmat.column(-1)[j]
+    if A*p != b:
+        p = None
+    #homogenous solutions
+    hsols = []
+    for i in fvars:
+        hsol=zero_vector(R, nc)
+        for j in range(len(lvars)):
+            hsol[lvars[j]]=-rrmat.column(i)[j]
+            hsol[i]=1
+        hsols+=[hsol]
+    return p, hsols
+
+#---------------------------------------------------------------------
+def nice_solution_SLE(A, b):
+    '''
+        For a given rational matrix A and a rational vector b, returns the standard solution to A*x=b as tuple
+
+        (p, [h_1,..., h_n])
+
+        where:
+
+        p -- a particular solution corresponding to the zero values of free variables in RREF of A; p is empty vector p=() if A*x=b has no sulution
+        
+        [h_1, ..., h_n] -- a list containing standard basis of homogenous solutions A*x=O, namely: k-th homegenous solution h_k is obtained by setting all but  k-th free variables to zero. Homogenous solutions are normalized so that that each h_k has integer coordinates with gcd=1 and first non-zero coordinate is  positive.
+    '''
+
+    p, hsols = standard_solution_SLE(A, b)
+    nsols = [vec_nice(h) for h in hsols]
+    return p, nsols
 
 #---------------------------------------------------------------------
 def random_ltdet1_Zmatrix(ndim, max_height):
@@ -728,7 +848,7 @@ def max_col_len2(M):
     return max([cl * cl for cl in M.columns()])
 
 #---------------------------------------------------------------------
-def accept_matrix(M, allow_colinear = True, has_ones_fc = False, max_zeros = 1, max_height = 10000, max_len2 = 10000, is_prim=False):
+def accept_matrix(M, allow_colinear = True, has_ones_fc = False, max_zeros = 10000, max_height = 10000, max_len2 = 10000, is_prim=False):
     ''' Runs tests on matrix M: 
         a) If allow_colinear = False, checks if M has ay colinear rows or columns
         b) If has_ones = True, then checks if first column of M contains any 1 or -1

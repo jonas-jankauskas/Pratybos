@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 1715740  -->
+  <question type="shortanswer">
+    <name>
+      <text>TLS bendrasis sprendinys $id$ variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Išspręskite tiesinę lygčių sistemą<br><p>\($sys$\)</p><p dir="ltr" style="text-align: left;">ir užrašykite jos bendrąjį sprendinį \($vrs$ \in \mathbb{R}^{$dim$}\).</p><hr /><p dir="ltr" style="text-align: left;">PASTABA. Atsakymo pavidalas \(p;h_1;\dots ;h_n\)<br></p><ul><li>\(p\) yra atskirasis sprendinys</li><li>\(h_1;\dots ;h_n\) yra homogeniniai sprendiniai,</li></ul><p dir="ltr" style="text-align: left;">gauti iš Gauso pavidalo standartinės parametrizacijos būdu ir eina eilės tvarka.<br></p><p dir="ltr" style="text-align: left;">Vektoriai skliaudžiami; vektorių viduje koordinatės skiriamos kableliu, o patys vektoriai tarpusavyje skiriami kabliataškiu, be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas<br></p><p dir="ltr" style="text-align: left;">\((-1,1/2,-3/5);(-2,7,-5/4);(0,6/7,-2)\) <br></p><p dir="ltr" style="text-align: left;">reiškia, kad bendrasis sprendinys yra sudarytas iš atskirojo sprendinio</p><p dir="ltr" style="text-align: left;">\(p=(-1,1/2,-3/5)\)</p><p dir="ltr" style="text-align: left;">ir 2 fundamentaliųjų homogeninių sprendinių</p><p dir="ltr" style="text-align: left;">\(h_1=(-2,7,-5/4), \qquad h_2=(0,6/7,-2).\)<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Tiesinės lygčių sistemos</p><p dir="ltr" style="text-align: left;">\($sys$\)</p><p dir="ltr" style="text-align: left;">Gauso-Žordano pavidalas yra</p><p dir="ltr" style="text-align: left;">\($rsys$\)</p><p dir="ltr" style="text-align: left;">Iš čia randame, kad bendrasis sprendinys yra</p><p dir="ltr" style="text-align: left;">\($sol$.\)</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>$answ$</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
