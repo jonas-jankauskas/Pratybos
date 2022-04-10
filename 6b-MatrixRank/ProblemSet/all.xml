@@ -6,19 +6,19 @@
       <text>Matricos rangas 10 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
--3 & -4 & 5 & 4 \\
-1 & 3 & -2 & 1 \\
-4 & 6 & -7 & -5 \\
--3 & -6 & 4 & -2
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrrr}
+0 & -3 & -6 & 6 & 3 \\
+-2 & 1 & 6 & -4 & -5 \\
+2 & 1 & -2 & 0 & 3 \\
+-1 & -3 & -4 & 5 & 1
 \end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
-1 & 0 & 0 & 0 \\
-0 & 1 & 0 & 0 \\
-0 & 0 & 1 & 0 \\
-0 & 0 & 0 & 1
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrrr}
+1 & 0 & -2 & 1 & 2 \\
+0 & 1 & 2 & -2 & -1 \\
+0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0
 \end{array}\right) \)</p><br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
@@ -26,7 +26,7 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
     <answer fraction="100" format="moodle_auto_format">
-      <text>4</text>
+      <text>2</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -45,10 +45,10 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
-1 & -2 & -2 & -7 \\
-0 & 1 & 2 & 5 \\
--1 & 1 & 1 & 6 \\
-0 & 0 & 1 & 5
+1 & -1 & 1 & 2 \\
+0 & 1 & -2 & 3 \\
+0 & -1 & 3 & -4 \\
+1 & -4 & 2 & -1
 \end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
@@ -82,19 +82,19 @@
       <text>Matricos rangas 12 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrrr}
-1 & -2 & 4 & 7 & 1 \\
-1 & -1 & 1 & 4 & -1 \\
--1 & 0 & 2 & -1 & 3 \\
-0 & -2 & 6 & 6 & 4
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
+0 & -1 & -2 & 1 \\
+1 & 0 & 2 & -3 \\
+-2 & -1 & -5 & 4 \\
+-1 & -3 & -6 & 1
 \end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrrr}
-1 & 0 & -2 & 1 & -3 \\
-0 & 1 & -3 & -3 & -2 \\
-0 & 0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0 & 0
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
 \end{array}\right) \)</p><br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
@@ -102,7 +102,7 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
     <answer fraction="100" format="moodle_auto_format">
-      <text>2</text>
+      <text>4</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -120,19 +120,19 @@
       <text>Matricos rangas 13 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrrr}
-2 & -3 & 3 & 7 & -3 \\
--1 & 2 & -1 & -4 & 3 \\
-1 & 1 & 4 & 1 & 6 \\
-0 & 2 & 2 & -2 & 6
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
+1 & 1 & 1 & -3 \\
+1 & 2 & 2 & -7 \\
+0 & -2 & -1 & 7 \\
+-3 & -3 & 2 & 5
 \end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrrr}
-1 & 0 & 3 & 2 & 3 \\
-0 & 1 & 1 & -1 & 3 \\
-0 & 0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0 & 0
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
 \end{array}\right) \)</p><br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
@@ -140,7 +140,7 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
     <answer fraction="100" format="moodle_auto_format">
-      <text>2</text>
+      <text>4</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -159,19 +159,17 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
-1 & 1 & 2 & 2 \\
--4 & -3 & -7 & -5 \\
--2 & -1 & -3 & -1 \\
-0 & -2 & -2 & -6 \\
-1 & 0 & 1 & -1
+1 & -2 & -5 & -6 \\
+2 & -3 & -7 & -7 \\
+1 & -1 & -1 & 1 \\
+-1 & 3 & 6 & 7
 \end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
-1 & 0 & 1 & -1 \\
-0 & 1 & 1 & 3 \\
-0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0 \\
+1 & 0 & 0 & 2 \\
+0 & 1 & 0 & -1 \\
+0 & 0 & 1 & 2 \\
 0 & 0 & 0 & 0
 \end{array}\right) \)</p><br><p></p>]]></text>
     </generalfeedback>
@@ -180,7 +178,7 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
     <answer fraction="100" format="moodle_auto_format">
-      <text>2</text>
+      <text>3</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -199,10 +197,10 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
-1 & -1 & 4 & 2 \\
--1 & 0 & -3 & 1 \\
-0 & -1 & 0 & 4 \\
--2 & -1 & -5 & 6
+-3 & -5 & 2 & -1 \\
+-4 & -7 & 2 & 0 \\
+-1 & -3 & -1 & 3 \\
+2 & 2 & 0 & -1
 \end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
@@ -237,18 +235,18 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
-1 & 2 & 4 & -2 \\
-0 & 1 & 3 & 1 \\
--1 & -1 & 0 & 5 \\
-1 & 3 & 7 & 0
+0 & -1 & 2 & 0 \\
+0 & 1 & 0 & -2 \\
+1 & -1 & 1 & 3 \\
+1 & -1 & -2 & 6
 \end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
-1 & 0 & 0 & 0 \\
-0 & 1 & 0 & 0 \\
-0 & 0 & 1 & 0 \\
-0 & 0 & 0 & 1
+1 & 0 & 0 & 2 \\
+0 & 1 & 0 & -2 \\
+0 & 0 & 1 & -1 \\
+0 & 0 & 0 & 0
 \end{array}\right) \)</p><br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
@@ -256,7 +254,7 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
     <answer fraction="100" format="moodle_auto_format">
-      <text>4</text>
+      <text>3</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -275,16 +273,16 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrrr}
-1 & 1 & 2 & 1 & -1 \\
-2 & 3 & 5 & 1 & 0 \\
--1 & 1 & 0 & -3 & 5 \\
-0 & 3 & 3 & -3 & 6
+2 & 1 & 1 & -1 & -1 \\
+-2 & 1 & 5 & 7 & 3 \\
+-1 & -1 & -2 & -1 & 0 \\
+3 & 0 & -3 & -6 & -3
 \end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrrr}
-1 & 0 & 1 & 2 & -3 \\
-0 & 1 & 1 & -1 & 2 \\
+1 & 0 & -1 & -2 & -1 \\
+0 & 1 & 3 & 3 & 1 \\
 0 & 0 & 0 & 0 & 0 \\
 0 & 0 & 0 & 0 & 0
 \end{array}\right) \)</p><br><p></p>]]></text>
@@ -310,160 +308,6 @@
   <question type="numerical">
     <name>
       <text>Matricos rangas 18 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
-2 & -1 & 2 & -7 \\
-0 & 1 & 2 & 1 \\
--1 & 2 & 2 & 5 \\
--1 & 3 & 4 & 6 \\
--1 & -1 & -4 & 2
-\end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
-1 & 0 & 2 & -3 \\
-0 & 1 & 2 & 1 \\
-0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0
-\end{array}\right) \)</p><br><p></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>2</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573662  -->
-  <question type="numerical">
-    <name>
-      <text>Matricos rangas 19 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
-1 & 1 & -1 & 1 \\
--3 & -2 & 7 & 3 \\
-0 & 1 & 5 & 7 \\
-1 & 1 & 4 & 6
-\end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
-1 & 0 & 0 & 0 \\
-0 & 1 & 0 & 2 \\
-0 & 0 & 1 & 1 \\
-0 & 0 & 0 & 0
-\end{array}\right) \)</p><br><p></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>3</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573662  -->
-  <question type="numerical">
-    <name>
-      <text>Matricos rangas 1 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
--1 & -3 & 2 & 1 \\
--1 & -4 & 2 & 2 \\
--1 & 0 & 3 & -4 \\
-1 & 4 & -3 & 0
-\end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
-1 & 0 & 0 & -2 \\
-0 & 1 & 0 & -1 \\
-0 & 0 & 1 & -2 \\
-0 & 0 & 0 & 0
-\end{array}\right) \)</p><br><p></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>3</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573662  -->
-  <question type="numerical">
-    <name>
-      <text>Matricos rangas 20 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
-1 & 4 & 1 & -3 \\
-1 & 5 & 2 & -2 \\
-1 & 6 & 4 & 2 \\
-1 & 0 & -2 & -3
-\end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
-1 & 0 & 0 & 0 \\
-0 & 1 & 0 & 0 \\
-0 & 0 & 1 & 0 \\
-0 & 0 & 0 & 1
-\end{array}\right) \)</p><br><p></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>4</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573662  -->
-  <question type="numerical">
-    <name>
-      <text>Matricos rangas 2 variantas</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrrr}
@@ -501,19 +345,253 @@
 <!-- question: 573662  -->
   <question type="numerical">
     <name>
-      <text>Matricos rangas 3 variantas</text>
+      <text>Matricos rangas 19 variantas</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
-1 & -2 & 5 & 6 \\
--2 & 1 & -4 & -3 \\
-0 & 0 & 1 & 1 \\
-0 & -2 & 5 & 7
+-1 & -1 & -1 & 3 \\
+-1 & -2 & 1 & 5 \\
+1 & 3 & -3 & -7 \\
+-1 & 0 & -3 & 1 \\
+0 & -3 & 6 & 6
 \end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
-1 & 0 & 0 & -1 \\
+1 & 0 & 3 & -1 \\
+0 & 1 & -2 & -2 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0
+\end{array}\right) \)</p><br><p></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573662  -->
+  <question type="numerical">
+    <name>
+      <text>Matricos rangas 1 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
+-1 & -2 & 2 & 1 \\
+-2 & -5 & 6 & 6 \\
+2 & 5 & -5 & -3 \\
+-1 & -1 & 1 & 0
+\end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
+1 & 0 & 0 & 1 \\
+0 & 1 & 0 & 2 \\
+0 & 0 & 1 & 3 \\
+0 & 0 & 0 & 0
+\end{array}\right) \)</p><br><p></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>3</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573662  -->
+  <question type="numerical">
+    <name>
+      <text>Matricos rangas 20 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
+1 & 1 & -4 & 5 \\
+-3 & 4 & -2 & 6 \\
+-3 & 1 & 4 & -3 \\
+0 & 1 & -2 & 3 \\
+1 & -3 & 4 & -7
+\end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
+1 & 0 & -2 & 2 \\
+0 & 1 & -2 & 3 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0
+\end{array}\right) \)</p><br><p></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573662  -->
+  <question type="numerical">
+    <name>
+      <text>Matricos rangas 2 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrrr}
+1 & -2 & -5 & -3 & -5 \\
+-1 & 3 & 6 & 4 & 7 \\
+-1 & 1 & 4 & 2 & 3 \\
+0 & -2 & -2 & -2 & -4
+\end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrrr}
+1 & 0 & -3 & -1 & -1 \\
+0 & 1 & 1 & 1 & 2 \\
+0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0
+\end{array}\right) \)</p><br><p></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573662  -->
+  <question type="numerical">
+    <name>
+      <text>Matricos rangas 3 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
+1 & 1 & 0 & -1 \\
+4 & 5 & -1 & 0 \\
+-5 & -4 & 0 & 4 \\
+-5 & -7 & 1 & 3
+\end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
+\end{array}\right) \)</p><br><p></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>4</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573662  -->
+  <question type="numerical">
+    <name>
+      <text>Matricos rangas 4 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
+1 & 1 & -1 & 3 \\
+-1 & 0 & 2 & -2 \\
+2 & -1 & -5 & 3 \\
+0 & 4 & 4 & 4 \\
+1 & 2 & 0 & 4
+\end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
+1 & 0 & -2 & 2 \\
+0 & 1 & 1 & 1 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0
+\end{array}\right) \)</p><br><p></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573662  -->
+  <question type="numerical">
+    <name>
+      <text>Matricos rangas 5 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
+-1 & -2 & -5 & -5 \\
+2 & 3 & 5 & 6 \\
+2 & 3 & 6 & 7 \\
+-5 & -5 & 5 & 0
+\end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
+1 & 0 & 0 & 2 \\
 0 & 1 & 0 & -1 \\
 0 & 0 & 1 & 1 \\
 0 & 0 & 0 & 0
@@ -539,7 +617,85 @@
 <!-- question: 573662  -->
   <question type="numerical">
     <name>
-      <text>Matricos rangas 4 variantas</text>
+      <text>Matricos rangas 6 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
+-1 & -6 & -4 & 7 \\
+-1 & 3 & 5 & -2 \\
+0 & 4 & 4 & -4 \\
+-1 & -2 & 0 & 3 \\
+2 & 0 & -4 & -2
+\end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
+1 & 0 & -2 & -1 \\
+0 & 1 & 1 & -1 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0
+\end{array}\right) \)</p><br><p></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573662  -->
+  <question type="numerical">
+    <name>
+      <text>Matricos rangas 7 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
+1 & 1 & -1 & 0 \\
+1 & 1 & 0 & 2 \\
+0 & -1 & -2 & -4 \\
+2 & 1 & -5 & -6
+\end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
+1 & 0 & 0 & 2 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 2 \\
+0 & 0 & 0 & 0
+\end{array}\right) \)</p><br><p></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>3</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573662  -->
+  <question type="numerical">
+    <name>
+      <text>Matricos rangas 8 variantas</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
@@ -579,20 +735,20 @@
 <!-- question: 573662  -->
   <question type="numerical">
     <name>
-      <text>Matricos rangas 5 variantas</text>
+      <text>Matricos rangas 9 variantas</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrrr}
-1 & -2 & 0 & -1 & 1 \\
--3 & 7 & -1 & 4 & -2 \\
--1 & -3 & 5 & -4 & -6 \\
-2 & -1 & -3 & 1 & 5
+-3 & -7 & 4 & -1 & 5 \\
+0 & 1 & -1 & 1 & -2 \\
+1 & 0 & 1 & -2 & 3 \\
+-2 & -5 & 3 & -1 & 4
 \end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrrr}
-1 & 0 & -2 & 1 & 3 \\
-0 & 1 & -1 & 1 & 1 \\
+1 & 0 & 1 & -2 & 3 \\
+0 & 1 & -1 & 1 & -2 \\
 0 & 0 & 0 & 0 & 0 \\
 0 & 0 & 0 & 0 & 0
 \end{array}\right) \)</p><br><p></p>]]></text>
@@ -603,162 +759,6 @@
     <idnumber></idnumber>
     <answer fraction="100" format="moodle_auto_format">
       <text>2</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573662  -->
-  <question type="numerical">
-    <name>
-      <text>Matricos rangas 6 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
--1 & 2 & 3 & -5 \\
--1 & -1 & -3 & 4 \\
-0 & 2 & 4 & -6 \\
-1 & 0 & 1 & -1 \\
-1 & 2 & 5 & -7
-\end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
-1 & 0 & 1 & -1 \\
-0 & 1 & 2 & -3 \\
-0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0
-\end{array}\right) \)</p><br><p></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>2</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573662  -->
-  <question type="numerical">
-    <name>
-      <text>Matricos rangas 7 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
-1 & 0 & -4 & -7 \\
-0 & 1 & -5 & -4 \\
-1 & -1 & 2 & -2 \\
-0 & -1 & 4 & 3
-\end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
-1 & 0 & 0 & -3 \\
-0 & 1 & 0 & 1 \\
-0 & 0 & 1 & 1 \\
-0 & 0 & 0 & 0
-\end{array}\right) \)</p><br><p></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>3</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573662  -->
-  <question type="numerical">
-    <name>
-      <text>Matricos rangas 8 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
-1 & -3 & -3 & -4 \\
-2 & -5 & -4 & -6 \\
--2 & 3 & 0 & 2 \\
-0 & -1 & -2 & -2 \\
--1 & 1 & -1 & 0
-\end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
-1 & 0 & 3 & 2 \\
-0 & 1 & 2 & 2 \\
-0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0
-\end{array}\right) \)</p><br><p></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>2</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573662  -->
-  <question type="numerical">
-    <name>
-      <text>Matricos rangas 9 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Suskaičiuokite matricos</p><p dir="ltr" style="text-align: left;">\( \left(\begin{array}{rrrr}
-0 & 1 & 1 & 1 \\
--1 & -4 & -2 & -1 \\
-1 & 2 & 1 & 0 \\
-0 & -5 & -7 & -7
-\end{array}\right) \)<br></p><p dir="ltr" style="text-align: left;">rangą.</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Redukuotas trapecinis pavidalas</p><p dir="ltr">\( \left(\begin{array}{rrrr}
-1 & 0 & 0 & -1 \\
-0 & 1 & 0 & 0 \\
-0 & 0 & 1 & 1 \\
-0 & 0 & 0 & 0
-\end{array}\right) \)</p><br><p></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>3</text>
       <feedback format="html">
         <text></text>
       </feedback>

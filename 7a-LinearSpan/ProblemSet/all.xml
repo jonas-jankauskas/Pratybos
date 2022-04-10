@@ -6,24 +6,24 @@
       <text>Tiesinis apvalkalas, 10 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(1,\,2,\,5,\,7\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,-1,\,-1,\,1\right), \qquad v_2 = \left(-4,\,5,\,6,\,-2\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(-2,\,0,\,7,\,-5\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(-3,\,2,\,7,\,-4\right), \qquad v_2 = \left(-1,\,-1,\,5,\,-4\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
-1 & -1 & -1 & 1 \\
--4 & 5 & 6 & -2
+-3 & 2 & 7 & -4 \\
+-1 & -1 & 5 & -4
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 1 & 3 \\
-0 & 1 & 2 & 2
+1 & 1 & -5 & 4 \\
+0 & 5 & -8 & 8
 \end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
-1 & -1 & -1 & 1 \\
--4 & 5 & 6 & -2 \\
-1 & 2 & 5 & 7
+-3 & 2 & 7 & -4 \\
+-1 & -1 & 5 & -4 \\
+-2 & 0 & 7 & -5
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 1 & 3 \\
-0 & 1 & 2 & 2 \\
-0 & 0 & 0 & 0
-\end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 2\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A = \text{ rg }B\), vektorius \(v\) <strong>priklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
+1 & 0 & 0 & -1 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & -1
+\end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 3\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A &lt \text{ rg }B\), vektorius \(v\) <strong>nepriklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -44,13 +44,13 @@
     </incorrectfeedback>
     <shownumcorrect/>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) nepriklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) priklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) priklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) nepriklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -63,22 +63,22 @@
       <text>Tiesinis apvalkalas, 11 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(1,\,2,\,-3,\,7\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,0,\,-1,\,1\right), \qquad v_2 = \left(-4,\,1,\,3,\,-1\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(1,\,2,\,1,\,4\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(-1,\,-3,\,-3,\,-5\right), \qquad v_2 = \left(-1,\,-4,\,-5,\,-6\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
-1 & 0 & -1 & 1 \\
--4 & 1 & 3 & -1
+-1 & -3 & -3 & -5 \\
+-1 & -4 & -5 & -6
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & -1 & 1 \\
-0 & 1 & -1 & 3
+1 & 0 & -3 & 2 \\
+0 & 1 & 2 & 1
 \end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
-1 & 0 & -1 & 1 \\
--4 & 1 & 3 & -1 \\
-1 & 2 & -3 & 7
+-1 & -3 & -3 & -5 \\
+-1 & -4 & -5 & -6 \\
+1 & 2 & 1 & 4
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & -1 & 1 \\
-0 & 1 & -1 & 3 \\
+1 & 0 & -3 & 2 \\
+0 & 1 & 2 & 1 \\
 0 & 0 & 0 & 0
 \end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 2\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A = \text{ rg }B\), vektorius \(v\) <strong>priklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
     </generalfeedback>
@@ -120,23 +120,23 @@
       <text>Tiesinis apvalkalas, 12 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(-1,\,1,\,1,\,4\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(-1,\,0,\,-3,\,2\right), \qquad v_2 = \left(1,\,-1,\,0,\,-4\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(-4,\,-4,\,5,\,-6\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,2,\,2,\,-5\right), \qquad v_2 = \left(0,\,1,\,3,\,-6\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
--1 & 0 & -3 & 2 \\
-1 & -1 & 0 & -4
+1 & 2 & 2 & -5 \\
+0 & 1 & 3 & -6
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 3 & -2 \\
-0 & 1 & 3 & 2
+1 & 0 & -4 & 7 \\
+0 & 1 & 3 & -6
 \end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
--1 & 0 & -3 & 2 \\
-1 & -1 & 0 & -4 \\
--1 & 1 & 1 & 4
+1 & 2 & 2 & -5 \\
+0 & 1 & 3 & -6 \\
+-4 & -4 & 5 & -6
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 0 & -2 \\
-0 & 1 & 0 & 2 \\
-0 & 0 & 1 & 0
+1 & 0 & 0 & -1 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & -2
 \end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 3\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A &lt \text{ rg }B\), vektorius \(v\) <strong>nepriklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
@@ -177,22 +177,22 @@
       <text>Tiesinis apvalkalas, 13 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(-1,\,0,\,-2,\,-2\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,2,\,-4,\,6\right), \qquad v_2 = \left(0,\,1,\,-3,\,2\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(-1,\,0,\,2,\,1\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,2,\,2,\,-7\right), \qquad v_2 = \left(0,\,1,\,2,\,-3\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
-1 & 2 & -4 & 6 \\
-0 & 1 & -3 & 2
+1 & 2 & 2 & -7 \\
+0 & 1 & 2 & -3
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 2 & 2 \\
-0 & 1 & -3 & 2
+1 & 0 & -2 & -1 \\
+0 & 1 & 2 & -3
 \end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
-1 & 2 & -4 & 6 \\
-0 & 1 & -3 & 2 \\
--1 & 0 & -2 & -2
+1 & 2 & 2 & -7 \\
+0 & 1 & 2 & -3 \\
+-1 & 0 & 2 & 1
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 2 & 2 \\
-0 & 1 & -3 & 2 \\
+1 & 0 & -2 & -1 \\
+0 & 1 & 2 & -3 \\
 0 & 0 & 0 & 0
 \end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 2\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A = \text{ rg }B\), vektorius \(v\) <strong>priklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
     </generalfeedback>
@@ -234,23 +234,23 @@
       <text>Tiesinis apvalkalas, 14 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(1,\,0,\,6,\,-3\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(2,\,1,\,6,\,-7\right), \qquad v_2 = \left(-2,\,-1,\,-5,\,7\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(-2,\,-3,\,-1,\,-1\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,1,\,2,\,3\right), \qquad v_2 = \left(-1,\,0,\,-4,\,-7\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
-2 & 1 & 6 & -7 \\
--2 & -1 & -5 & 7
+1 & 1 & 2 & 3 \\
+-1 & 0 & -4 & -7
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-2 & 1 & 0 & -7 \\
-0 & 0 & 1 & 0
+1 & 0 & 4 & 7 \\
+0 & 1 & -2 & -4
 \end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
-2 & 1 & 6 & -7 \\
--2 & -1 & -5 & 7 \\
-1 & 0 & 6 & -3
+1 & 1 & 2 & 3 \\
+-1 & 0 & -4 & -7 \\
+-2 & -3 & -1 & -1
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 0 & -3 \\
-0 & 1 & 0 & -1 \\
-0 & 0 & 1 & 0
+1 & 0 & 0 & 3 \\
+0 & 1 & 0 & -2 \\
+0 & 0 & 1 & 1
 \end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 3\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A &lt \text{ rg }B\), vektorius \(v\) <strong>nepriklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
@@ -291,24 +291,24 @@
       <text>Tiesinis apvalkalas, 15 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(1,\,0,\,-4,\,5\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,-1,\,-1,\,7\right), \qquad v_2 = \left(0,\,1,\,-3,\,-3\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(1,\,1,\,1,\,3\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,2,\,0,\,5\right), \qquad v_2 = \left(0,\,1,\,-1,\,2\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
-1 & -1 & -1 & 7 \\
-0 & 1 & -3 & -3
+1 & 2 & 0 & 5 \\
+0 & 1 & -1 & 2
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & -4 & 4 \\
-0 & 1 & -3 & -3
+1 & 0 & 2 & 1 \\
+0 & 1 & -1 & 2
 \end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
-1 & -1 & -1 & 7 \\
-0 & 1 & -3 & -3 \\
-1 & 0 & -4 & 5
+1 & 2 & 0 & 5 \\
+0 & 1 & -1 & 2 \\
+1 & 1 & 1 & 3
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & -4 & 0 \\
-0 & 1 & -3 & 0 \\
-0 & 0 & 0 & 1
-\end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 3\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A &lt \text{ rg }B\), vektorius \(v\) <strong>nepriklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
+1 & 0 & 2 & 1 \\
+0 & 1 & -1 & 2 \\
+0 & 0 & 0 & 0
+\end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 2\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A = \text{ rg }B\), vektorius \(v\) <strong>priklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -329,13 +329,13 @@
     </incorrectfeedback>
     <shownumcorrect/>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) priklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) nepriklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) nepriklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) priklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -346,234 +346,6 @@
   <question type="multichoice">
     <name>
       <text>Tiesinis apvalkalas, 16 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(-1,\,3,\,-2,\,1\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,-3,\,3,\,1\right), \qquad v_2 = \left(1,\,-2,\,2,\,0\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
-1 & -3 & 3 & 1 \\
-1 & -2 & 2 & 0
-\end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 0 & -2 \\
-0 & 1 & -1 & -1
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
-1 & -3 & 3 & 1 \\
-1 & -2 & 2 & 0 \\
--1 & 3 & -2 & 1
-\end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 0 & -2 \\
-0 & 1 & 0 & 1 \\
-0 & 0 & 1 & 2
-\end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 3\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A &lt \text{ rg }B\), vektorius \(v\) <strong>nepriklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="html">
-      <text>Your answer is correct.</text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text>Your answer is partially correct.</text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text>Your answer is incorrect.</text>
-    </incorrectfeedback>
-    <shownumcorrect/>
-    <answer fraction="0" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) priklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) nepriklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 1695012  -->
-  <question type="multichoice">
-    <name>
-      <text>Tiesinis apvalkalas, 17 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(-1,\,-2,\,-2,\,7\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(-5,\,-2,\,-7,\,5\right), \qquad v_2 = \left(-2,\,-1,\,-3,\,3\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
--5 & -2 & -7 & 5 \\
--2 & -1 & -3 & 3
-\end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 1 & 1 \\
-0 & 1 & 1 & -5
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
--5 & -2 & -7 & 5 \\
--2 & -1 & -3 & 3 \\
--1 & -2 & -2 & 7
-\end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 0 & 3 \\
-0 & 1 & 0 & -3 \\
-0 & 0 & 1 & -2
-\end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 3\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A &lt \text{ rg }B\), vektorius \(v\) <strong>nepriklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="html">
-      <text>Your answer is correct.</text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text>Your answer is partially correct.</text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text>Your answer is incorrect.</text>
-    </incorrectfeedback>
-    <shownumcorrect/>
-    <answer fraction="0" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) priklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) nepriklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 1695012  -->
-  <question type="multichoice">
-    <name>
-      <text>Tiesinis apvalkalas, 18 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(1,\,-1,\,0,\,-3\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(0,\,-1,\,1,\,-1\right), \qquad v_2 = \left(1,\,-4,\,3,\,-6\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
-0 & -1 & 1 & -1 \\
-1 & -4 & 3 & -6
-\end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & -1 & -2 \\
-0 & 1 & -1 & 1
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
-0 & -1 & 1 & -1 \\
-1 & -4 & 3 & -6 \\
-1 & -1 & 0 & -3
-\end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & -1 & -2 \\
-0 & 1 & -1 & 1 \\
-0 & 0 & 0 & 0
-\end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 2\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A = \text{ rg }B\), vektorius \(v\) <strong>priklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="html">
-      <text>Your answer is correct.</text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text>Your answer is partially correct.</text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text>Your answer is incorrect.</text>
-    </incorrectfeedback>
-    <shownumcorrect/>
-    <answer fraction="0" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) nepriklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) priklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 1695012  -->
-  <question type="multichoice">
-    <name>
-      <text>Tiesinis apvalkalas, 19 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(0,\,-3,\,-3,\,-3\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(-1,\,-1,\,-3,\,0\right), \qquad v_2 = \left(-1,\,-2,\,-4,\,-1\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
--1 & -1 & -3 & 0 \\
--1 & -2 & -4 & -1
-\end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 2 & -1 \\
-0 & 1 & 1 & 1
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
--1 & -1 & -3 & 0 \\
--1 & -2 & -4 & -1 \\
-0 & -3 & -3 & -3
-\end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 2 & -1 \\
-0 & 1 & 1 & 1 \\
-0 & 0 & 0 & 0
-\end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 2\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A = \text{ rg }B\), vektorius \(v\) <strong>priklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="html">
-      <text>Your answer is correct.</text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text>Your answer is partially correct.</text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text>Your answer is incorrect.</text>
-    </incorrectfeedback>
-    <shownumcorrect/>
-    <answer fraction="0" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) nepriklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) priklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 1695012  -->
-  <question type="multichoice">
-    <name>
-      <text>Tiesinis apvalkalas, 1 variantas</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(0,\,-3,\,-3,\,6\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,3,\,2,\,-7\right), \qquad v_2 = \left(-1,\,-2,\,-1,\,5\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
@@ -630,25 +402,25 @@
 <!-- question: 1695012  -->
   <question type="multichoice">
     <name>
-      <text>Tiesinis apvalkalas, 20 variantas</text>
+      <text>Tiesinis apvalkalas, 17 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(-1,\,-2,\,-2,\,-3\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(3,\,4,\,2,\,7\right), \qquad v_2 = \left(-1,\,1,\,4,\,0\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(-1,\,2,\,-3,\,3\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(-2,\,2,\,-4,\,2\right), \qquad v_2 = \left(1,\,-3,\,4,\,-5\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
-3 & 4 & 2 & 7 \\
--1 & 1 & 4 & 0
+-2 & 2 & -4 & 2 \\
+1 & -3 & 4 & -5
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 6 & 10 & 7 \\
-0 & 7 & 14 & 7
+1 & 1 & 0 & 3 \\
+0 & 4 & -4 & 8
 \end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
-3 & 4 & 2 & 7 \\
--1 & 1 & 4 & 0 \\
--1 & -2 & -2 & -3
+-2 & 2 & -4 & 2 \\
+1 & -3 & 4 & -5 \\
+-1 & 2 & -3 & 3
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & -2 & 1 \\
-0 & 1 & 2 & 1 \\
+1 & 0 & 1 & 1 \\
+0 & 1 & -1 & 2 \\
 0 & 0 & 0 & 0
 \end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 2\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A = \text{ rg }B\), vektorius \(v\) <strong>priklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
     </generalfeedback>
@@ -687,26 +459,83 @@
 <!-- question: 1695012  -->
   <question type="multichoice">
     <name>
-      <text>Tiesinis apvalkalas, 2 variantas</text>
+      <text>Tiesinis apvalkalas, 18 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(-1,\,-1,\,3,\,-4\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(-2,\,-3,\,5,\,-6\right), \qquad v_2 = \left(0,\,1,\,2,\,-4\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(-1,\,1,\,0,\,-3\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(-2,\,0,\,-2,\,-2\right), \qquad v_2 = \left(0,\,1,\,1,\,-2\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
--2 & -3 & 5 & -6 \\
-0 & 1 & 2 & -4
+-2 & 0 & -2 & -2 \\
+0 & 1 & 1 & -2
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-2 & 0 & -11 & 18 \\
-0 & 1 & 2 & -4
+2 & 0 & 2 & 2 \\
+0 & 1 & 1 & -2
 \end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
--2 & -3 & 5 & -6 \\
-0 & 1 & 2 & -4 \\
--1 & -1 & 3 & -4
+-2 & 0 & -2 & -2 \\
+0 & 1 & 1 & -2 \\
+-1 & 1 & 0 & -3
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 0 & -2 \\
-0 & 1 & 0 & 0 \\
-0 & 0 & 1 & -2
+1 & 0 & 1 & 1 \\
+0 & 1 & 1 & -2 \\
+0 & 0 & 0 & 0
+\end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 2\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A = \text{ rg }B\), vektorius \(v\) <strong>priklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) nepriklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) priklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1695012  -->
+  <question type="multichoice">
+    <name>
+      <text>Tiesinis apvalkalas, 19 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(-1,\,-1,\,1,\,1\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(3,\,3,\,-2,\,0\right), \qquad v_2 = \left(0,\,1,\,1,\,5\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
+3 & 3 & -2 & 0 \\
+0 & 1 & 1 & 5
+\end{array}\right) \sim \left(\begin{array}{rrrr}
+3 & 0 & -5 & -15 \\
+0 & 1 & 1 & 5
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
+3 & 3 & -2 & 0 \\
+0 & 1 & 1 & 5 \\
+-1 & -1 & 1 & 1
+\end{array}\right) \sim \left(\begin{array}{rrrr}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 2 \\
+0 & 0 & 1 & 3
 \end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 3\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A &lt \text{ rg }B\), vektorius \(v\) <strong>nepriklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
@@ -744,27 +573,27 @@
 <!-- question: 1695012  -->
   <question type="multichoice">
     <name>
-      <text>Tiesinis apvalkalas, 3 variantas</text>
+      <text>Tiesinis apvalkalas, 1 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(0,\,1,\,-1,\,3\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,0,\,3,\,2\right), \qquad v_2 = \left(1,\,-2,\,5,\,-4\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(-1,\,-7,\,4,\,3\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,3,\,-3,\,-4\right), \qquad v_2 = \left(-1,\,-2,\,3,\,5\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
-1 & 0 & 3 & 2 \\
-1 & -2 & 5 & -4
+1 & 3 & -3 & -4 \\
+-1 & -2 & 3 & 5
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 3 & 2 \\
-0 & 2 & -2 & 6
+1 & 0 & -3 & -7 \\
+0 & 1 & 0 & 1
 \end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
-1 & 0 & 3 & 2 \\
-1 & -2 & 5 & -4 \\
-0 & 1 & -1 & 3
+1 & 3 & -3 & -4 \\
+-1 & -2 & 3 & 5 \\
+-1 & -7 & 4 & 3
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 3 & 2 \\
-0 & 1 & -1 & 3 \\
-0 & 0 & 0 & 0
-\end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 2\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A = \text{ rg }B\), vektorius \(v\) <strong>priklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
+1 & 0 & 0 & 2 \\
+0 & 1 & 0 & 1 \\
+0 & 0 & 1 & 3
+\end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 3\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A &lt \text{ rg }B\), vektorius \(v\) <strong>nepriklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -785,13 +614,13 @@
     </incorrectfeedback>
     <shownumcorrect/>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) nepriklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) priklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) priklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) nepriklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -801,82 +630,25 @@
 <!-- question: 1695012  -->
   <question type="multichoice">
     <name>
-      <text>Tiesinis apvalkalas, 4 variantas</text>
+      <text>Tiesinis apvalkalas, 20 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(1,\,-1,\,-1,\,3\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,-5,\,3,\,7\right), \qquad v_2 = \left(1,\,-4,\,2,\,6\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(-3,\,2,\,4,\,-5\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(-5,\,3,\,6,\,-7\right), \qquad v_2 = \left(1,\,0,\,1,\,-4\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
-1 & -5 & 3 & 7 \\
-1 & -4 & 2 & 6
+-5 & 3 & 6 & -7 \\
+1 & 0 & 1 & -4
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & -2 & 2 \\
-0 & 1 & -1 & -1
+1 & 0 & 1 & -4 \\
+0 & 3 & 11 & -27
 \end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
-1 & -5 & 3 & 7 \\
-1 & -4 & 2 & 6 \\
-1 & -1 & -1 & 3
+-5 & 3 & 6 & -7 \\
+1 & 0 & 1 & -4 \\
+-3 & 2 & 4 & -5
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & -2 & 2 \\
-0 & 1 & -1 & -1 \\
-0 & 0 & 0 & 0
-\end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 2\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A = \text{ rg }B\), vektorius \(v\) <strong>priklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="html">
-      <text>Your answer is correct.</text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text>Your answer is partially correct.</text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text>Your answer is incorrect.</text>
-    </incorrectfeedback>
-    <shownumcorrect/>
-    <answer fraction="0" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) nepriklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) priklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 1695012  -->
-  <question type="multichoice">
-    <name>
-      <text>Tiesinis apvalkalas, 5 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(-2,\,-1,\,1,\,-2\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,1,\,-1,\,1\right), \qquad v_2 = \left(0,\,1,\,-2,\,3\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
-1 & 1 & -1 & 1 \\
-0 & 1 & -2 & 3
-\end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 1 & -2 \\
-0 & 1 & -2 & 3
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
-1 & 1 & -1 & 1 \\
-0 & 1 & -2 & 3 \\
--2 & -1 & 1 & -2
-\end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 0 & 1 \\
-0 & 1 & 0 & -3 \\
+1 & 0 & 0 & -1 \\
+0 & 1 & 0 & 2 \\
 0 & 0 & 1 & -3
 \end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 3\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A &lt \text{ rg }B\), vektorius \(v\) <strong>nepriklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
     </generalfeedback>
@@ -915,26 +687,83 @@
 <!-- question: 1695012  -->
   <question type="multichoice">
     <name>
-      <text>Tiesinis apvalkalas, 6 variantas</text>
+      <text>Tiesinis apvalkalas, 2 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(1,\,1,\,-1,\,3\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,2,\,-6,\,4\right), \qquad v_2 = \left(0,\,1,\,-4,\,1\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(-1,\,2,\,-7,\,4\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(0,\,-1,\,2,\,-3\right), \qquad v_2 = \left(1,\,0,\,3,\,2\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
-1 & 2 & -6 & 4 \\
-0 & 1 & -4 & 1
+0 & -1 & 2 & -3 \\
+1 & 0 & 3 & 2
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 2 & 2 \\
-0 & 1 & -4 & 1
+1 & 0 & 3 & 2 \\
+0 & 1 & -2 & 3
 \end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
-1 & 2 & -6 & 4 \\
-0 & 1 & -4 & 1 \\
-1 & 1 & -1 & 3
+0 & -1 & 2 & -3 \\
+1 & 0 & 3 & 2 \\
+-1 & 2 & -7 & 4
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 0 & 2 \\
-0 & 1 & 0 & 1 \\
-0 & 0 & 1 & 0
+1 & 0 & 3 & 2 \\
+0 & 1 & -2 & 3 \\
+0 & 0 & 0 & 0
+\end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 2\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A = \text{ rg }B\), vektorius \(v\) <strong>priklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) nepriklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) priklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1695012  -->
+  <question type="multichoice">
+    <name>
+      <text>Tiesinis apvalkalas, 3 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(0,\,3,\,-2,\,-7\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,-1,\,3,\,6\right), \qquad v_2 = \left(1,\,0,\,2,\,3\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
+1 & -1 & 3 & 6 \\
+1 & 0 & 2 & 3
+\end{array}\right) \sim \left(\begin{array}{rrrr}
+1 & 0 & 2 & 3 \\
+0 & 1 & -1 & -3
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
+1 & -1 & 3 & 6 \\
+1 & 0 & 2 & 3 \\
+0 & 3 & -2 & -7
+\end{array}\right) \sim \left(\begin{array}{rrrr}
+1 & 0 & 0 & -1 \\
+0 & 1 & 0 & -1 \\
+0 & 0 & 1 & 2
 \end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 3\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A &lt \text{ rg }B\), vektorius \(v\) <strong>nepriklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
@@ -972,25 +801,196 @@
 <!-- question: 1695012  -->
   <question type="multichoice">
     <name>
-      <text>Tiesinis apvalkalas, 7 variantas</text>
+      <text>Tiesinis apvalkalas, 4 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(1,\,4,\,-3,\,2\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,5,\,-6,\,4\right), \qquad v_2 = \left(-1,\,-4,\,4,\,-3\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(1,\,0,\,-3,\,3\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(-2,\,3,\,-4,\,-2\right), \qquad v_2 = \left(-1,\,1,\,0,\,-2\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
-1 & 5 & -6 & 4 \\
--1 & -4 & 4 & -3
+-2 & 3 & -4 & -2 \\
+-1 & 1 & 0 & -2
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 4 & -1 \\
+1 & 0 & -4 & 4 \\
+0 & 1 & -4 & 2
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
+-2 & 3 & -4 & -2 \\
+-1 & 1 & 0 & -2 \\
+1 & 0 & -3 & 3
+\end{array}\right) \sim \left(\begin{array}{rrrr}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & -2 \\
+0 & 0 & 1 & -1
+\end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 3\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A &lt \text{ rg }B\), vektorius \(v\) <strong>nepriklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) priklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) nepriklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1695012  -->
+  <question type="multichoice">
+    <name>
+      <text>Tiesinis apvalkalas, 5 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(2,\,3,\,-4,\,5\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,3,\,-5,\,4\right), \qquad v_2 = \left(-1,\,-2,\,3,\,-3\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
+1 & 3 & -5 & 4 \\
+-1 & -2 & 3 & -3
+\end{array}\right) \sim \left(\begin{array}{rrrr}
+1 & 0 & 1 & 1 \\
 0 & 1 & -2 & 1
 \end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
-1 & 5 & -6 & 4 \\
--1 & -4 & 4 & -3 \\
-1 & 4 & -3 & 2
+1 & 3 & -5 & 4 \\
+-1 & -2 & 3 & -3 \\
+2 & 3 & -4 & 5
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & 0 & 3 \\
-0 & 1 & 0 & -1 \\
+1 & 0 & 1 & 1 \\
+0 & 1 & -2 & 1 \\
+0 & 0 & 0 & 0
+\end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 2\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A = \text{ rg }B\), vektorius \(v\) <strong>priklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) nepriklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) priklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1695012  -->
+  <question type="multichoice">
+    <name>
+      <text>Tiesinis apvalkalas, 6 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(-1,\,1,\,-4,\,-4\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,1,\,-2,\,2\right), \qquad v_2 = \left(2,\,3,\,-7,\,3\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
+1 & 1 & -2 & 2 \\
+2 & 3 & -7 & 3
+\end{array}\right) \sim \left(\begin{array}{rrrr}
+1 & 0 & 1 & 3 \\
+0 & 1 & -3 & -1
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
+1 & 1 & -2 & 2 \\
+2 & 3 & -7 & 3 \\
+-1 & 1 & -4 & -4
+\end{array}\right) \sim \left(\begin{array}{rrrr}
+1 & 0 & 1 & 3 \\
+0 & 1 & -3 & -1 \\
+0 & 0 & 0 & 0
+\end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 2\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A = \text{ rg }B\), vektorius \(v\) <strong>priklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) nepriklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Vektorius \(v\) priklauso tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\).<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1695012  -->
+  <question type="multichoice">
+    <name>
+      <text>Tiesinis apvalkalas, 7 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(0,\,-3,\,1,\,-1\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,-1,\,5,\,-3\right), \qquad v_2 = \left(1,\,6,\,3,\,-1\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
+1 & -1 & 5 & -3 \\
+1 & 6 & 3 & -1
+\end{array}\right) \sim \left(\begin{array}{rrrr}
+1 & 6 & 3 & -1 \\
+0 & 7 & -2 & 2
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
+1 & -1 & 5 & -3 \\
+1 & 6 & 3 & -1 \\
+0 & -3 & 1 & -1
+\end{array}\right) \sim \left(\begin{array}{rrrr}
+1 & 0 & 0 & 2 \\
+0 & 1 & 0 & 0 \\
 0 & 0 & 1 & -1
 \end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 3\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A &lt \text{ rg }B\), vektorius \(v\) <strong>nepriklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
     </generalfeedback>
@@ -1032,23 +1032,23 @@
       <text>Tiesinis apvalkalas, 8 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(1,\,1,\,-2,\,-2\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(1,\,-5,\,3,\,7\right), \qquad v_2 = \left(0,\,1,\,-1,\,-2\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(-1,\,-2,\,-2,\,7\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(-5,\,-2,\,-7,\,5\right), \qquad v_2 = \left(-2,\,-1,\,-3,\,3\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
-1 & -5 & 3 & 7 \\
-0 & 1 & -1 & -2
+-5 & -2 & -7 & 5 \\
+-2 & -1 & -3 & 3
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & -2 & -3 \\
-0 & 1 & -1 & -2
+1 & 0 & 1 & 1 \\
+0 & 1 & 1 & -5
 \end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
-1 & -5 & 3 & 7 \\
-0 & 1 & -1 & -2 \\
-1 & 1 & -2 & -2
+-5 & -2 & -7 & 5 \\
+-2 & -1 & -3 & 3 \\
+-1 & -2 & -2 & 7
 \end{array}\right) \sim \left(\begin{array}{rrrr}
 1 & 0 & 0 & 3 \\
-0 & 1 & 0 & 1 \\
-0 & 0 & 1 & 3
+0 & 1 & 0 & -3 \\
+0 & 0 & 1 & -2
 \end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 3\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A &lt \text{ rg }B\), vektorius \(v\) <strong>nepriklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
@@ -1089,22 +1089,22 @@
       <text>Tiesinis apvalkalas, 9 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(1,\,0,\,-2,\,2\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(-1,\,1,\,0,\,-1\right), \qquad v_2 = \left(-2,\,-1,\,6,\,-5\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar vektorius</p><p dir="ltr" style="text-align: left;">\(v=\left(1,\,1,\,-3,\,0\right)\)</p><p dir="ltr" style="text-align: left;">priklauso vektorių sistemos</p><p dir="ltr" style="text-align: left;">\(v_1 = \left(3,\,1,\,-7,\,2\right), \qquad v_2 = \left(4,\,-3,\,-5,\,7\right)\)</p><p dir="ltr" style="text-align: left;">tiesiniam apvalkalui \(&lt;v_1,v_2&gt;\)?<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos \(A\), kurios eilutės \(v_1\),\(v_2\)</p><p dir="ltr" style="text-align: left;">\( A = \left(\begin{array}{rrrr}
--1 & 1 & 0 & -1 \\
--2 & -1 & 6 & -5
+3 & 1 & -7 & 2 \\
+4 & -3 & -5 & 7
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 2 & -6 & 4 \\
-0 & 3 & -6 & 3
+1 & 9 & -11 & -8 \\
+0 & 13 & -13 & -13
 \end{array}\right)\)</p><p dir="ltr" style="text-align: left;">rangas yra \(\text{rg }A=2\).</p><p dir="ltr" style="text-align: left;">Matricos \(B\), gautos prie matricos \(A\) prijungus eilutę \(v\)</p><p dir="ltr" style="text-align: left;">\( B = \left(\begin{array}{rrrr}
--1 & 1 & 0 & -1 \\
--2 & -1 & 6 & -5 \\
-1 & 0 & -2 & 2
+3 & 1 & -7 & 2 \\
+4 & -3 & -5 & 7 \\
+1 & 1 & -3 & 0
 \end{array}\right) \sim \left(\begin{array}{rrrr}
-1 & 0 & -2 & 2 \\
-0 & 1 & -2 & 1 \\
+1 & 0 & -2 & 1 \\
+0 & 1 & -1 & -1 \\
 0 & 0 & 0 & 0
 \end{array}\right) \)</p><p dir="ltr" style="text-align: left;">rangas \( \text{rg } B= 2\).</p><p dir="ltr" style="text-align: left;">Kadangi \(\text{rg }A = \text{ rg }B\), vektorius \(v\) <strong>priklauso</strong> vektorių sistemos \(v_1,v_2\) tiesiniam apvalkalui.<br></p>]]></text>
     </generalfeedback>

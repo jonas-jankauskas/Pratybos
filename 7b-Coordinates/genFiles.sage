@@ -46,7 +46,7 @@ for nr, tp in enumerate(problem_data):
     subs={' ':''}
     answ_str = make_subs(str(coord), subs)
 
-    sys_str = latex_LSE(mat.transpose(), vec, 'c')
+    sys_str = latex_SLE(mat.transpose(), vec, 'c')
 	
     subs = {'$id$': str(nr+1), '$v$': latex(vec), '$v1$': latex(v1), '$v2$': latex(v2), '$v3$': latex(v3), '$answ$': answ_str, '$sys$': sys_str}
     ntxt = make_subs(otxt, subs)

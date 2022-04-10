@@ -6,346 +6,10 @@
       <text>Lagranžo polinomas 10 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(1)=-2, \qquad f(2)=-8, \qquad f(3)=-20 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-1)=? \)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-2)=16, \qquad f(1)=-5, \qquad f(2)=4 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(3)=? \)</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= -3x^{2} + 3x - 2\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>-8</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573681  -->
-  <question type="numerical">
-    <name>
-      <text>Lagranžo polinomas 11 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-3)=-5, \qquad f(-2)=-4, \qquad f(-1)=-1 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(1)=? \)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= x^{2} + 6x + 4\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>11</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573681  -->
-  <question type="numerical">
-    <name>
-      <text>Lagranžo polinomas 12 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(1)=1, \qquad f(2)=8, \qquad f(3)=19 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-3)=? \)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= 2x^{2} + x - 2\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>13</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573681  -->
-  <question type="numerical">
-    <name>
-      <text>Lagranžo polinomas 13 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-1)=8, \qquad f(2)=17, \qquad f(3)=28 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-3)=? \)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= 2x^{2} + x + 7\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>22</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573681  -->
-  <question type="numerical">
-    <name>
-      <text>Lagranžo polinomas 14 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-3)=-9, \qquad f(-1)=-5, \qquad f(3)=-21 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(2)=? \)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= -x^{2} - 2x - 6\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>-14</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573681  -->
-  <question type="numerical">
-    <name>
-      <text>Lagranžo polinomas 15 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-2)=-25, \qquad f(-1)=-10, \qquad f(2)=-1 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(1)=? \)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= -3x^{2} + 6x - 1\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>2</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573681  -->
-  <question type="numerical">
-    <name>
-      <text>Lagranžo polinomas 16 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-2)=7, \qquad f(-1)=2, \qquad f(2)=23 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-3)=? \)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= 3x^{2} + 4x + 3\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>18</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573681  -->
-  <question type="numerical">
-    <name>
-      <text>Lagranžo polinomas 17 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-3)=-23, \qquad f(-1)=-9, \qquad f(1)=-3 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(3)=? \)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= -x^{2} + 3x - 5\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>-5</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573681  -->
-  <question type="numerical">
-    <name>
-      <text>Lagranžo polinomas 18 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-2)=-14, \qquad f(-1)=-7, \qquad f(1)=-11 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-3)=? \)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= -3x^{2} - 2x - 6\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>-27</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573681  -->
-  <question type="numerical">
-    <name>
-      <text>Lagranžo polinomas 19 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-2)=18, \qquad f(-1)=5, \qquad f(1)=-3 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(3)=? \)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= 3x^{2} - 4x - 2\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>13</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573681  -->
-  <question type="numerical">
-    <name>
-      <text>Lagranžo polinomas 1 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-3)=-7, \qquad f(1)=1, \qquad f(2)=-7 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-1)=? \)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= -2x^{2} - 2x + 5\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>5</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573681  -->
-  <question type="numerical">
-    <name>
-      <text>Lagranžo polinomas 20 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-3)=9, \qquad f(1)=1, \qquad f(2)=-6 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-2)=? \)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= -x^{2} - 4x + 6\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>10</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-      <tolerance>0</tolerance>
-    </answer>
-    <unitgradingtype>0</unitgradingtype>
-    <unitpenalty>0.1000000</unitpenalty>
-    <showunits>3</showunits>
-    <unitsleft>0</unitsleft>
-  </question>
-
-<!-- question: 573681  -->
-  <question type="numerical">
-    <name>
-      <text>Lagranžo polinomas 2 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-1)=2, \qquad f(1)=-6, \qquad f(2)=5 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-2)=? \)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= 5x^{2} - 4x - 7\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= 4x^{2} - 3x - 6\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -367,20 +31,356 @@
 <!-- question: 573681  -->
   <question type="numerical">
     <name>
-      <text>Lagranžo polinomas 3 variantas</text>
+      <text>Lagranžo polinomas 11 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-1)=7, \qquad f(1)=3, \qquad f(2)=7 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-2)=? \)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-2)=8, \qquad f(-1)=6, \qquad f(1)=-4 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-3)=? \)</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= 2x^{2} - 2x + 3\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= -x^{2} - 5x + 2\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <answer fraction="100" format="moodle_auto_format">
-      <text>15</text>
+      <text>8</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573681  -->
+  <question type="numerical">
+    <name>
+      <text>Lagranžo polinomas 12 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-3)=10, \qquad f(2)=15, \qquad f(3)=22 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(1)=? \)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= x^{2} + 2x + 7\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>10</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573681  -->
+  <question type="numerical">
+    <name>
+      <text>Lagranžo polinomas 13 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-2)=-15, \qquad f(-1)=-3, \qquad f(1)=-9 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(2)=? \)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= -5x^{2} - 3x - 1\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-27</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573681  -->
+  <question type="numerical">
+    <name>
+      <text>Lagranžo polinomas 14 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-2)=-4, \qquad f(-1)=-2, \qquad f(2)=16 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-3)=? \)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= x^{2} + 5x + 2\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-4</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573681  -->
+  <question type="numerical">
+    <name>
+      <text>Lagranžo polinomas 15 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-2)=6, \qquad f(1)=9, \qquad f(2)=14 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-3)=? \)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= x^{2} + 2x + 6\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>9</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573681  -->
+  <question type="numerical">
+    <name>
+      <text>Lagranžo polinomas 16 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(1)=-2, \qquad f(2)=9, \qquad f(3)=30 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-2)=? \)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= 5x^{2} - 4x - 3\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>25</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573681  -->
+  <question type="numerical">
+    <name>
+      <text>Lagranžo polinomas 17 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-3)=24, \qquad f(-2)=16, \qquad f(3)=6 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(1)=? \)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= x^{2} - 3x + 6\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>4</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573681  -->
+  <question type="numerical">
+    <name>
+      <text>Lagranžo polinomas 18 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-2)=28, \qquad f(-1)=9, \qquad f(1)=-5 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(3)=? \)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= 4x^{2} - 7x - 2\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>13</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573681  -->
+  <question type="numerical">
+    <name>
+      <text>Lagranžo polinomas 19 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-3)=5, \qquad f(-1)=3, \qquad f(3)=-25 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(2)=? \)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= -x^{2} - 5x - 1\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-15</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573681  -->
+  <question type="numerical">
+    <name>
+      <text>Lagranžo polinomas 1 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-2)=20, \qquad f(2)=12, \qquad f(3)=25 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-1)=? \)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= 3x^{2} - 2x + 4\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>9</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573681  -->
+  <question type="numerical">
+    <name>
+      <text>Lagranžo polinomas 20 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-2)=1, \qquad f(1)=-2, \qquad f(3)=16 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(2)=? \)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= 2x^{2} + x - 5\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>5</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573681  -->
+  <question type="numerical">
+    <name>
+      <text>Lagranžo polinomas 2 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-2)=-5, \qquad f(-1)=1, \qquad f(3)=5 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-3)=? \)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= -x^{2} + 3x + 5\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-13</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 573681  -->
+  <question type="numerical">
+    <name>
+      <text>Lagranžo polinomas 3 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-3)=-26, \qquad f(-2)=-15, \qquad f(-1)=-6 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(2)=? \)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= -x^{2} + 6x + 1\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>9</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -398,17 +398,17 @@
       <text>Lagranžo polinomas 4 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-3)=-14, \qquad f(-1)=-4, \qquad f(2)=-4 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-2)=? \)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(1)=-1, \qquad f(2)=3, \qquad f(3)=9 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-1)=? \)</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= -x^{2} + x - 2\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= x^{2} + x - 3\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-8</text>
+      <text>-3</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -426,17 +426,17 @@
       <text>Lagranžo polinomas 5 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-3)=26, \qquad f(-2)=15, \qquad f(1)=6 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(3)=? \)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-2)=9, \qquad f(-1)=-3, \qquad f(2)=21 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(1)=? \)</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= 2x^{2} - x + 5\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= 5x^{2} + 3x - 5\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <answer fraction="100" format="moodle_auto_format">
-      <text>20</text>
+      <text>3</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -454,17 +454,17 @@
       <text>Lagranžo polinomas 6 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-3)=-25, \qquad f(-1)=-11, \qquad f(2)=-5 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-2)=? \)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-1)=3, \qquad f(1)=-1, \qquad f(2)=6 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(3)=? \)</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= -x^{2} + 3x - 7\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= 3x^{2} - 2x - 2\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-17</text>
+      <text>19</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -482,17 +482,17 @@
       <text>Lagranžo polinomas 7 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-3)=7, \qquad f(-1)=9, \qquad f(2)=-18 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(1)=? \)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-3)=-2, \qquad f(-2)=-7, \qquad f(1)=2 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(2)=? \)</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= -2x^{2} - 7x + 4\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= 2x^{2} + 5x - 5\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-5</text>
+      <text>13</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -510,17 +510,17 @@
       <text>Lagranžo polinomas 8 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-2)=19, \qquad f(-1)=9, \qquad f(3)=-11 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(1)=? \)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-2)=-5, \qquad f(1)=7, \qquad f(2)=7 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-1)=? \)</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= x^{2} - 7x + 1\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= -x^{2} + 3x + 5\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-5</text>
+      <text>1</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -538,17 +538,17 @@
       <text>Lagranžo polinomas 9 variantas</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-2)=-2, \qquad f(1)=-5, \qquad f(2)=-18 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-1)=? \)</p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Antrojo laipsnio daugianaris&nbsp;\( f(x) \in \mathbb{R}[x]\) įgyja reikšmes</p><p dir="ltr" style="text-align: left;">\( f(-3)=-22, \qquad f(-1)=-6, \qquad f(2)=3 \).</p><p dir="ltr" style="text-align: left;">Kam lygu&nbsp;\( f(-2)=? \)</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= -3x^{2} - 4x + 2\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">\(f(x)= -x^{2} + 4x - 1\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <answer fraction="100" format="moodle_auto_format">
-      <text>3</text>
+      <text>-13</text>
       <feedback format="html">
         <text></text>
       </feedback>
