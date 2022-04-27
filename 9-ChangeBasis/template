@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 1781197  -->
+  <question type="shortanswer">
+    <name>
+      <text>Koordinačių keitimas $id$ variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Duotos dvi erdvės \(\mathbb{R}^$dim$\) bazės: senoji bazė \(\mathcal{A}\)</p><p dir="ltr" style="text-align: left;">\(v_1 = $v1$, \qquad v_2=$v2$, \qquad v_3=$v3$,\)<br></p><p dir="ltr" style="text-align: left;">ir naujoji bazė \(\mathcal{B}\)</p><p dir="ltr" style="text-align: left;"></p><p dir="ltr">\(w_1 = $w1$, \qquad w_2=$w2$, \qquad w_3=$w3$.\)</p><p dir="ltr" style="text-align: left;">Raskite vektoriaus &nbsp;</p><p dir="ltr" style="text-align: left;"> \(u=$expr$\)&nbsp;</p><p dir="ltr" style="text-align: left;">koordinates senojoje bazėje \(\mathcal{A}\).<br></p>Pastaba: atsakymas yra vektorius \((c_1,c_2,c_3)\), kurio koordinatės skiriamos kableliu ir įvedamos su skliaustais, be tarpų ar kitų pašalinių simbolių. Pvz.: \(u=-3v_1+4v_3\) bazėje \(\mathcal{A}\) atsakymas būtų \((-3,0,4)\).<br><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Išplėstinė matrica ir jos Gauso-Žordano pavidalas:</p><p dir="ltr" style="text-align: left;">\( $mat$ \sim $rmat$\)</p><p dir="ltr" style="text-align: left;">Perėjimo matrica iš bazės \(\mathcal{A}\) į bazę&nbsp;\(\mathcal{B}\)</p><p dir="ltr" style="text-align: left;">\(T=$T$\)</p><p dir="ltr" style="text-align: left;">Vektoriaus \(u\) koordinatės bazėje&nbsp;\(\mathcal{A}\) yra</p><p dir="ltr" style="text-align: left;">\(u_{\mathcal{A}}=u_{\mathcal{B}} \cdot T = $vecB$ \cdot $T$ = $answ$\).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>$answ$</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
