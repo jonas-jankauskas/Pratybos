@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 1804386  -->
+  <question type="shortanswer">
+    <name>
+      <text>Kanoninė forma, $id$ variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Pilnųjų kvadratų išskyrimo metodu raskite $dim$ kintamųjų kvadratinės formos</p><p dir="ltr" style="text-align: left;">\($f$\)</p><p dir="ltr" style="text-align: left;">kanoninį pavidalą</p><p dir="ltr" style="text-align: left;">\(g(y_1,y_2,y_3)=c_1y_1^2+c_2y_2^2+c_3y_3^2\).</p><p dir="ltr" style="text-align: left;">Pastaba. Atsakymas - vektorius \((c_1,c_2,c_3)\), kurį sudaro kanoninio pavidalo koeficientai; įvedamas su skliausteliais, be tarpų, koeficientus skiriant kableliais. Pvz.: kanoninės formos \(4y_1^2-5y_2^2+7y_3^2\) atsakymas&nbsp;\((4,-5,7)\).</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Kanoninis pavidalas:</p><p dir="ltr" style="text-align: left;">\($g$.\)</p><p dir="ltr" style="text-align: left;">Jį atitinkantis kintamųjų keitinis:</p><p dir="ltr" style="text-align: left;">\($eqs$\)</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>$answ$</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 1805259  -->
+  <question type="multichoice">
+    <name>
+      <text>Silvestro kriterijus, $id$ variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Nustatykite, ar kvadratinė forma</p><p dir="ltr" style="text-align: left;">\($f$\)</p><p dir="ltr" style="text-align: left;">yra teigiamai aprėžta, neigiamai aprėžta, ar neaprėžta.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Kvadratinės formos matrica</p><p dir="ltr" style="text-align: left;">\(A=$S$\)</p><p dir="ltr" style="text-align: left;">Jos Silvestro determinantai</p><p dir="ltr" style="text-align: left;">\(\text{det } M_1 = \text{det} $M1$ = $det1$, \qquad \text{det } M_2 = \text{det} $M2$ = $det2$, \qquad \text{det } M_3 = \text{det} $M3$ = $det3$\).</p><p dir="ltr" style="text-align: left;">Remiantis Silvestro kriterijumi, kvadratinė forma \(f(x_1,x_2,x_3)\) yra $answ$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>123</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="$opt1$" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Teigiamai apibrėžta</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="$opt2$" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Neigiamai apibrėžta<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="$opt3$" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Neapibrėžta<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
