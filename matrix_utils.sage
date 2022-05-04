@@ -310,7 +310,7 @@ def random_ltdet1_Zmatrix(ndim, max_height):
 #---------------------------------------------------------------------
 def random_orthogonal_Qmatrix(ndim, max_height=100, max_tries = 10000):
     '''
-        Attempts to generate random orthogonal ndim x ndim matrix with rational entries whose numerators and denominators does not exceed max_height (=10000 by default) and normalizes it so that main diagonal elementas are >= 0. If it does not succeed after max_tries (= 1000 by default) attempts, an exception is raised.
+        Attempts to generate random orthogonal ndim x ndim matrix with rational entries whose numerators and denominators does not exceed max_height (=10000 by default). If it does not succeed after max_tries (= 1000 by default) attempts, an exception is raised.
     ''' 
     #Limit the size of the search space so that the number of tries is within square root of (2*height(M)+1)^(n^2) 
     max_bound = 3*ceil((max_tries**(2/(ndim**2))).n())
@@ -323,13 +323,16 @@ def random_orthogonal_Qmatrix(ndim, max_height=100, max_tries = 10000):
         E = identity_matrix(QQ, ndim)
         S = skew_up(M)
         T = (E+S).inverse()*(E-S)
-        dsgn = [sign(el) for el in T.diagonal()]
-        for n, it in enumerate(dsgn):
-            if it == 0:
-                dsgn[n] = 1
-        D = diagonal_matrix(QQ, ndim, dsgn);        
         if T.height() < max_height:
-            return D*T
+        	return T
+       #normalization to non-negative diagonal
+       # dsgn = [sign(el) for el in T.diagonal()]
+       # for n, it in enumerate(dsgn):
+       #     if it == 0:
+       #         dsgn[n] = 1
+       # D = diagonal_matrix(QQ, ndim, dsgn);        
+       # if T.height() < max_height:
+       #     return D*T
     raise Exception('Number of tries exceeded!')
 
 #---------------------------------------------------------------------
@@ -881,6 +884,13 @@ def accept_matrix(M, allow_colinear = True, has_ones_fc = False, max_zeros = 100
             return False
     
     return True
+
+#---------------------------------------------------------------------
+def update_lst(lst, items):
+    '''
+        Appends items that are not present in the list
+    '''
+    lst += [itm for itm in items if itm not in lst]
 
 #---------------------------------------------------------------------
 def update_dict_lst(dic, key, item_lst):
