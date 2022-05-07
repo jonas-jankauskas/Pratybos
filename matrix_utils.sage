@@ -308,16 +308,22 @@ def random_ltdet1_Zmatrix(ndim, max_height):
     return lt_part(random_matrix(ZZ, ndim, ndim, x=-max_height, y=max_height+1))+identity_matrix(ZZ, ndim)
 
 #---------------------------------------------------------------------
-def random_orthogonal_Qmatrix(ndim, max_height=100, max_tries = 10000):
+def random_orthogonal_Qmatrix(ndim, max_height=100, max_tries = None):
     '''
         Attempts to generate random orthogonal ndim x ndim matrix with rational entries whose numerators and denominators does not exceed max_height (=10000 by default). If it does not succeed after max_tries (= 1000 by default) attempts, an exception is raised.
-    ''' 
+    '''
+
+    #Bounds on the number of tries, if not specified
+    if max_tries is None:
+        max_tries = ndim*10^ndim
+
     #Limit the size of the search space so that the number of tries is within square root of (2*height(M)+1)^(n^2) 
     max_bound = 3*ceil((max_tries**(2/(ndim**2))).n())
 
     if max_height < max_bound:
         max_bound = max_height
     
+        
     for attempt in range(max_tries):
         M = random_matrix(QQ, ndim, ndim, num_bound = max_bound, den_bound = max_bound)
         E = identity_matrix(QQ, ndim)
@@ -355,6 +361,104 @@ def random_orthogonal_Zmatrix_II(numr, numc, max_height=100, num_tries = 10000):
             return Q
     raise Exception('Number of tries exceeded!')
 
+#---------------------------------------------------------------------
+def random_GramSchmidt_Zmatrix(numr=None, numc=None, numrk=None, max_h=None, max_z=1, maxQ=None, maxQz=None, maxL=None, maxLz=None, is_pr=True, ort_method='II', num_attempts=None):
+    '''
+        Generates numr x numc integer matrix M that has a nice factorization M = L*Q into integer matrices L and Q, such that:
+
+        L is integer lower triangular of size = numr x numc and rank = numrk and non-zero diagonal entries 1
+
+        Q is integer numc x numc matrix with orthogonal rows.
+        
+        The entries in rows of L correspond to coefficients in Gram-Schmidt orthogonalization of row-vectors of returned matrix M.
+    '''
+
+    if numr is None:
+        raise Exception('Need to know no. of rows!')
+
+    if numc is None:
+        numc = numr
+
+    #dimensions for inner calculations
+    k = min(numr, numc)
+    n = max(numr, numc)
+
+	#default number of attempts
+    if num_attempts is None:
+        num_attempts = n*10^n
+       
+    #default height and no. of zeros parameters for matrices L and Q (if not specified)
+    if numrk is None:
+        numrk=k
+    elif numrk > k:
+        raise Exception('Rank exceeds matrix dimensions!')
+
+    if max_h is None:
+        max_h=numc*(10^numc)
+
+    defh = ceil(sqrt(max_h))
+    defnz = max_z
+    
+    if maxQ is None:
+       maxQ = defh
+       
+    if maxQz is None:
+       maxQz = defnz
+
+    if maxL is None:
+       maxL = defh
+       
+    if maxLz is None:
+       maxLz = defnz
+
+    #debug
+    print("Parameters so far:", numr, numc, numrk, maxQ, maxQz, maxL, maxLz)
+
+    E = identity_matrix(QQ, n);
+    
+    adm_att = ceil(sqrt(num_attempts/n))
+
+    #outer loop over orthogonal multiplier Q -- they are harder to choose and must be picked first to assure more uniform variety
+    for attempt1 in range(adm_att):
+        
+        try:
+            if ort_method =='II':
+                Q = random_orthogonal_Zmatrix_II(numc, numc, max_height=maxQ)
+            elif ort_method =='I':
+                Q = random_orthogonal_Zmatrix_I(numc, max_height=maxQ)
+            else:
+                raise Exception('Wrong orthogonal method!')
+                return None
+        except:
+            continue
+
+        if not accept_matrix(Q, max_height=maxQ, max_zeros= maxQz, is_prim=is_pr):
+            continue
+
+        #inner loop over for chosen Q to find lower triangular multiplier L that matches constraints.
+        for attempt2 in range(adm_att):
+
+            L = random_ltdet1_Zmatrix(n, maxL)    
+            #trim down L
+
+            if not accept_matrix(L + L.T - E, max_zeros= maxLz, max_height=maxL, is_prim=is_pr):
+                continue
+            
+            L = L[:numr, :numc]
+        
+            #add vectors that will cancel out in Gram-Schmidt
+            k = min(numr, numc)
+            defects = rnd.sample(range(2, k), k - numrk)
+            for df in defects:
+                for col in range(min(numrk, df), numc):
+                    L[df,col] = 0
+
+            M = L * Q
+
+            if accept_matrix(M, max_height=max_h, max_zeros=max_z, is_prim=is_pr):
+                return M
+
+    raise Exception('random_GramSchmidt_Zmatrix() did not succeed: no. of attempts exceeded %s!' % str(num_attempts))
 
 #---------------------------------------------------------------------
 def random_nice_symmetric_Zmatrix(ndim, max_height=100, max2len=None, num_tries = 10000, nrank=None, signature=None, evec_weights=None, displ=None):

@@ -1,6 +1,6 @@
 import random as rnd
 
-load('matrix_utils.sage')
+load('../matrix_utils.sage')
 
 #-----------------------------------------------------------------------------
 #the following parameters must be set-up before launching this script:
@@ -9,92 +9,101 @@ load('matrix_utils.sage')
 #'I'- integer othogonal matrices (orthogonal rows and orthogonal columns)
 #'II'- integer semi-orthogonal matrices (orthogonal rows, but not necessarily columns)
 try:
-    method
+    ort_method
 except NameError:
-    method = 'II'
+    ort_method = 'II'
 
 #dimension
 try:
-    ndim
+    ndim_ort
 except NameError:
-    ndim = 3
+    ndim_ort = 3
 
 #bound on the largest entry
 try:
-    h_max
+    h_ort_max
 except NameError:
-    h_max = 20
+    h_ort_max = 20
 
 #bound on row squared length
 try:
-    l2_max
+    l2_ort_max
 except NameError:
-    l2_max =ndim*h_max^2
+    l2_ort_max =ndim_ort*h_ort_max^2
 
 #bound for row or column no. of zeros
 try:
-    z_max
+    z_ort_max
 except NameError:
-    z_max = 1
+    z_ort_max = 1
 
 #number of tries
 try:
-    num_tries
+    num_ort_tries
 except NameError:
-    num_tries = 1000
+    num_ort_tries = 1000
+
+#number of tries
+try:
+    num_ort_mat
+except NameError:
+    num_ort_mat = 1000
 
 #data file path
 try:
-    file_path
+    ort_file_path
 except NameError:
-    file_path='../Data/'
+    ort_file_path='../Data/'
     
 #data file names
 try:
-    matrix_file_name
+    ort_matrix_file_name
 except NameError:
-    matrix_file_name='orthogonal-'+str(ndim)+'x'+str(ndim)+'-Zmatrices-m'+str(method)
+    ort_matrix_file_name='orthogonal-'+str(ndim_ort)+'x'+str(ndim_ort)+'-Zmatrices-m'+str(ort_method)
 
 try:
-    tuples_file_name
+    ort_tuples_file_name
 except NameError:
-    tuples_file_name='pythagorean-'+str(ndim)+'-tuples'
+    ort_tuples_file_name='pythagorean-'+str(ndim_ort)+'-tuples'
 
 try:
-	print_status
+	ort_print_status
 except NameError:
-	print_status=True
+	ort_print_status=True
 
 #--------------------------------------------------------------------------------
 #generation of orthogonal matrices that correspond to distinct Pythagorean tuples
 
 try:
-    full_matrix_path = file_path+matrix_file_name
-    full_tuples_path = file_path+tuples_file_name
-    ort_mat_lst = load(full_matrix_path)
-    pit_tup_lst = load(full_tuples_path)
+    full_ort_matrix_path = ort_file_path+ort_matrix_file_name
+    full_ort_tuples_path = ort_file_path+ort_tuples_file_name
+    ort_mat_lst = load(full_ort_matrix_path)
+    pit_tup_lst = load(full_ort_tuples_path)
 except:
     ort_mat_lst = []
-    pit_tup_lst = {}
+    pit_tup_lst = []
 
-for num_tries in range(num_tries):
+for num_ort_tries in range(num_ort_tries):
+
+    if len(ort_mat_lst) >= num_ort_mat:
+        break
 
     try:
 
-        if method == 'I':
-            ort_mat = random_orthogonal_Zmatrix_I(ndim, max_height = h_max)
-        elif method == 'II':
-            ort_mat = random_orthogonal_Zmatrix_II(ndim, ndim, max_height = h_max)
+        if ort_method == 'I':
+            ort_mat = random_orthogonal_Zmatrix_I(ndim_ort, max_height = h_ort_max)
+        elif ort_method == 'II':
+            ort_mat = random_orthogonal_Zmatrix_II(ndim_ort, ndim_ort, max_height = h_ort_max)
 
     except:
-        print('random_orthogonalZmatrix_'+str(method)+'() exceeded try limit. Restarting on attempt no.'+str(num_tries) + ' with ' + str(len(ort_mat_lst)) + ' classes of orthogonal matrices found so far!')
+        print('random_orthogonalZmatrix_'+str(ort_method)+'() exceeded try limit. Restarting on attempt no.'+str(num_ort_tries) + ' with ' + str(len(ort_mat_lst)) + ' classes of orthogonal matrices found so far!')
         continue
 
-    if not accept_matrix(ort_mat, max_zeros=z_max, max_height = h_max, max_len2 = l2_max):
+    if not accept_matrix(ort_mat, max_zeros=z_ort_max, max_height = h_ort_max, max_len2 = l2_ort_max):
         continue
 
    #update list of Pythagorean tuples
-    if method == 'I':
+    if ort_method == 'I':
        update_lst(pit_tup_lst, Pythagorean_tuples(ort_mat))
        pit_tup_lst.sort()
 
@@ -107,11 +116,11 @@ for num_tries in range(num_tries):
         ort_mat_lst.append(rep_ort_mat)
         ort_mat_lst.sort()
     	
-save(ort_mat_lst, full_matrix_path)
-save(pit_tup_lst, full_tuples_path)
+save(ort_mat_lst, full_ort_matrix_path)
+save(pit_tup_lst, full_ort_tuples_path)
 
-if print_status:
-    if method=='I':
+if ort_print_status:
+    if ort_method=='I':
         print(':::::::::::::::::::::::::')
         print('Pythagorean tuples found:\n')
         for tp in pit_tup_lst:
