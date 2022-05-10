@@ -308,14 +308,14 @@ def random_ltdet1_Zmatrix(ndim, max_height):
     return lt_part(random_matrix(ZZ, ndim, ndim, x=-max_height, y=max_height+1))+identity_matrix(ZZ, ndim)
 
 #---------------------------------------------------------------------
-def random_orthogonal_Qmatrix(ndim, max_height=100, max_tries = None):
+def random_orthogonal_Qmatrix(ndim, max_height=100, max_tries = 10000):
     '''
         Attempts to generate random orthogonal ndim x ndim matrix with rational entries whose numerators and denominators does not exceed max_height (=10000 by default). If it does not succeed after max_tries (= 1000 by default) attempts, an exception is raised.
     '''
 
     #Bounds on the number of tries, if not specified
-    if max_tries is None:
-        max_tries = ndim*10^ndim
+    #if max_tries is None:
+    #    max_tries = ceil((2*max_height+1)**(ndim/2))
 
     #Limit the size of the search space so that the number of tries is within square root of (2*height(M)+1)^(n^2) 
     max_bound = 3*ceil((max_tries**(2/(ndim**2))).n())
@@ -328,9 +328,9 @@ def random_orthogonal_Qmatrix(ndim, max_height=100, max_tries = None):
         M = random_matrix(QQ, ndim, ndim, num_bound = max_bound, den_bound = max_bound)
         E = identity_matrix(QQ, ndim)
         S = skew_up(M)
-        T = (E+S).inverse()*(E-S)
-        if T.height() < max_height:
-        	return T
+        Q = (E+S).inverse()*(E-S)
+        if Q.height() <= max_height:
+        	return Q
        #normalization to non-negative diagonal
        # dsgn = [sign(el) for el in T.diagonal()]
        # for n, it in enumerate(dsgn):
@@ -354,6 +354,11 @@ def random_orthogonal_Zmatrix_II(numr, numc, max_height=100, num_tries = 10000):
     '''
             Attempts to generate random ndim x ndim matrix with mutually orthogonal rows and integer entries not exceeding max_height (= 100 by default) in absolute value. If it does not succeed after max_tries (= 1000 by default) number of attempts, an exception is raised.
     '''
+
+    #Bounds on the number of tries, if not specified
+    #if num_tries is None:
+    #    num_tries = ceil((2*max_height+1)**(ndim/2))
+    
     for attempt in range(num_tries):
         M = random_matrix(ZZ, numr, numc, rank=min(numr, numc), algorithm='echelonizable', upper_bound=max_height)
         Q, R = nice_GramSchmidtZ(M)
@@ -362,7 +367,7 @@ def random_orthogonal_Zmatrix_II(numr, numc, max_height=100, num_tries = 10000):
     raise Exception('Number of tries exceeded!')
 
 #---------------------------------------------------------------------
-def random_GramSchmidt_Zmatrix(numr=None, numc=None, numrk=None, max_h=None, max_z=1, maxQ=None, maxQz=None, maxL=None, maxLz=None, is_pr=True, ort_method='II', num_attempts=None):
+def random_GramSchmidt_Zmatrix(numr=3, numc=None, numrk=None, maxh=100, maxz=1, maxQ=None, maxQz=None, maxL=None, maxLz=None, is_pr=True, ort_method='II', num_attempts=10000):
     '''
         Generates numr x numc integer matrix M that has a nice factorization M = L*Q into integer matrices L and Q, such that:
 
@@ -384,8 +389,8 @@ def random_GramSchmidt_Zmatrix(numr=None, numc=None, numrk=None, max_h=None, max
     n = max(numr, numc)
 
 	#default number of attempts
-    if num_attempts is None:
-        num_attempts = n*10^n
+    #if num_attempts is None:
+    #    num_attempts = ceil((2*maxh+1)**(n/2))
        
     #default height and no. of zeros parameters for matrices L and Q (if not specified)
     if numrk is None:
@@ -393,11 +398,8 @@ def random_GramSchmidt_Zmatrix(numr=None, numc=None, numrk=None, max_h=None, max
     elif numrk > k:
         raise Exception('Rank exceeds matrix dimensions!')
 
-    if max_h is None:
-        max_h=numc*(10^numc)
-
-    defh = ceil(sqrt(max_h))
-    defnz = max_z
+    defh = ceil(sqrt(maxh))
+    defnz = maxz
     
     if maxQ is None:
        maxQ = defh
@@ -412,11 +414,14 @@ def random_GramSchmidt_Zmatrix(numr=None, numc=None, numrk=None, max_h=None, max
        maxLz = defnz
 
     #debug
-    print("Parameters so far:", numr, numc, numrk, maxQ, maxQz, maxL, maxLz)
+    #print("Parameters so far:", numr, numc, numrk, maxh, maxQ, maxQz, maxL, maxLz)
+    #print('n=',n)
+    #print('maxh=',maxh)
+    #print('num_attempts=', num_attempts)
 
     E = identity_matrix(QQ, n);
     
-    adm_att = ceil(sqrt(num_attempts/n))
+    adm_att = ceil(sqrt(num_attempts))
 
     #outer loop over orthogonal multiplier Q -- they are harder to choose and must be picked first to assure more uniform variety
     for attempt1 in range(adm_att):
@@ -455,7 +460,7 @@ def random_GramSchmidt_Zmatrix(numr=None, numc=None, numrk=None, max_h=None, max
 
             M = L * Q
 
-            if accept_matrix(M, max_height=max_h, max_zeros=max_z, is_prim=is_pr):
+            if accept_matrix(M, max_height=maxh, max_zeros=maxz, is_prim=is_pr):
                 return M
 
     raise Exception('random_GramSchmidt_Zmatrix() did not succeed: no. of attempts exceeded %s!' % str(num_attempts))

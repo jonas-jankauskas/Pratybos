@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 1828091  -->
+  <question type="shortanswer">
+    <name>
+      <text>Gramo Šmito ortogonalizacija, $id$ variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Gramo-Šmito ortogonalizacijos algoritmu raskite vektorių sistemos</p><p dir="ltr">\( u_1 = $u1$ \)<br></p><p dir="ltr">\( u_2 = $u2$ \)<br></p><p dir="ltr">\( u_3 = $u3$ \)<br></p><p dir="ltr">tiesinio apvalkalo ortogonaliąją bazę&nbsp; \(\{v_1, v_2, v_3\}.\)<br></p><p dir="ltr">Pastabos:</p><p dir="ltr">Laikykitės įprastinės ortogonalizavimo tvarkos: \(u_1, u_2, u_3\). 
+Atsakymas turi būti užrašytas pavidalu</p><p dir="ltr">\(v_1;v_2;v_3\)</p><p dir="ltr">Vektoriai 
+skiriami kabliataškiais, užrašomi su skliaustais, jų viduje koordinatės skiriamos kableliais, be tarpų ar kitų pašalinių simbolių. PVZ.:</p><p dir="ltr">\((1,0,1);(1,-2,1);(1,0,-1)\)<br></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">ATS.:</p><p dir="ltr"></p><p dir="ltr">\( $eq1$ \)</p><p dir="ltr">\( $eq2$ \)<br></p><p dir="ltr">\( $eq3$ \)</p><p></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>$answ$</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
