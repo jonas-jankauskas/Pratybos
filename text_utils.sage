@@ -174,3 +174,24 @@ def latex_SLE(A, b, xNames, eq_type='right'):
     syst_str = '\\left\\{\\begin{array}{%s}%s \\end{array} \\right.' %(form_str, str().join(eqs_list))
 
     return syst_str
+
+#---------------------------------------------------------------------
+#printing procedure for Gram-Schmidt equations
+def latex_GramSchmidt_eqs(M, T, ovec_name_str, nvec_name_str):
+
+    '''
+        Writes down equation expressions for row vectors v1, v2, ...,  of M as linear expressions of u1, u2, ..., specified by rows of L.
+    '''
+
+    m = T.nrows(); n = T.ncols()
+
+    u_str = ','.join([ovec_name_str + str(j+1) for j in range(m)])
+    v_str = ','.join([nvec_name_str + str(j+1) for j in range(n)])
+    var_str = ','.join([u_str,v_str])
+    
+    R = PolynomialRing(QQ, m+n, names=var_str)
+    v = vector(R, R.ngens(), R.gens())
+    N=identity_matrix(R, m).augment(-lt_part(T))
+    eqs_vec = N*v
+    
+    return [latex(R.gens()[m+j])+ ' = ' + latex(M.rows()[j])+ ' \\sim ' + latex(eqs_vec[j]) for j in range(n)]

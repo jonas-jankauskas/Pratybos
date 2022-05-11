@@ -58,7 +58,6 @@ for attempts in range(num_tries):
     matS = matC*matD*(matC.T)
     qForm = QuadraticForm(matS+matS.T)
 
-    
     cfs_vec =vector(QQ, qForm.coefficients())
 
     if not accept_vector(cfs_vec, max_height=c_max, max_zeros=z_max, is_prim=True):

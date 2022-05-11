@@ -303,6 +303,29 @@ def nice_solution_SLE(A, b):
     return p, nsols
 
 #---------------------------------------------------------------------
+def solution_LSQ(A, b):
+    '''
+        For a given rational matrix A and a rational vector b, finds a general solution to minimization problem min||A*x-b||.
+        The solution is returned in the same form as nice_solution_SLE()
+    '''
+    return nice_solution_SLE((A.transpose())*A, (A.transpose())*b)
+
+#---------------------------------------------------------------------
+def proj(v, A):
+    '''
+        For a given rational row-vector v and a rational matrix A, returns the orthogonal projection of v in to row space of A.
+    '''
+    p = solution_LSQ(A.T, v)[0]
+    return p*A
+
+#---------------------------------------------------------------------
+def orth(v, A):
+    '''
+        For a given rational row-vector v and a rational matrix A, returns the normal of v to the row space of A.
+    '''
+    return v-proj(v,A)
+
+#---------------------------------------------------------------------
 def random_ltdet1_Zmatrix(ndim, max_height):
     ''' Returns square random lower triangular integer matrix of the size ndim x ndim  with entries in a given ring (=ZZ by default) of height at most max_height (=100 by default)  and all 1's on the principal diagonal'''
     return lt_part(random_matrix(ZZ, ndim, ndim, x=-max_height, y=max_height+1))+identity_matrix(ZZ, ndim)
