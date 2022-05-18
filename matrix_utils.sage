@@ -58,16 +58,26 @@ def cfrac_to_rfun(cfr_lst):
 	for Q in reversed(cfr_lst[:-1]):
 		P = 1/P + Q
 	return P
+
+#---------------------------------------------------------------------
+def sign_complex(num):
+    '''
+        Given the complex number num=a+b*i, returns the sign of re(num)=a if a !=0; otherwise returns the sign of img(num)=b
+    '''
+    t = real(num)
+    if t == 0:
+        t = imag(num) 
+    return(sign(t))
 	
 #---------------------------------------------------------------------
 def vec_cden(v):
     ''' LCM of denominators of vector v coordinates'''
-    return lcm([abs(fr.denominator()) for fr in v])
+    return lcm([fr.denominator() for fr in v])
 
 #---------------------------------------------------------------------
 def vec_cnum(v):
     ''' GCD of numerators of vector v coordinates'''
-    return gcd([abs(fr.numerator()) for fr in v])
+    return gcd([fr.numerator() for fr in v])
 
 #---------------------------------------------------------------------
 def vec_cfactor(v):
@@ -142,8 +152,8 @@ def vec_fnz(vec):
 def vec_fsgn(vec):
     '''
         Returns sign of first non-zero entry or zero if no such entry exists
-    ''' 
-    return sign(vec_fnz(vec))
+    '''    
+    return sign_complex(vec_fnz(vec))
 
 #---------------------------------------------------------------------
 def vec_fnzi(vec):
@@ -193,7 +203,7 @@ def make_primitive_sym(mat):
 #---------------------------------------------------------------------
 def mat_cden(M):
     ''' LCM of denominators of vector v coordinates'''
-    return lcm([abs(fr).denominator() for rw in M.rows() for fr in rw])
+    return lcm([fr.denominator() for rw in M.rows() for fr in rw])
 
 #---------------------------------------------------------------------
 def lt_part(M):
@@ -325,6 +335,134 @@ def orth(v, A):
     '''
     return v-proj(v,A)
 
+#---------------------------------------------------------------------
+def nice_kernel(mat):
+    '''
+        Returns the list
+
+        [v_1, v_2, ..., v_k]
+
+        containing basis of a left-kernel of a matrix mat, i.e. the set of row-vectors v, such that v*mat=O.
+        Each v_j is normalized so that its non-zero entries are integers with gcd = 1, and the first non-zero entry (if any) is > 0.
+    '''
+
+    p,h=nice_solution_SLE(mat.T,zero_vector(mat.nrows()))
+
+    return h
+
+#---------------------------------------------------------------------
+def nice_eigenvalues(mat):
+    '''
+        Returns the list of eigenvalues of matrix mat that belong to QQ or QQ(I), I^2=-1. If mat has other irrational eigevalues, an exception is raised.
+    '''
+    evs =[]
+    for ev in mat.eigenvalues():
+        if ev in QQ:
+            nv = ev
+        else:
+            try:
+                nv = QQ(real(ev))+I*QQ(imag(ev))
+            except:
+                raise Exception('Cannot cast eigenvalue'+srt(ev)+' to QQ(I)!!!')
+        evs.append(nv)
+    evs.sort(reverse=True)
+    return evs
+
+#---------------------------------------------------------------------
+def nice_eigenvectors(mat):
+    '''
+        For the matrix mat, returns the list of triples
+
+        (ev, [v_1, v_2, ..., v_k], m)
+
+        where ev is an eigenvalue of mat that belongs to field QQ(I), m is algenraic multiplicity of ev,  and v_1, ... ,v_k is are the basis of left-eigenspave of ev, i.e. the set of row-vectors v, such that v*mat=ev*mat.
+        Each v_j is normalized so that its non-zero entries are integers with gcd = 1, and the first non-zero entry (if any) is > 0.
+    '''
+    E = identity_matrix(mat.base_ring(), mat.nrows())
+    evecs = []
+    evs = nice_eigenvalues(mat)
+    dvs = set(evs)
+    for ev in dvs:
+        M = mat - ev*E
+        evecs += [(ev, nice_kernel(M), evs.count(ev))]
+    evecs.sort(key=lambda el: el[0], reverse=True)
+    return evecs
+
+#---------------------------------------------------------------------
+def nice_eigenmatrix(mat):
+    '''
+        returns the pair (D, T) where:
+
+            D is diagonal matrix whose entries on the main diagonal are eigenvalues of matrix mat. Eigenvalues are sorted in descending order; each eigenvalue appears the number of times equal to its algebraic multiplicity.
+
+            T is matrix whose rows are basis vectors for the left eigenspace of eigenvalue of mat that appears on the same row in D, or a zero vector. Row vectors are normalized so that their entries are integers; non-zero entries of a row have gcd = 1, and first non-zero entry in the row  is > 0.
+
+        In particular, if mat is diagonalizable, then T*mat*T.inverse()=D.
+    '''
+    dlst = []
+    rvec = []
+    zv = zero_vector(mat.ncols())
+    evm = nice_eigenvectors(mat)
+    for ev, evecs, mult in evm:
+        dlst += [ev]*mult
+        rvec += evecs + [zv]*(mult-len(evecs))
+    D = diagonal_matrix(dlst)
+    T = matrix(len(rvec), rvec)
+    return D,T
+
+#---------------------------------------------------------------------
+def jordan_matrix(eigenvals = [], bsizes = []):
+    '''
+        Given lists of eigenvalues
+
+        [ev1, ev2, ..., evk]
+
+        and block sizes
+
+        [s1, s2, .., sl]
+
+        returns m x m Jordan matrix
+
+         J = J_s1(ev1) x J_s2(ev2) x ... J_sm(evm),    m = min(k, l)
+    '''
+    lst = list(zip(eigenvals, bsizes))
+    mats = []
+    for ev, sz in lst:
+        mats +=[jordan_block(ev,sz)]
+        
+    return block_diagonal_matrix(mats)
+
+#---------------------------------------------------------------------
+def random_nice_jordan_Zmatrix(evals, bsizes, max_h=100, max_z=1, max_t =10, max_tz=1, num_tries=10000):
+    '''
+        Given lists of eigenvalues
+
+        evals=[ev1, ev2, ..., evk]
+
+        and block sizes
+
+        bsizes=[s1, s2, .., sl]
+
+        attempts to generate a random returns m x m M, such that, for some integer matrix T with det(T)= +/-1, M has the Jordan form
+
+        T*M*T.inverse() = J_s1(ev1) x J_s2(ev2) x ... J_sm(evm),    m = min(k, l),
+
+       subject to contraints on the height and number of zero entries in matrices M and T.
+    '''
+    J = jordan_matrix(evals, bsizes)
+    ndim = J.nrows()
+    
+    for attempt in range(num_tries):
+
+       T = random_matrix(ZZ, ndim, rank=ndim, algorithm='echelonizable', upper_bound=max_t)
+       if not accept_matrix(T, max_zeros=max_tz, max_height=max_t, is_prim=True):
+           continue
+       M = T.inverse()*J*T
+       if accept_matrix(M, max_height=max_h, max_zeros=max_z, is_prim=True):
+           return M
+
+    raise Exception('Could not find suitable matrix with these parameters!')
+    
 #---------------------------------------------------------------------
 def random_ltdet1_Zmatrix(ndim, max_height):
     ''' Returns square random lower triangular integer matrix of the size ndim x ndim  with entries in a given ring (=ZZ by default) of height at most max_height (=100 by default)  and all 1's on the principal diagonal'''
