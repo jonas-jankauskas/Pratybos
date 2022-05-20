@@ -19,28 +19,6 @@ test_path='ProblemSet/'
 test_ext='.xml'
 
 #---------------------------------------------------------------------
-#printing procedure for Gram-Schmidt equations
-def get_GS_eqs(M, T, ovec_name_str, nvec_name_str):
-
-    '''
-        Writes down equation expressions for row vectors v1, v2, ...,  of M as linear expressions of u1, u2, ..., specified by rows of L.
-    '''
-
-    m = T.nrows(); n = T.ncols()
-
-    u_str = ','.join([ovec_name_str + str(j+1) for j in range(m)])
-    v_str = ','.join([nvec_name_str + str(j+1) for j in range(n)])
-    var_str = ','.join([u_str,v_str])
-    
-    R = PolynomialRing(QQ, m+n, names=var_str)
-    v = vector(R, R.ngens(), R.gens())
-    N=identity_matrix(R, m).augment(-lt_part(T))
-    eqs_vec = N*v
-    
-    return [latex(R.gens()[m+j])+ ' = ' + latex(M.rows()[j])+ ' \sim ' + latex(eqs_vec[j]) for j in range(n)]
-
-
-#---------------------------------------------------------------------
 #load the earlier generated data
 try:
     gs_mat_data = load(full_data_path)
@@ -87,7 +65,7 @@ for nr, mat in enumerate(problem_data):
     subV={'$v%s$'%str(j+1) : vec_str for j, vec_str in enumerate(strV)}
     answ_str = ';'.join(strV)
     
-    eqs_str = get_GS_eqs(Q,L, 'u', 'v')
+    eqs_str = latex_GramSchmidt_eqs(Q,L, 'u', 'v')
     sub_eqs ={'$eq%s$' % str(j+1) : eq for j, eq in enumerate(eqs_str)}
 
     sub_oth = {'$id$': str(nr+1), '$dim$': str(ndim), '$answ$': answ_str}

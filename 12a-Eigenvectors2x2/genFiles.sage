@@ -35,7 +35,7 @@ otxt = tmpl.read()
 tmpl.close()
 
 #---------------------------------------------------------------------
-#only pick matrices with 3 distinct eigenvlaues
+#only pick matrices with distinct eigenvalues
 mtyps = [len(set(mat.eigenvalues())) for mat in mat_data]
 mreps = list(zip(mat_data, mtyps))
 

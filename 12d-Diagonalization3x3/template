@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 1879148  -->
+  <question type="multichoice">
+    <name>
+      <text>$dim$x$dim$ Diagonalizuojamos matricos $id$ variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji $dim$x$dim$ matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=$A$\)<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=$f$=$factor$\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\($eigs$.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\($amuls$,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\($spcV$.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\($gmuls$.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai $arg$, matrica yra $dec$.<br><p></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>123</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="$pt1$" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Taip, \(A\) diagonalizuojama<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="$pt2$" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ne, \(A\) nediagonalizuojama<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
