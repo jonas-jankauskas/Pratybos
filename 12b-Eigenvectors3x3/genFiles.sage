@@ -51,7 +51,7 @@ for nr, mat in enumerate(problem_data):
 
     D,T = nice_eigenmatrix(mat)
     dg = D.diagonal()
-    f = -mat.charpoly()
+    f = ((-1)**(mat.nrows()))*mat.charpoly()
     pr = factor(f)
 
     evs_str = ','.join([str(ev) for ev in dg])

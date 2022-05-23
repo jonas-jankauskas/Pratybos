@@ -1,288 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
-<!-- question: 1877184  -->
-  <question type="shortanswer">
-    <name>
-      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 10 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
-3 & -4 \\
-2 & 9
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 12 x - 35=\left(-1\right) \cdot (x - 7) \cdot (x - 5)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 7, \qquad \lambda_2=5.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,2\right), \qquad v_2=\left(1,\,1\right).\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <usecase>0</usecase>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>7,5;(1,2);(1,1)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 1877184  -->
-  <question type="shortanswer">
-    <name>
-      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 11 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--17 & -12 \\
-8 & 3
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} - 14 x - 45=\left(-1\right) \cdot (x + 5) \cdot (x + 9)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = -5, \qquad \lambda_2=-9.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(2,\,3\right), \qquad v_2=\left(1,\,1\right).\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <usecase>0</usecase>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>-5,-9;(2,3);(1,1)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 1877184  -->
-  <question type="shortanswer">
-    <name>
-      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 12 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
-3 & 8 \\
--12 & -17
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} - 14 x - 45=\left(-1\right) \cdot (x + 5) \cdot (x + 9)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = -5, \qquad \lambda_2=-9.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(3,\,2\right), \qquad v_2=\left(1,\,1\right).\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <usecase>0</usecase>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>-5,-9;(3,2);(1,1)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 1877184  -->
-  <question type="shortanswer">
-    <name>
-      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 13 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--2 & 9 \\
--6 & 13
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 11 x - 28=\left(-1\right) \cdot (x - 7) \cdot (x - 4)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 7, \qquad \lambda_2=4.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(2,\,-3\right), \qquad v_2=\left(1,\,-1\right).\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <usecase>0</usecase>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>7,4;(2,-3);(1,-1)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 1877184  -->
-  <question type="shortanswer">
-    <name>
-      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 14 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
-5 & 9 \\
--12 & -16
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} - 11 x - 28=\left(-1\right) \cdot (x + 4) \cdot (x + 7)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = -4, \qquad \lambda_2=-7.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(4,\,3\right), \qquad v_2=\left(1,\,1\right).\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <usecase>0</usecase>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>-4,-7;(4,3);(1,1)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 1877184  -->
-  <question type="shortanswer">
-    <name>
-      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 15 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
-6 & 6 \\
--1 & 1
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 7 x - 12=\left(-1\right) \cdot (x - 4) \cdot (x - 3)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 4, \qquad \lambda_2=3.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,2\right), \qquad v_2=\left(1,\,3\right).\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <usecase>0</usecase>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>4,3;(1,2);(1,3)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 1877184  -->
-  <question type="shortanswer">
-    <name>
-      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 16 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--1 & 5 \\
--10 & 14
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 13 x - 36=\left(-1\right) \cdot (x - 9) \cdot (x - 4)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 9, \qquad \lambda_2=4.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,-1\right), \qquad v_2=\left(2,\,-1\right).\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <usecase>0</usecase>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>9,4;(1,-1);(2,-1)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 1877184  -->
-  <question type="shortanswer">
-    <name>
-      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 17 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--1 & 3 \\
--10 & 10
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 9 x - 20=\left(-1\right) \cdot (x - 5) \cdot (x - 4)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 5, \qquad \lambda_2=4.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(5,\,-3\right), \qquad v_2=\left(2,\,-1\right).\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <usecase>0</usecase>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>5,4;(5,-3);(2,-1)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 1877184  -->
-  <question type="shortanswer">
-    <name>
-      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 18 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
-3 & 10 \\
--3 & 14
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 17 x - 72=\left(-1\right) \cdot (x - 9) \cdot (x - 8)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 9, \qquad \lambda_2=8.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,-2\right), \qquad v_2=\left(3,\,-5\right).\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <usecase>0</usecase>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>9,8;(1,-2);(3,-5)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 1877184  -->
-  <question type="shortanswer">
-    <name>
-      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 19 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
-11 & -4 \\
-2 & 5
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 16 x - 63=\left(-1\right) \cdot (x - 9) \cdot (x - 7)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 9, \qquad \lambda_2=7.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,-1\right), \qquad v_2=\left(1,\,-2\right).\)<br></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <usecase>0</usecase>
-    <answer fraction="100" format="moodle_auto_format">
-      <text>9,7;(1,-1);(1,-2)</text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 1877184  -->
+<!-- question: 1883946  -->
   <question type="shortanswer">
     <name>
       <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 1 variantas</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--17 & 15 \\
--10 & 8
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
+2 & -10 \\
+5 & -13
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} - 9 x - 14=\left(-1\right) \cdot (x + 2) \cdot (x + 7)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = -2, \qquad \lambda_2=-7.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(2,\,-3\right), \qquad v_2=\left(1,\,-1\right).\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} + 11 x + 24=(x + 3) \cdot (x + 8)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = -3, \qquad \lambda_2=-8.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,-1\right), \qquad v_2=\left(1,\,-2\right).\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -290,26 +20,26 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-2,-7;(2,-3);(1,-1)</text>
+      <text>-3,-8;(1,-1);(1,-2)</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 1877184  -->
+<!-- question: 1883946  -->
   <question type="shortanswer">
     <name>
-      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 20 variantas</text>
+      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 10 variantas</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--19 & 12 \\
--15 & 8
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
+-16 & -14 \\
+7 & 5
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} - 11 x - 28=\left(-1\right) \cdot (x + 4) \cdot (x + 7)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = -4, \qquad \lambda_2=-7.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,-1\right), \qquad v_2=\left(5,\,-4\right).\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} + 11 x + 18=(x + 2) \cdot (x + 9)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = -2, \qquad \lambda_2=-9.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,2\right), \qquad v_2=\left(1,\,1\right).\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -317,26 +47,296 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-4,-7;(1,-1);(5,-4)</text>
+      <text>-2,-9;(1,2);(1,1)</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 1877184  -->
+<!-- question: 1883946  -->
+  <question type="shortanswer">
+    <name>
+      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 11 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
+13 & 12 \\
+-20 & -18
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} + 5 x + 6=(x + 2) \cdot (x + 3)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = -2, \qquad \lambda_2=-3.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(4,\,3\right), \qquad v_2=\left(5,\,4\right).\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-2,-3;(4,3);(5,4)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1883946  -->
+  <question type="shortanswer">
+    <name>
+      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 12 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
+-8 & 1 \\
+-20 & 1
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} + 7 x + 12=(x + 3) \cdot (x + 4)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = -3, \qquad \lambda_2=-4.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(4,\,-1\right), \qquad v_2=\left(5,\,-1\right).\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-3,-4;(4,-1);(5,-1)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1883946  -->
+  <question type="shortanswer">
+    <name>
+      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 13 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
+-3 & 6 \\
+-5 & -14
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} + 17 x + 72=(x + 8) \cdot (x + 9)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = -8, \qquad \lambda_2=-9.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,1\right), \qquad v_2=\left(5,\,6\right).\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-8,-9;(1,1);(5,6)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1883946  -->
+  <question type="shortanswer">
+    <name>
+      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 14 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
+-13 & 16 \\
+-8 & 11
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} + 2 x - 15=(x - 3) \cdot (x + 5)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 3, \qquad \lambda_2=-5.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,-2\right), \qquad v_2=\left(1,\,-1\right).\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>3,-5;(1,-2);(1,-1)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1883946  -->
+  <question type="shortanswer">
+    <name>
+      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 15 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
+-12 & -6 \\
+12 & 5
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} + 7 x + 12=(x + 3) \cdot (x + 4)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = -3, \qquad \lambda_2=-4.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(4,\,3\right), \qquad v_2=\left(3,\,2\right).\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-3,-4;(4,3);(3,2)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1883946  -->
+  <question type="shortanswer">
+    <name>
+      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 16 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
+-10 & 14 \\
+-7 & 11
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - x - 12=(x - 4) \cdot (x + 3)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 4, \qquad \lambda_2=-3.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,-2\right), \qquad v_2=\left(1,\,-1\right).\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>4,-3;(1,-2);(1,-1)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1883946  -->
+  <question type="shortanswer">
+    <name>
+      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 17 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
+4 & -18 \\
+6 & -17
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} + 13 x + 40=(x + 5) \cdot (x + 8)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = -5, \qquad \lambda_2=-8.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(2,\,-3\right), \qquad v_2=\left(1,\,-2\right).\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-5,-8;(2,-3);(1,-2)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1883946  -->
+  <question type="shortanswer">
+    <name>
+      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 18 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
+-3 & 15 \\
+-2 & -14
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} + 17 x + 72=(x + 8) \cdot (x + 9)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = -8, \qquad \lambda_2=-9.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(2,\,5\right), \qquad v_2=\left(1,\,3\right).\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>-8,-9;(2,5);(1,3)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1883946  -->
+  <question type="shortanswer">
+    <name>
+      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 19 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
+-3 & -5 \\
+10 & 12
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 9 x + 14=(x - 7) \cdot (x - 2)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 7, \qquad \lambda_2=2.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,1\right), \qquad v_2=\left(2,\,1\right).\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>7,2;(1,1);(2,1)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1883946  -->
   <question type="shortanswer">
     <name>
       <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 2 variantas</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--5 & 9 \\
--12 & 16
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
+-1 & 4 \\
+-12 & 13
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 11 x - 28=\left(-1\right) \cdot (x - 7) \cdot (x - 4)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 7, \qquad \lambda_2=4.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,-1\right), \qquad v_2=\left(4,\,-3\right).\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 12 x + 35=(x - 7) \cdot (x - 5)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 7, \qquad \lambda_2=5.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(3,\,-2\right), \qquad v_2=\left(2,\,-1\right).\)<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>7,5;(3,-2);(2,-1)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1883946  -->
+  <question type="shortanswer">
+    <name>
+      <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 20 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
+-5 & 9 \\
+-12 & 16
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 11 x + 28=(x - 7) \cdot (x - 4)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 7, \qquad \lambda_2=4.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,-1\right), \qquad v_2=\left(4,\,-3\right).\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -351,19 +351,19 @@
     </answer>
   </question>
 
-<!-- question: 1877184  -->
+<!-- question: 1883946  -->
   <question type="shortanswer">
     <name>
       <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 3 variantas</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
-6 & 15 \\
--10 & -19
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
+-3 & 5 \\
+-10 & 12
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} - 13 x - 36=\left(-1\right) \cdot (x + 4) \cdot (x + 9)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = -4, \qquad \lambda_2=-9.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,1\right), \qquad v_2=\left(2,\,3\right).\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 9 x + 14=(x - 7) \cdot (x - 2)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 7, \qquad \lambda_2=2.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,-1\right), \qquad v_2=\left(2,\,-1\right).\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -371,26 +371,26 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-4,-9;(1,1);(2,3)</text>
+      <text>7,2;(1,-1);(2,-1)</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 1877184  -->
+<!-- question: 1883946  -->
   <question type="shortanswer">
     <name>
       <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 4 variantas</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
-17 & 9 \\
--12 & -4
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
+11 & -8 \\
+4 & -1
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 13 x - 40=\left(-1\right) \cdot (x - 8) \cdot (x - 5)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 8, \qquad \lambda_2=5.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(4,\,3\right), \qquad v_2=\left(1,\,1\right).\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 10 x + 21=(x - 7) \cdot (x - 3)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 7, \qquad \lambda_2=3.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,-1\right), \qquad v_2=\left(1,\,-2\right).\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -398,26 +398,26 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>8,5;(4,3);(1,1)</text>
+      <text>7,3;(1,-1);(1,-2)</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 1877184  -->
+<!-- question: 1883946  -->
   <question type="shortanswer">
     <name>
       <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 5 variantas</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
-15 & -3 \\
-14 & 2
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
+13 & -8 \\
+16 & -11
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 17 x - 72=\left(-1\right) \cdot (x - 9) \cdot (x - 8)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 9, \qquad \lambda_2=8.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(7,\,-3\right), \qquad v_2=\left(2,\,-1\right).\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 2 x - 15=(x - 5) \cdot (x + 3)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 5, \qquad \lambda_2=-3.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(2,\,-1\right), \qquad v_2=\left(1,\,-1\right).\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -425,26 +425,26 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>9,8;(7,-3);(2,-1)</text>
+      <text>5,-3;(2,-1);(1,-1)</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 1877184  -->
+<!-- question: 1883946  -->
   <question type="shortanswer">
     <name>
       <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 6 variantas</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--1 & -6 \\
-3 & 8
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
+-11 & 18 \\
+-9 & 16
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 7 x - 10=\left(-1\right) \cdot (x - 5) \cdot (x - 2)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 5, \qquad \lambda_2=2.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,2\right), \qquad v_2=\left(1,\,1\right).\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 5 x - 14=(x - 7) \cdot (x + 2)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 7, \qquad \lambda_2=-2.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,-2\right), \qquad v_2=\left(1,\,-1\right).\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -452,26 +452,26 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>5,2;(1,2);(1,1)</text>
+      <text>7,-2;(1,-2);(1,-1)</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 1877184  -->
+<!-- question: 1883946  -->
   <question type="shortanswer">
     <name>
       <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 7 variantas</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
-9 & -2 \\
-3 & 4
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
+6 & 1 \\
+-6 & 11
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 13 x - 42=\left(-1\right) \cdot (x - 7) \cdot (x - 6)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 7, \qquad \lambda_2=6.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(3,\,-2\right), \qquad v_2=\left(1,\,-1\right).\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 17 x + 72=(x - 9) \cdot (x - 8)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 9, \qquad \lambda_2=8.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(2,\,-1\right), \qquad v_2=\left(3,\,-1\right).\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -479,26 +479,26 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>7,6;(3,-2);(1,-1)</text>
+      <text>9,8;(2,-1);(3,-1)</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 1877184  -->
+<!-- question: 1883946  -->
   <question type="shortanswer">
     <name>
       <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 8 variantas</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
-10 & 10 \\
--3 & -1
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
+-5 & -14 \\
+7 & 16
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 9 x - 20=\left(-1\right) \cdot (x - 5) \cdot (x - 4)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 5, \qquad \lambda_2=4.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(3,\,5\right), \qquad v_2=\left(1,\,2\right).\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 11 x + 18=(x - 9) \cdot (x - 2)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 9, \qquad \lambda_2=2.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,2\right), \qquad v_2=\left(1,\,1\right).\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -506,26 +506,26 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>5,4;(3,5);(1,2)</text>
+      <text>9,2;(1,2);(1,1)</text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
   </question>
 
-<!-- question: 1877184  -->
+<!-- question: 1883946  -->
   <question type="shortanswer">
     <name>
       <text>2x2 Tikrinės reikšmės ir tikriniai vektoriai 9 variantas</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Raskite matricos</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--15 & 20 \\
--6 & 7
-\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2,\;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \qquad \lambda_2=-3,\qquad \qquad v_1=(5,-4), \qquad v_2=(0,1).\)</p>]]></text>
+-5 & -8 \\
+10 & 13
+\end{array}\right)\)</p><p dir="ltr" style="text-align: left;">tikrines reikšmes \(\lambda_1, \lambda_2\) bei jų kairiuosius tikrinius vektorius \(v_1, v_2\).<br></p><p dir="ltr" style="text-align: left;">PASTABA: atsakymą pateikti pavidalu</p><p dir="ltr" style="text-align: left;">\(\lambda_1,\lambda_2;v_1;v_2\)</p><p dir="ltr" style="text-align: left;">Tikrines reikmes išrašykite nedidėjančia tvarka: \(\lambda_1 \geq \lambda_2.\) Tikrinius vektorius parinkite taip, kad jų koordinatės būtų sveikieji skaičiai, neturintys jokio bendro daliklio, didesnio už 1, o pirmoji nenulinė kordinatė būtų neneigiama. Vektorių eilės tvarka turi atitikti jų tikrinių reikšmių išdėstymą: \(v_jA=\lambda_j v_j.\) Tikrinės reikšmės ir vektorių koordinatės skiriamos kableliais, vektoriai užrašomi su skliausteliais, ir skiriami kabliataškiais be tarpų ar kitų pašalinių simbolių.</p><p dir="ltr" style="text-align: left;">PVZ.: atsakymas:</p><p dir="ltr" style="text-align: left;">\(2,-3;(5,-4);(0,1)\)</p><p dir="ltr" style="text-align: left;">reiškia<br></p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 2, \quad \lambda_2=-3,\qquad v_1=(5,-4), \quad v_2=(0,1).\)</p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} - 8 x - 15=\left(-1\right) \cdot (x + 3) \cdot (x + 5)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = -3, \qquad \lambda_2=-5.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,-2\right), \qquad v_2=\left(3,\,-5\right).\)<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Matricos charakteristinis polinomas</p><p dir="ltr" style="text-align: left;">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 8 x + 15=(x - 5) \cdot (x - 3)\)</p><p dir="ltr" style="text-align: left;">Tikrinės reikšmės</p><p dir="ltr" style="text-align: left;">\(\lambda_1 = 5, \qquad \lambda_2=3.\)</p><p dir="ltr" style="text-align: left;">Šias tikrines reikmes atitinkantys tikriniai vektoriai:</p><p dir="ltr" style="text-align: left;">\(v_1=\left(1,\,1\right), \qquad v_2=\left(5,\,4\right).\)<br></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -533,7 +533,7 @@
     <idnumber></idnumber>
     <usecase>0</usecase>
     <answer fraction="100" format="moodle_auto_format">
-      <text>-3,-5;(1,-2);(3,-5)</text>
+      <text>5,3;(1,1);(5,4)</text>
       <feedback format="html">
         <text></text>
       </feedback>

@@ -3,16 +3,62 @@
 <!-- question: 1879148  -->
   <question type="multichoice">
     <name>
+      <text>2x2 Diagonalizuojamos matricos 1 variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
+-17 & -20 \\
+10 & 13
+\end{array}\right)\)<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} + 4 x - 21=(x - 3) \cdot (x + 7)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=3, \quad \lambda_{2}=-7.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(3)=1, \quad \text{alg}_A(-7)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(3)=\left<\left(1,\,2\right)\right>, \quad \text{V}_A(-7)=\left<\left(1,\,1\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(3)=1, \quad \text{geom}_A(-7)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>123</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Atsakymas teisingas.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Atsakymas iš dalies teisingas.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Atsakymas neteisingas.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Taip, \(A\) diagonalizuojama<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ne, \(A\) nediagonalizuojama<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1879148  -->
+  <question type="multichoice">
+    <name>
       <text>2x2 Diagonalizuojamos matricos 10 variantas</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--7 & 1 \\
--1 & -5
+1 & 9 \\
+-1 & 7
 \end{array}\right)\)<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} - 12 x - 36=\left(-1\right) \cdot (x + 6)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=-6.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(-6)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(-6)=\left<\left(1,\,-1\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(-6)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 8 x + 16=(x - 4)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=4.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(4)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(4)=\left<\left(1,\,-3\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(4)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -53,12 +99,12 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--3 & 5 \\
--10 & 12
+7 & 1 \\
+-1 & 9
 \end{array}\right)\)<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 9 x - 14=\left(-1\right) \cdot (x - 7) \cdot (x - 2)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=7, \quad \lambda_{2}=2.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(7)=1, \quad \text{alg}_A(2)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(7)=\left<\left(1,\,-1\right)\right>, \quad \text{V}_A(2)=\left<\left(2,\,-1\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(7)=1, \quad \text{geom}_A(2)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 16 x + 64=(x - 8)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=8.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(8)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(8)=\left<\left(1,\,-1\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(8)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -78,13 +124,13 @@
       <text>Atsakymas neteisingas.</text>
     </incorrectfeedback>
     <shownumcorrect/>
-    <answer fraction="100" format="html">
+    <answer fraction="0" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Taip, \(A\) diagonalizuojama<br></p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
-    <answer fraction="0" format="html">
+    <answer fraction="100" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ne, \(A\) nediagonalizuojama<br></p>]]></text>
       <feedback format="html">
         <text></text>
@@ -99,12 +145,12 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
-13 & 9 \\
--18 & -14
+-8 & -20 \\
+1 & 1
 \end{array}\right)\)<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} - x + 20=\left(-1\right) \cdot (x - 4) \cdot (x + 5)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=4, \quad \lambda_{2}=-5.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(4)=1, \quad \text{alg}_A(-5)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(4)=\left<\left(2,\,1\right)\right>, \quad \text{V}_A(-5)=\left<\left(1,\,1\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(4)=1, \quad \text{geom}_A(-5)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} + 7 x + 12=(x + 3) \cdot (x + 4)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=-3, \quad \lambda_{2}=-4.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(-3)=1, \quad \text{alg}_A(-4)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(-3)=\left<\left(1,\,5\right)\right>, \quad \text{V}_A(-4)=\left<\left(1,\,4\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(-3)=1, \quad \text{geom}_A(-4)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -145,12 +191,12 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
-3 & -20 \\
-4 & -15
+-7 & 6 \\
+-18 & 14
 \end{array}\right)\)<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} - 12 x - 35=\left(-1\right) \cdot (x + 5) \cdot (x + 7)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=-5, \quad \lambda_{2}=-7.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(-5)=1, \quad \text{alg}_A(-7)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(-5)=\left<\left(1,\,-2\right)\right>, \quad \text{V}_A(-7)=\left<\left(2,\,-5\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(-5)=1, \quad \text{geom}_A(-7)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 7 x + 10=(x - 5) \cdot (x - 2)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=5, \quad \lambda_{2}=2.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(5)=1, \quad \text{alg}_A(2)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(5)=\left<\left(3,\,-2\right)\right>, \quad \text{V}_A(2)=\left<\left(2,\,-1\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(5)=1, \quad \text{geom}_A(2)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -196,7 +242,7 @@
 \end{array}\right)\)<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 9 x - 20=\left(-1\right) \cdot (x - 5) \cdot (x - 4)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=5, \quad \lambda_{2}=4.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(5)=1, \quad \text{alg}_A(4)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(5)=\left<\left(3,\,5\right)\right>, \quad \text{V}_A(4)=\left<\left(1,\,2\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(5)=1, \quad \text{geom}_A(4)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 9 x + 20=(x - 5) \cdot (x - 4)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=5, \quad \lambda_{2}=4.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(5)=1, \quad \text{alg}_A(4)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(5)=\left<\left(3,\,5\right)\right>, \quad \text{V}_A(4)=\left<\left(1,\,2\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(5)=1, \quad \text{geom}_A(4)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -237,12 +283,12 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--13 & 9 \\
--4 & -1
+-9 & 14 \\
+-7 & 12
 \end{array}\right)\)<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} - 14 x - 49=\left(-1\right) \cdot (x + 7)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=-7.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(-7)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(-7)=\left<\left(2,\,-3\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(-7)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 3 x - 10=(x - 5) \cdot (x + 2)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=5, \quad \lambda_{2}=-2.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(5)=1, \quad \text{alg}_A(-2)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(5)=\left<\left(1,\,-2\right)\right>, \quad \text{V}_A(-2)=\left<\left(1,\,-1\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(5)=1, \quad \text{geom}_A(-2)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -262,13 +308,13 @@
       <text>Atsakymas neteisingas.</text>
     </incorrectfeedback>
     <shownumcorrect/>
-    <answer fraction="0" format="html">
+    <answer fraction="100" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Taip, \(A\) diagonalizuojama<br></p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
-    <answer fraction="100" format="html">
+    <answer fraction="0" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ne, \(A\) nediagonalizuojama<br></p>]]></text>
       <feedback format="html">
         <text></text>
@@ -283,12 +329,12 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--11 & 18 \\
--9 & 16
+-8 & 9 \\
+-1 & -2
 \end{array}\right)\)<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 5 x + 14=\left(-1\right) \cdot (x - 7) \cdot (x + 2)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=7, \quad \lambda_{2}=-2.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(7)=1, \quad \text{alg}_A(-2)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(7)=\left<\left(1,\,-2\right)\right>, \quad \text{V}_A(-2)=\left<\left(1,\,-1\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(7)=1, \quad \text{geom}_A(-2)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} + 10 x + 25=(x + 5)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=-5.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(-5)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(-5)=\left<\left(1,\,-3\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(-5)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -308,13 +354,13 @@
       <text>Atsakymas neteisingas.</text>
     </incorrectfeedback>
     <shownumcorrect/>
-    <answer fraction="100" format="html">
+    <answer fraction="0" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Taip, \(A\) diagonalizuojama<br></p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
-    <answer fraction="0" format="html">
+    <answer fraction="100" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ne, \(A\) nediagonalizuojama<br></p>]]></text>
       <feedback format="html">
         <text></text>
@@ -329,12 +375,12 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
-5 & -15 \\
-6 & -14
+9 & 4 \\
+-1 & 5
 \end{array}\right)\)<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} - 9 x - 20=\left(-1\right) \cdot (x + 4) \cdot (x + 5)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=-4, \quad \lambda_{2}=-5.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(-4)=1, \quad \text{alg}_A(-5)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(-4)=\left<\left(2,\,-3\right)\right>, \quad \text{V}_A(-5)=\left<\left(3,\,-5\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(-4)=1, \quad \text{geom}_A(-5)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 14 x + 49=(x - 7)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=7.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(7)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(7)=\left<\left(1,\,2\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(7)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -354,13 +400,13 @@
       <text>Atsakymas neteisingas.</text>
     </incorrectfeedback>
     <shownumcorrect/>
-    <answer fraction="100" format="html">
+    <answer fraction="0" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Taip, \(A\) diagonalizuojama<br></p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
-    <answer fraction="0" format="html">
+    <answer fraction="100" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ne, \(A\) nediagonalizuojama<br></p>]]></text>
       <feedback format="html">
         <text></text>
@@ -375,12 +421,12 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--1 & 16 \\
--1 & -9
+12 & 10 \\
+-5 & -3
 \end{array}\right)\)<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} - 10 x - 25=\left(-1\right) \cdot (x + 5)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=-5.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(-5)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(-5)=\left<\left(1,\,4\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(-5)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 9 x + 14=(x - 7) \cdot (x - 2)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=7, \quad \lambda_{2}=2.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(7)=1, \quad \text{alg}_A(2)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(7)=\left<\left(1,\,1\right)\right>, \quad \text{V}_A(2)=\left<\left(1,\,2\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(7)=1, \quad \text{geom}_A(2)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -400,13 +446,13 @@
       <text>Atsakymas neteisingas.</text>
     </incorrectfeedback>
     <shownumcorrect/>
-    <answer fraction="0" format="html">
+    <answer fraction="100" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Taip, \(A\) diagonalizuojama<br></p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
-    <answer fraction="100" format="html">
+    <answer fraction="0" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ne, \(A\) nediagonalizuojama<br></p>]]></text>
       <feedback format="html">
         <text></text>
@@ -421,12 +467,12 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--2 & 1 \\
--4 & -6
+6 & 1 \\
+-16 & -2
 \end{array}\right)\)<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} - 8 x - 16=\left(-1\right) \cdot (x + 4)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=-4.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(-4)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(-4)=\left<\left(2,\,1\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(-4)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 4 x + 4=(x - 2)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=2.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(2)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(2)=\left<\left(4,\,1\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(2)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -463,16 +509,16 @@
 <!-- question: 1879148  -->
   <question type="multichoice">
     <name>
-      <text>2x2 Diagonalizuojamos matricos 1 variantas</text>
+      <text>2x2 Diagonalizuojamos matricos 2 variantas</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--11 & 20 \\
--12 & 20
+-1 & -1 \\
+12 & 6
 \end{array}\right)\)<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 9 x - 20=\left(-1\right) \cdot (x - 5) \cdot (x - 4)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=5, \quad \lambda_{2}=4.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(5)=1, \quad \text{alg}_A(4)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(5)=\left<\left(3,\,-4\right)\right>, \quad \text{V}_A(4)=\left<\left(4,\,-5\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(5)=1, \quad \text{geom}_A(4)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 5 x + 6=(x - 3) \cdot (x - 2)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=3, \quad \lambda_{2}=2.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(3)=1, \quad \text{alg}_A(2)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(3)=\left<\left(3,\,1\right)\right>, \quad \text{V}_A(2)=\left<\left(4,\,1\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(3)=1, \quad \text{geom}_A(2)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -513,12 +559,12 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--4 & -1 \\
-2 & -7
+11 & 8 \\
+-4 & -1
 \end{array}\right)\)<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} - 11 x - 30=\left(-1\right) \cdot (x + 5) \cdot (x + 6)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=-5, \quad \lambda_{2}=-6.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(-5)=1, \quad \text{alg}_A(-6)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(-5)=\left<\left(2,\,-1\right)\right>, \quad \text{V}_A(-6)=\left<\left(1,\,-1\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(-5)=1, \quad \text{geom}_A(-6)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 10 x + 21=(x - 7) \cdot (x - 3)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=7, \quad \lambda_{2}=3.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(7)=1, \quad \text{alg}_A(3)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(7)=\left<\left(1,\,1\right)\right>, \quad \text{V}_A(3)=\left<\left(1,\,2\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(7)=1, \quad \text{geom}_A(3)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -545,52 +591,6 @@
       </feedback>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ne, \(A\) nediagonalizuojama<br></p>]]></text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-  </question>
-
-<!-- question: 1879148  -->
-  <question type="multichoice">
-    <name>
-      <text>2x2 Diagonalizuojamos matricos 2 variantas</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
-4 & 4 \\
--1 & 8
-\end{array}\right)\)<br></p>]]></text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 12 x - 36=\left(-1\right) \cdot (x - 6)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=6.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(6)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(6)=\left<\left(1,\,-2\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(6)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
-    </generalfeedback>
-    <defaultgrade>1</defaultgrade>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>false</shuffleanswers>
-    <answernumbering>123</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="html">
-      <text>Atsakymas teisingas.</text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text>Atsakymas iš dalies teisingas.</text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text>Atsakymas neteisingas.</text>
-    </incorrectfeedback>
-    <shownumcorrect/>
-    <answer fraction="0" format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">Taip, \(A\) diagonalizuojama<br></p>]]></text>
-      <feedback format="html">
-        <text></text>
-      </feedback>
-    </answer>
-    <answer fraction="100" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ne, \(A\) nediagonalizuojama<br></p>]]></text>
       <feedback format="html">
         <text></text>
@@ -605,12 +605,12 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--7 & 4 \\
--5 & 2
+-5 & -12 \\
+8 & 15
 \end{array}\right)\)<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} - 5 x - 6=\left(-1\right) \cdot (x + 2) \cdot (x + 3)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=-2, \quad \lambda_{2}=-3.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(-2)=1, \quad \text{alg}_A(-3)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(-2)=\left<\left(1,\,-1\right)\right>, \quad \text{V}_A(-3)=\left<\left(5,\,-4\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(-2)=1, \quad \text{geom}_A(-3)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 10 x + 21=(x - 7) \cdot (x - 3)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=7, \quad \lambda_{2}=3.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(7)=1, \quad \text{alg}_A(3)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(7)=\left<\left(2,\,3\right)\right>, \quad \text{V}_A(3)=\left<\left(1,\,1\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(7)=1, \quad \text{geom}_A(3)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -651,12 +651,12 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
-7 & 1 \\
--9 & 1
+2 & 6 \\
+-5 & -9
 \end{array}\right)\)<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 8 x - 16=\left(-1\right) \cdot (x - 4)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=4.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(4)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(4)=\left<\left(3,\,1\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(4)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} + 7 x + 12=(x + 3) \cdot (x + 4)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=-3, \quad \lambda_{2}=-4.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(-3)=1, \quad \text{alg}_A(-4)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(-3)=\left<\left(1,\,1\right)\right>, \quad \text{V}_A(-4)=\left<\left(5,\,6\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(-3)=1, \quad \text{geom}_A(-4)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -676,13 +676,13 @@
       <text>Atsakymas neteisingas.</text>
     </incorrectfeedback>
     <shownumcorrect/>
-    <answer fraction="0" format="html">
+    <answer fraction="100" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Taip, \(A\) diagonalizuojama<br></p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
-    <answer fraction="100" format="html">
+    <answer fraction="0" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ne, \(A\) nediagonalizuojama<br></p>]]></text>
       <feedback format="html">
         <text></text>
@@ -697,12 +697,12 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--4 & 9 \\
--4 & 8
+9 & 9 \\
+-1 & 3
 \end{array}\right)\)<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 4 x - 4=\left(-1\right) \cdot (x - 2)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=2.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(2)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(2)=\left<\left(2,\,-3\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(2)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 12 x + 36=(x - 6)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=6.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(6)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(6)=\left<\left(1,\,3\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(6)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -743,12 +743,12 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--7 & 10 \\
--5 & 8
+-5 & 1 \\
+-1 & -7
 \end{array}\right)\)<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + x + 6=\left(-1\right) \cdot (x - 3) \cdot (x + 2)\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=3, \quad \lambda_{2}=-2.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(3)=1, \quad \text{alg}_A(-2)=1,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(3)=\left<\left(1,\,-2\right)\right>, \quad \text{V}_A(-2)=\left<\left(1,\,-1\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(3)=1, \quad \text{geom}_A(-2)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai sutampa, matrica yra diagonalizuojama.<br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} + 12 x + 36=(x + 6)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=-6.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(-6)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(-6)=\left<\left(1,\,1\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(-6)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -768,13 +768,13 @@
       <text>Atsakymas neteisingas.</text>
     </incorrectfeedback>
     <shownumcorrect/>
-    <answer fraction="100" format="html">
+    <answer fraction="0" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Taip, \(A\) diagonalizuojama<br></p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
-    <answer fraction="0" format="html">
+    <answer fraction="100" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ne, \(A\) nediagonalizuojama<br></p>]]></text>
       <feedback format="html">
         <text></text>
@@ -789,12 +789,12 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
-10 & 4 \\
--9 & -2
+1 & 9 \\
+-4 & -11
 \end{array}\right)\)<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 8 x - 16=\left(-1\right) \cdot (x - 4)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=4.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(4)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(4)=\left<\left(3,\,2\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(4)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} + 10 x + 25=(x + 5)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=-5.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(-5)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(-5)=\left<\left(2,\,3\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(-5)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -835,12 +835,12 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
--9 & 9 \\
--16 & 15
+-1 & 9 \\
+-1 & -7
 \end{array}\right)\)<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 6 x - 9=\left(-1\right) \cdot (x - 3)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=3.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(3)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(3)=\left<\left(4,\,-3\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(3)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} + 8 x + 16=(x + 4)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=-4.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(-4)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(-4)=\left<\left(1,\,3\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(-4)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -881,12 +881,12 @@
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">Ar duotoji 2x2 matrica \(A\) yra diagonalizuojama?</p><p dir="ltr" style="text-align: left;">\(A=\left(\begin{array}{rr}
-5 & 1 \\
--1 & 3
+-1 & 16 \\
+-1 & 7
 \end{array}\right)\)<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=-x^{2} + 8 x - 16=\left(-1\right) \cdot (x - 4)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=4.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(4)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(4)=\left<\left(1,\,1\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(4)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Charakteristinis polinomas</p><p dir="ltr">\(\phi_A(\lambda)=\text{det }(A-\lambda I)=x^{2} - 6 x + 9=(x - 3)^{2}\)</p><p dir="ltr">Tikrinės reikšmės:</p><p dir="ltr">\(\lambda_{1}=3.\)</p><p dir="ltr"></p><p dir="ltr">Tikrinių reikšmių algebriniai kartotinumai:</p><p dir="ltr">\(\text{alg}_A(3)=2,\)</p><p></p><p dir="ltr">Šias tikrines reikmes atitinkantys tikrinių vektorių poerdviai:<br></p><p dir="ltr">\(\text{V}_A(3)=\left<\left(1,\,-4\right)\right>.\)</p><p>Geometriniai kartotinumai:</p><p dir="ltr">\(\text{geom}_A(3)=1.\)<br></p>Kadangi tikrinių reikšmių algebriniai ir geometriniai kartotinumai nesutampa, matrica yra nediagonalizuojama.<br><p></p>]]></text>
     </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>

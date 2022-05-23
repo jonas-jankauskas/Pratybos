@@ -194,4 +194,25 @@ def latex_GramSchmidt_eqs(M, T, ovec_name_str, nvec_name_str):
     N=identity_matrix(R, m).augment(-lt_part(T))
     eqs_vec = N*v
     
-    return [latex(R.gens()[m+j])+ ' = ' + latex(M.rows()[j])+ ' \\sim ' + latex(eqs_vec[j]) for j in range(n)]
+    return [latex(R.gens()[m+j]) + ' = ' + latex(M.rows()[j])+ ' \\sim ' + latex(eqs_vec[j]) for j in range(n)]
+
+#---------------------------------------------------------------------
+#formated strings for vector and matrix answers
+
+def fmt_vecs_str(vec_lst):
+    '''
+        Returns string representation of vec cleared from spaces
+    '''
+    subs={' ':''}
+    temp = ';'.join(str(vec) for vec in vec_lst)
+    return make_subs(str(temp), subs)	
+
+def fmt_mat_str(mat):
+    '''
+        Returns a string containing matrix elements, enclosed by square brackets [ ], listed row-by-row from top left to bottom right. Matrix elements are separated by commas; rows are separated by semicolons; spaces are trimmed.
+    '''
+    
+    temp = '[%s]' % fmt_vecs_str(mat.rows())
+    subs={'(':'', ')':''}
+    return make_subs(str(temp), subs)
+

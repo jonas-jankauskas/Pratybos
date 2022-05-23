@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 1884484  -->
+  <question type="shortanswer">
+    <name>
+      <text>$dim$x$dim$ Matricinė interpoliacija $id$ variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Tiesinis atvaizdis \(f: \mathbb{R}^{$dim$} \mapsto \mathbb{R}^{$dim$}\) vektorius</p><p dir="ltr" style="text-align: left;">\($veqs$\)</p><p dir="ltr" style="text-align: left;">atvaizduoja į vektorius</p><p dir="ltr" style="text-align: left;">\($feqs$.\)</p><p dir="ltr" style="text-align: left;">Visų vektorių koordinatės duotos standartinėje&nbsp;&nbsp;erdvės \(\mathbb{R}^{$dim$}\) bazėje \($evecs$\).</p><p dir="ltr" style="text-align: left;">Raskite atvaizdžio \(f\) matricą standartinėje bazėje.</p><p dir="ltr" style="text-align: left;">PASTABA: Laikykitės įprastinės vektorių eilės tvarkos. Matrica įvedama laužtiniuose skliausteliuose, iš kairės į dešinę, iš viršaus žemyn. Eilutės skiriamos kabliataškiais, o tos pačios eilutės elementai kableliais, be tarpų ar kitų pašalinių simbolių. PVZ.: atsakymas</p><p dir="ltr" style="text-align: left;">\([1,2,3;4,5,6;7,8,9]\)</p><p dir="ltr" style="text-align: left;">reiškia 3x3 matricą</p><p dir="ltr" style="text-align: left;">\(\left(\begin{array}{rrr} 1 &amp; 2 &amp; 3\\ 4 &amp; 5 &amp; 6\\ 7 &amp; 8 &amp; 9\end{array}\right)\).</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Surašę \($vvecs$\) ir jų vaizdus \($fvals$\) į išplėstinę matricą ir&nbsp; atlikę Gauso veiksmus, gausime:</p><p dir="ltr" style="text-align: left;">\($VW$ \sim $RREF$.\)</p><p dir="ltr" style="text-align: left;">Dešinėje pusėje gauta atvaizdžio \(f\) matrica</p><p dir="ltr" style="text-align: left;">\(A=$F$.\)</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>$answ$</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

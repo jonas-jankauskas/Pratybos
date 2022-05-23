@@ -70,7 +70,7 @@ for nr, mat in enumerate(problem_data):
     gmul = {tp[0]: len(tp[1]) for tp in edata}
 
 	#characteristic polynomial
-    f = -mat.charpoly()
+    f = ((-1)**(mat.nrows()))*mat.charpoly()
     pr = factor(f)
 
     subs0 = {'[':'<', ']':'>'}

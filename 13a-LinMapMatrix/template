@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 1884397  -->
+  <question type="shortanswer">
+    <name>
+      <text>$mdim$x$ndim$ Tiesinio atvaizdžio matrica $id$ variantas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Užrašykite tiesinio atvaizdžio \(f: \mathbb{R}^{$mdim$} \mapsto \mathbb{R}^{$ndim$}\)</p><p dir="ltr" style="text-align: left;">\(f$x$=$y$\)</p><p dir="ltr" style="text-align: left;">matricą standartinėse erdvių \(\mathbb{R}^{$mdim$}, \mathbb{R}^{$ndim$}\) bazėse</p><p dir="ltr" style="text-align: left;">\(\{$mbasis$\}, \qquad \{$nbasis$\}.\)</p><p dir="ltr" style="text-align: left;">PASTABA: Matrica įvedama laužtiniuose skliausteliuose, iš kairės į dešinę, iš viršaus žemyn. Eilutės skiriamos kabliataškiais, o tos pačios eilutės elementai kableliais, be tarpų ar kitų pašalinių simbolių. PVZ.: atsakymas</p><p dir="ltr" style="text-align: left;">\([1,2,3;4,5,6]\)</p><p dir="ltr" style="text-align: left;">reiškia 2x3 matricą</p><p dir="ltr" style="text-align: left;">\(\left(\begin{array}{rrr} 1 &amp; 2 &amp; 3\\ 4 &amp; 5 &amp; 6\end{array}\right)\).</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Erdvės \(\mathbb{R}^{$mdim$}\)&nbsp; standartinės bazės \($mbasis$\) vaizdai</p><p dir="ltr" style="text-align: left;">\($eqs$.\)</p><p dir="ltr" style="text-align: left;">Surašę šiuos vaizdus į matricos eilutes, gauname atvaizdžio matricą</p><p dir="ltr" style="text-align: left;">\(A=$A$.\)</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>$answ$</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
