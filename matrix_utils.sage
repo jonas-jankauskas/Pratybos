@@ -633,7 +633,7 @@ def random_nice_symmetric_Zmatrix(ndim, max_height=100, max2len=None, num_tries 
     '''
 
     #if rank and signature are not given, generate valid random values
-    if nrank == None:
+    if nrank is None:
         rnk = rnd.randint(1, ndim)
     else:
         rnk = nrank
@@ -656,10 +656,10 @@ def random_nice_symmetric_Zmatrix(ndim, max_height=100, max2len=None, num_tries 
     rnd.shuffle(ev_weights)
 
     #if evec_weights is specified, default weights are overriden
-    if (evec_weights != None) and (len(evec_weights)==ndim):
+    if (evec_weights is not None) and (len(evec_weights)==ndim):
         ev_weights = evec_weights
 
-    if max2len == None:
+    if max2len is None:
         max_ev = ndim*max_height^2
     else:
         max_ev = max2len
@@ -682,16 +682,16 @@ def random_nice_symmetric_Zmatrix(ndim, max_height=100, max2len=None, num_tries 
         evals = [wgt*((rvec*rvec.T)[0,0]) for wgt, rvec in zip(ev_weights, rowsU)]
         evals.sort()
 
-        if disp == None:
+        if displ is None:
             shift = 0
-        elif disp == 'random': 
+        elif displ == 'random': 
             shift = evals[rnd.choice([neg_idx, -pos_idx-1]) % ndim] + rnd.choice([-1, 0, 1])
-        elif disp == 'symmetric':
+        elif displ == 'symmetric':
             shift = (max(evals)-min(evals))//2
-        elif disp == 'middle':
+        elif displ == 'middle':
             shift = evals[len(evals)//2]
         else:
-            shift = disp 
+            shift = displ 
 
         if max([abs(ev+shift) for ev in evals]) > max_ev:
             continue
