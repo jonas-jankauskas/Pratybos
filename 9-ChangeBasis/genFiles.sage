@@ -58,7 +58,7 @@ for nr, tp in enumerate(problem_data):
     vecNameStr = str().join(vecNames)[:-1]
     vecVars = var(vecNameStr)
 
-    expr_str = latex_linear_combination_lax(vec, vecVars)
+    expr_str = latex_lin_comb_lax(vec, vecVars)
 
     answ_str = make_subs(str(nvec), {' ':''})
 

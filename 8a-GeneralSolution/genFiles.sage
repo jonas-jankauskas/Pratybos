@@ -49,8 +49,8 @@ for nr, tp in enumerate(problem_data):
 
     rA = A.augment(b).rref()
 
-    syst_str = latex_SLE(A,b, 'x')
-    rsys_str = latex_SLE(rA[:,:-1],rA.column(-1),'x')
+    syst_str = latex_SLE(A,b, 'x', eol_str='')
+    rsys_str = latex_SLE(rA[:,:-1],rA.column(-1),'x', eol_str='')
 
     psol, hsols = standard_solution_SLE(A,b)
     psol_str = str(psol)

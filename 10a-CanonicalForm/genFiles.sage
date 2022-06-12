@@ -74,7 +74,7 @@ for nr, qForm in enumerate(problem_data):
         
     f_str = 'f%s=%s' % (latex(x_vec), latex(fPoly))
     g_str = 'g%s=%s' % (latex(y_vec), latex(gPoly))
-    eqs_str = latex_SLE(matC, x_vec, 'y', eq_type='left')
+    eqs_str = latex_SLE(matC, x_vec, 'y', eq_side='left', eol_str='')
 
     subs = {' ': ''}
     answ_str = str(vecD)
