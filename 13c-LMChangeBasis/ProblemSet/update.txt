@@ -3940,3 +3940,1395 @@ inverse T matrix =
 new F matrix =
 [ -3 -10]
 [ -1   3]
+------------------------ New data for 2022/05/27 12:21:12 ------------------------
+=======================
+old F matrix =
+[-7 -1]
+[ 6 14]
+T matrix =
+[-1 -3]
+[-2 -7]
+inverse T matrix =
+[-7  3]
+[ 2 -1]
+new F matrix =
+[-5  8]
+[ 4 12]
+=======================
+old F matrix =
+[ 2 -7]
+[ 4 13]
+T matrix =
+[3 5]
+[1 2]
+inverse T matrix =
+[ 2 -5]
+[-1  3]
+new F matrix =
+[8 2]
+[1 7]
+=======================
+old F matrix =
+[-10  -1]
+[  1 -14]
+T matrix =
+[ 1 -5]
+[ 1 -4]
+inverse T matrix =
+[-4  5]
+[-1  1]
+new F matrix =
+[ -9  -6]
+[  1 -15]
+=======================
+old F matrix =
+[-7 -7]
+[-9  8]
+T matrix =
+[-1  1]
+[ 1 -2]
+inverse T matrix =
+[-2 -1]
+[-1 -1]
+new F matrix =
+[-11 -13]
+[  1  12]
+=======================
+old F matrix =
+[  3 -10]
+[ -2  -3]
+T matrix =
+[-1 -4]
+[ 1  3]
+inverse T matrix =
+[ 3  4]
+[-1 -1]
+new F matrix =
+[-7 -2]
+[10  7]
+=======================
+old F matrix =
+[ -5 -15]
+[ -1  -8]
+T matrix =
+[-1 -7]
+[ 1  6]
+inverse T matrix =
+[ 6  7]
+[-1 -1]
+new F matrix =
+[  1  13]
+[ -3 -14]
+=======================
+old F matrix =
+[ -1  -5]
+[  3 -14]
+T matrix =
+[-1  4]
+[-2  7]
+inverse T matrix =
+[ 7 -4]
+[ 2 -1]
+new F matrix =
+[-11  -1]
+[-15  -4]
+=======================
+old F matrix =
+[-10   8]
+[  3  -7]
+T matrix =
+[-1 -1]
+[-1 -2]
+inverse T matrix =
+[-2  1]
+[ 1 -1]
+new F matrix =
+[-15   8]
+[ -2  -2]
+=======================
+old F matrix =
+[ -7  -8]
+[ -7 -10]
+T matrix =
+[1 1]
+[3 4]
+inverse T matrix =
+[ 4 -1]
+[-3  1]
+new F matrix =
+[ -2  -4]
+[ -4 -15]
+=======================
+old F matrix =
+[-8  8]
+[-5 14]
+T matrix =
+[-2  1]
+[ 1 -1]
+inverse T matrix =
+[-1 -1]
+[-1 -2]
+new F matrix =
+[-9 -7]
+[ 9 15]
+=======================
+old F matrix =
+[-13   6]
+[-13   8]
+T matrix =
+[ 2 -3]
+[ 1 -1]
+inverse T matrix =
+[-1  3]
+[-1  2]
+new F matrix =
+[-1 15]
+[ 2 -4]
+=======================
+old F matrix =
+[-11 -14]
+[ -1   1]
+T matrix =
+[-1 -2]
+[ 1  1]
+inverse T matrix =
+[ 1  2]
+[-1 -1]
+new F matrix =
+[  1  14]
+[  1 -11]
+=======================
+old F matrix =
+[9 4]
+[6 8]
+T matrix =
+[ 1  1]
+[-3 -2]
+inverse T matrix =
+[-2 -1]
+[ 3  1]
+new F matrix =
+[ 6 -3]
+[-6 11]
+=======================
+old F matrix =
+[-2  7]
+[-1  2]
+T matrix =
+[ 1 -2]
+[-2  5]
+inverse T matrix =
+[5 2]
+[2 1]
+new F matrix =
+[  6   3]
+[-13  -6]
+=======================
+old F matrix =
+[ 3 -1]
+[-8 15]
+T matrix =
+[-1  1]
+[ 1 -2]
+inverse T matrix =
+[-2 -1]
+[-1 -1]
+new F matrix =
+[ 6 -5]
+[-7 12]
+=======================
+old F matrix =
+[ 1 -8]
+[-3  4]
+T matrix =
+[ 1 -2]
+[ 1 -1]
+inverse T matrix =
+[-1  2]
+[-1  1]
+new F matrix =
+[ 9 -2]
+[ 8 -4]
+=======================
+old F matrix =
+[ -1   2]
+[ -6 -11]
+T matrix =
+[1 1]
+[3 4]
+inverse T matrix =
+[ 4 -1]
+[-3  1]
+new F matrix =
+[ -1  -2]
+[  6 -11]
+=======================
+old F matrix =
+[-9  9]
+[ 6 10]
+T matrix =
+[ 1  4]
+[-2 -7]
+inverse T matrix =
+[-7 -4]
+[ 2  1]
+new F matrix =
+[ -7 -11]
+[ -8   8]
+=======================
+old F matrix =
+[-1  6]
+[ 3  7]
+T matrix =
+[-1 -3]
+[ 1  2]
+inverse T matrix =
+[ 2  3]
+[-1 -1]
+new F matrix =
+[ 11   3]
+[-10  -5]
+=======================
+old F matrix =
+[-13 -12]
+[ 15  15]
+T matrix =
+[2 1]
+[1 1]
+inverse T matrix =
+[ 1 -1]
+[-1  2]
+new F matrix =
+[-2 -7]
+[-1  4]
+=======================
+old F matrix =
+[ 10  12]
+[ -5 -14]
+T matrix =
+[-1 -3]
+[-1 -4]
+inverse T matrix =
+[-4  3]
+[ 1 -1]
+new F matrix =
+[ 10 -15]
+[  4 -14]
+=======================
+old F matrix =
+[13 -6]
+[-8 -5]
+T matrix =
+[2 5]
+[1 3]
+inverse T matrix =
+[ 3 -5]
+[-1  2]
+new F matrix =
+[ -5  -4]
+[-12  13]
+=======================
+old F matrix =
+[ 2  2]
+[-1 -2]
+T matrix =
+[-2 -7]
+[-1 -4]
+inverse T matrix =
+[-4  7]
+[ 1 -2]
+new F matrix =
+[-2  1]
+[-2  2]
+=======================
+old F matrix =
+[10 -5]
+[-1  3]
+T matrix =
+[-1 -7]
+[ 1  6]
+inverse T matrix =
+[ 6  7]
+[-1 -1]
+new F matrix =
+[-2 -5]
+[11 15]
+=======================
+old F matrix =
+[-5  5]
+[10  8]
+T matrix =
+[-2 -3]
+[-1 -2]
+inverse T matrix =
+[-2  3]
+[ 1 -2]
+new F matrix =
+[ 6  8]
+[ 9 -3]
+=======================
+old F matrix =
+[-12 -11]
+[ 11  11]
+T matrix =
+[ 1  1]
+[-5 -4]
+inverse T matrix =
+[-4 -1]
+[ 5  1]
+new F matrix =
+[ 4  1]
+[-9 -5]
+=======================
+old F matrix =
+[-10  -5]
+[-10   1]
+T matrix =
+[ 1 -2]
+[ 1 -1]
+inverse T matrix =
+[-1  2]
+[-1  1]
+new F matrix =
+[-3 13]
+[ 6 -6]
+=======================
+old F matrix =
+[-3 10]
+[ 5 13]
+T matrix =
+[1 3]
+[1 4]
+inverse T matrix =
+[ 4 -3]
+[-1  1]
+new F matrix =
+[-1 13]
+[ 6 11]
+=======================
+old F matrix =
+[ 11 -11]
+[  5 -11]
+T matrix =
+[-1  2]
+[ 1 -3]
+inverse T matrix =
+[-3 -2]
+[-1 -1]
+new F matrix =
+[ 14  13]
+[-10 -14]
+=======================
+old F matrix =
+[ 1 -7]
+[-1 -2]
+T matrix =
+[ 1  4]
+[-1 -3]
+inverse T matrix =
+[-3 -4]
+[ 1  1]
+new F matrix =
+[-6 -3]
+[ 7  5]
+=======================
+old F matrix =
+[-6 -5]
+[ 8 11]
+T matrix =
+[-1 -1]
+[-1 -2]
+inverse T matrix =
+[-2  1]
+[ 1 -1]
+new F matrix =
+[-2  4]
+[ 3  7]
+=======================
+old F matrix =
+[-1  7]
+[ 6 -7]
+T matrix =
+[ 4 -7]
+[-1  2]
+inverse T matrix =
+[2 7]
+[1 4]
+new F matrix =
+[-15 -14]
+[  5   7]
+=======================
+old F matrix =
+[-7  6]
+[-7 13]
+T matrix =
+[-1  1]
+[ 1 -2]
+inverse T matrix =
+[-2 -1]
+[-1 -1]
+new F matrix =
+[-7 -7]
+[ 6 13]
+=======================
+old F matrix =
+[ 1 15]
+[-1  8]
+T matrix =
+[ 1 -5]
+[ 1 -4]
+inverse T matrix =
+[-4  5]
+[-1  1]
+new F matrix =
+[ 1  5]
+[-3  8]
+=======================
+old F matrix =
+[ 1 15]
+[ 2 -3]
+T matrix =
+[ 1 -3]
+[ 1 -2]
+inverse T matrix =
+[-2  3]
+[-1  1]
+new F matrix =
+[-14   9]
+[-15  12]
+=======================
+old F matrix =
+[-1  4]
+[ 1  2]
+T matrix =
+[1 3]
+[2 7]
+inverse T matrix =
+[ 7 -3]
+[-2  1]
+new F matrix =
+[-6  4]
+[-9  7]
+=======================
+old F matrix =
+[3 6]
+[1 2]
+T matrix =
+[ 1 -4]
+[-1  5]
+inverse T matrix =
+[5 4]
+[1 1]
+new F matrix =
+[-7 -6]
+[14 12]
+=======================
+old F matrix =
+[  7 -14]
+[  1  13]
+T matrix =
+[1 2]
+[1 3]
+inverse T matrix =
+[ 3 -2]
+[-1  1]
+new F matrix =
+[15 -6]
+[ 5  5]
+=======================
+old F matrix =
+[-14 -15]
+[  5   3]
+T matrix =
+[-1 -3]
+[ 1  2]
+inverse T matrix =
+[ 2  3]
+[-1 -1]
+new F matrix =
+[-8 -9]
+[ 1 -3]
+=======================
+old F matrix =
+[-10 -15]
+[  1   1]
+T matrix =
+[-1 -1]
+[-1 -2]
+inverse T matrix =
+[-2  1]
+[ 1 -1]
+new F matrix =
+[-4 -5]
+[-3 -5]
+=======================
+old F matrix =
+[ 5 -3]
+[-3  6]
+T matrix =
+[-1 -1]
+[-1 -2]
+inverse T matrix =
+[-2  1]
+[ 1 -1]
+new F matrix =
+[  1   1]
+[-11  10]
+=======================
+old F matrix =
+[-3  7]
+[ 3 11]
+T matrix =
+[-1 -5]
+[ 1  4]
+inverse T matrix =
+[ 4  5]
+[-1 -1]
+new F matrix =
+[ 14   2]
+[-15  -6]
+=======================
+old F matrix =
+[ 6 15]
+[ 6  2]
+T matrix =
+[ 1 -2]
+[ 1 -1]
+inverse T matrix =
+[-1  2]
+[-1  1]
+new F matrix =
+[ -5  -1]
+[-13  13]
+=======================
+old F matrix =
+[-14  -6]
+[ -8   5]
+T matrix =
+[ 1 -3]
+[ 1 -2]
+inverse T matrix =
+[-2  3]
+[-1  1]
+new F matrix =
+[  1   9]
+[ 12 -10]
+=======================
+old F matrix =
+[  6  15]
+[ -4 -12]
+T matrix =
+[ 1  3]
+[-1 -2]
+inverse T matrix =
+[-2 -3]
+[ 1  1]
+new F matrix =
+[-9 -3]
+[ 5  3]
+=======================
+old F matrix =
+[ 1 15]
+[10  6]
+T matrix =
+[-1 -1]
+[-1 -2]
+inverse T matrix =
+[-2  1]
+[ 1 -1]
+new F matrix =
+[ 1 10]
+[15  6]
+=======================
+old F matrix =
+[ -1 -10]
+[ -2   2]
+T matrix =
+[ 1 -3]
+[-1  4]
+inverse T matrix =
+[4 3]
+[1 1]
+new F matrix =
+[  4  -1]
+[-10  -3]
+=======================
+old F matrix =
+[ 5  6]
+[-1  8]
+T matrix =
+[ 1 -1]
+[-2  3]
+inverse T matrix =
+[3 1]
+[2 1]
+new F matrix =
+[ 14   4]
+[-15  -1]
+=======================
+old F matrix =
+[15  9]
+[-4 -2]
+T matrix =
+[-2 -7]
+[ 1  3]
+inverse T matrix =
+[ 3  7]
+[-1 -2]
+new F matrix =
+[-2 -6]
+[ 6 15]
+=======================
+old F matrix =
+[-12  13]
+[ 11  -4]
+T matrix =
+[-1 -2]
+[ 1  1]
+inverse T matrix =
+[ 1  2]
+[-1 -1]
+new F matrix =
+[ -5 -15]
+[-10 -11]
+=======================
+old F matrix =
+[3 4]
+[1 5]
+T matrix =
+[-1  1]
+[ 2 -3]
+inverse T matrix =
+[-3 -1]
+[-2 -1]
+new F matrix =
+[4 1]
+[5 4]
+=======================
+old F matrix =
+[ 10 -14]
+[  6 -13]
+T matrix =
+[ 1 -2]
+[-1  3]
+inverse T matrix =
+[3 2]
+[1 1]
+new F matrix =
+[ 6  8]
+[-1 -9]
+=======================
+old F matrix =
+[-8 15]
+[-5 11]
+T matrix =
+[ 1 -2]
+[-1  3]
+inverse T matrix =
+[3 2]
+[1 1]
+new F matrix =
+[-1 -3]
+[-3  4]
+=======================
+old F matrix =
+[ 4 11]
+[-2 11]
+T matrix =
+[ 1 -3]
+[ 1 -2]
+inverse T matrix =
+[-2  3]
+[-1  1]
+new F matrix =
+[ 2  8]
+[-5 13]
+=======================
+old F matrix =
+[ 8 -6]
+[ 5 -9]
+T matrix =
+[-1  1]
+[ 1 -2]
+inverse T matrix =
+[-2 -1]
+[-1 -1]
+new F matrix =
+[  9   6]
+[ -8 -10]
+=======================
+old F matrix =
+[-8 -3]
+[ 1 -3]
+T matrix =
+[ 1  5]
+[-1 -4]
+inverse T matrix =
+[-4 -5]
+[ 1  1]
+new F matrix =
+[-6 -3]
+[-1 -5]
+=======================
+old F matrix =
+[ 13 -13]
+[  2  -5]
+T matrix =
+[ 1 -1]
+[ 4 -3]
+inverse T matrix =
+[-3  1]
+[-4  1]
+new F matrix =
+[-1  3]
+[10  9]
+=======================
+old F matrix =
+[-8  1]
+[ 8 -9]
+T matrix =
+[ 1 -1]
+[ 2 -1]
+inverse T matrix =
+[-1  1]
+[-2  1]
+new F matrix =
+[ -4  -6]
+[  2 -13]
+=======================
+old F matrix =
+[13  6]
+[-5  1]
+T matrix =
+[ 1  2]
+[-2 -3]
+inverse T matrix =
+[-3 -2]
+[ 2  1]
+new F matrix =
+[7 2]
+[3 7]
+=======================
+old F matrix =
+[  5   9]
+[ -7 -12]
+T matrix =
+[1 1]
+[3 4]
+inverse T matrix =
+[ 4 -1]
+[-3  1]
+new F matrix =
+[ 1 -1]
+[11 -8]
+=======================
+old F matrix =
+[ 1  6]
+[-6 -8]
+T matrix =
+[-1 -1]
+[ 2  1]
+inverse T matrix =
+[ 1  1]
+[-2 -1]
+new F matrix =
+[  1   3]
+[-12  -8]
+=======================
+old F matrix =
+[-6  6]
+[11 -7]
+T matrix =
+[-1  1]
+[-2  1]
+inverse T matrix =
+[ 1 -1]
+[ 2 -1]
+new F matrix =
+[ -9  -4]
+[-15  -4]
+=======================
+old F matrix =
+[-7  1]
+[ 2 -5]
+T matrix =
+[ 2 -1]
+[-1  1]
+inverse T matrix =
+[1 1]
+[1 2]
+new F matrix =
+[-9 -2]
+[ 3 -3]
+=======================
+old F matrix =
+[10  7]
+[-4 -7]
+T matrix =
+[-1 -3]
+[-1 -4]
+inverse T matrix =
+[-4  3]
+[ 1 -1]
+new F matrix =
+[ 6 -8]
+[-3 -3]
+=======================
+old F matrix =
+[-7  4]
+[-1 -5]
+T matrix =
+[-1  1]
+[ 1 -2]
+inverse T matrix =
+[-2 -1]
+[-1 -1]
+new F matrix =
+[-3  3]
+[-4 -9]
+=======================
+old F matrix =
+[ 1 10]
+[ 4 13]
+T matrix =
+[ 1  4]
+[-1 -3]
+inverse T matrix =
+[-3 -4]
+[ 1  1]
+new F matrix =
+[ 11  -6]
+[-10   3]
+=======================
+old F matrix =
+[ 1  5]
+[-2 -8]
+T matrix =
+[1 4]
+[1 5]
+inverse T matrix =
+[ 5 -4]
+[-1  1]
+new F matrix =
+[ -8   1]
+[-10   1]
+=======================
+old F matrix =
+[-9  5]
+[-3  6]
+T matrix =
+[-1  3]
+[ 1 -4]
+inverse T matrix =
+[-4 -3]
+[-1 -1]
+new F matrix =
+[-13 -13]
+[  7  10]
+=======================
+old F matrix =
+[ 7 -1]
+[ 3 -4]
+T matrix =
+[ 1 -1]
+[ 2 -1]
+inverse T matrix =
+[-1  1]
+[-2  1]
+new F matrix =
+[-10   7]
+[-15  13]
+=======================
+old F matrix =
+[-10   9]
+[ -2  -2]
+T matrix =
+[-2  5]
+[ 1 -3]
+inverse T matrix =
+[-3 -5]
+[-1 -2]
+new F matrix =
+[ -2   6]
+[ -3 -10]
+=======================
+old F matrix =
+[-9  1]
+[-4 -4]
+T matrix =
+[ 1 -2]
+[ 2 -3]
+inverse T matrix =
+[-3  2]
+[-2  1]
+new F matrix =
+[-15   7]
+[-10   2]
+=======================
+old F matrix =
+[ 4  1]
+[ 3 14]
+T matrix =
+[1 3]
+[1 4]
+inverse T matrix =
+[ 4 -3]
+[-1  1]
+new F matrix =
+[9 4]
+[7 9]
+=======================
+old F matrix =
+[-14  -3]
+[ -2  -8]
+T matrix =
+[-1  3]
+[ 2 -7]
+inverse T matrix =
+[-7 -3]
+[-2 -1]
+new F matrix =
+[-14  -3]
+[ -2  -8]
+=======================
+old F matrix =
+[ 11 -10]
+[  1   5]
+T matrix =
+[-1  6]
+[-1  5]
+inverse T matrix =
+[ 5 -6]
+[ 1 -1]
+new F matrix =
+[ 15 -10]
+[  5   1]
+=======================
+old F matrix =
+[ -1   2]
+[  5 -13]
+T matrix =
+[-1  2]
+[ 2 -5]
+inverse T matrix =
+[-5 -2]
+[-2 -1]
+new F matrix =
+[  1   6]
+[ -3 -15]
+=======================
+old F matrix =
+[ 5  3]
+[ 2 -1]
+T matrix =
+[-1  3]
+[ 1 -4]
+inverse T matrix =
+[-4 -3]
+[-1 -1]
+new F matrix =
+[2 3]
+[5 2]
+=======================
+old F matrix =
+[ -8 -12]
+[ -1  -3]
+T matrix =
+[3 5]
+[1 2]
+inverse T matrix =
+[ 2 -5]
+[-1  3]
+new F matrix =
+[-7 -8]
+[-2 -4]
+=======================
+old F matrix =
+[15  5]
+[-2  6]
+T matrix =
+[-1 -4]
+[ 2  7]
+inverse T matrix =
+[ 7  4]
+[-2 -1]
+new F matrix =
+[ 9  1]
+[ 8 12]
+=======================
+old F matrix =
+[-15   2]
+[  8  -3]
+T matrix =
+[1 1]
+[1 2]
+inverse T matrix =
+[ 2 -1]
+[-1  1]
+new F matrix =
+[-13   6]
+[  6  -5]
+=======================
+old F matrix =
+[-3 -2]
+[ 6  4]
+T matrix =
+[ 1  2]
+[-1 -1]
+inverse T matrix =
+[-1 -2]
+[ 1  1]
+new F matrix =
+[ -3 -12]
+[  1   4]
+=======================
+old F matrix =
+[  8 -14]
+[-10  -3]
+T matrix =
+[ 1  2]
+[-1 -1]
+inverse T matrix =
+[-1 -2]
+[ 1  1]
+new F matrix =
+[-8  4]
+[15 13]
+=======================
+old F matrix =
+[ 11 -10]
+[  8 -14]
+T matrix =
+[-1  1]
+[ 1 -2]
+inverse T matrix =
+[-2 -1]
+[-1 -1]
+new F matrix =
+[ 10   7]
+[ -8 -13]
+=======================
+old F matrix =
+[  3  -3]
+[-13 -11]
+T matrix =
+[1 1]
+[4 5]
+inverse T matrix =
+[ 5 -1]
+[-4  1]
+new F matrix =
+[  6  -4]
+[  3 -14]
+=======================
+old F matrix =
+[-10  13]
+[ 10  11]
+T matrix =
+[-2 -5]
+[-1 -3]
+inverse T matrix =
+[-3  5]
+[ 1 -2]
+new F matrix =
+[ 9 12]
+[14 -8]
+=======================
+old F matrix =
+[-4 14]
+[ 3  1]
+T matrix =
+[ 2 -3]
+[ 1 -1]
+inverse T matrix =
+[-1  3]
+[-1  2]
+new F matrix =
+[-8 -1]
+[-6  5]
+=======================
+old F matrix =
+[ 6 -5]
+[-1  8]
+T matrix =
+[ 3  4]
+[-1 -1]
+inverse T matrix =
+[-1 -4]
+[ 1  3]
+new F matrix =
+[ 3 -5]
+[ 2 11]
+=======================
+old F matrix =
+[ -9 -14]
+[ -2  -4]
+T matrix =
+[-2 -3]
+[-1 -2]
+inverse T matrix =
+[-2  3]
+[ 1 -2]
+new F matrix =
+[-8 -8]
+[-4 -5]
+=======================
+old F matrix =
+[  3 -10]
+[ -1   2]
+T matrix =
+[ 1  5]
+[-1 -4]
+inverse T matrix =
+[-4 -5]
+[ 1  1]
+new F matrix =
+[ 8 10]
+[-2 -3]
+=======================
+old F matrix =
+[-11  -6]
+[ 10  10]
+T matrix =
+[-2 -3]
+[ 1  1]
+inverse T matrix =
+[ 1  3]
+[-1 -2]
+new F matrix =
+[ 10  12]
+[ -5 -11]
+=======================
+old F matrix =
+[12 -9]
+[-5 -3]
+T matrix =
+[ 2  7]
+[-1 -3]
+inverse T matrix =
+[-3 -7]
+[ 1  2]
+new F matrix =
+[-6 -1]
+[ 9 15]
+=======================
+old F matrix =
+[ 9 -2]
+[ 3 -5]
+T matrix =
+[ 1 -4]
+[-1  5]
+inverse T matrix =
+[5 4]
+[1 1]
+new F matrix =
+[3 6]
+[7 1]
+=======================
+old F matrix =
+[ 3 10]
+[ 1  3]
+T matrix =
+[-1  2]
+[ 2 -5]
+inverse T matrix =
+[-5 -2]
+[-2 -1]
+new F matrix =
+[ 13   6]
+[-15  -7]
+=======================
+old F matrix =
+[-2 -3]
+[ 7 11]
+T matrix =
+[ 1  2]
+[-2 -3]
+inverse T matrix =
+[-3 -2]
+[ 2  1]
+new F matrix =
+[ 2 -5]
+[-3  7]
+=======================
+old F matrix =
+[-1 -9]
+[-1 -2]
+T matrix =
+[ 1 -2]
+[-1  3]
+inverse T matrix =
+[3 2]
+[1 1]
+new F matrix =
+[-2 -3]
+[-3 -1]
+=======================
+old F matrix =
+[-13 -13]
+[  9  14]
+T matrix =
+[ 3  7]
+[-1 -2]
+inverse T matrix =
+[-2 -7]
+[ 1  3]
+new F matrix =
+[ 11   9]
+[ -5 -10]
+=======================
+old F matrix =
+[  7 -11]
+[  8 -13]
+T matrix =
+[ 4 -7]
+[-1  2]
+inverse T matrix =
+[2 7]
+[1 4]
+new F matrix =
+[-9 -8]
+[ 3  3]
+=======================
+old F matrix =
+[ 10   1]
+[  6 -12]
+T matrix =
+[ 1 -4]
+[ 1 -3]
+inverse T matrix =
+[-3  4]
+[-1  1]
+new F matrix =
+[ -7  -7]
+[-13   5]
+=======================
+old F matrix =
+[-3  3]
+[ 3  4]
+T matrix =
+[ 1  3]
+[-3 -8]
+inverse T matrix =
+[-8 -3]
+[ 3  1]
+new F matrix =
+[-3 -3]
+[-3  4]
+=======================
+old F matrix =
+[ 1  6]
+[ 2 -9]
+T matrix =
+[ 1 -5]
+[ 1 -4]
+inverse T matrix =
+[-4  5]
+[-1  1]
+new F matrix =
+[-15   6]
+[-14   7]
+=======================
+old F matrix =
+[-12 -12]
+[  5   9]
+T matrix =
+[ 1  2]
+[-1 -1]
+inverse T matrix =
+[-1 -2]
+[ 1  1]
+new F matrix =
+[  8  10]
+[ -4 -11]
+=======================
+old F matrix =
+[ 2 -3]
+[ 2 12]
+T matrix =
+[1 4]
+[1 5]
+inverse T matrix =
+[ 5 -4]
+[-1  1]
+new F matrix =
+[5 5]
+[3 9]
+=======================
+old F matrix =
+[ 1  6]
+[-3 13]
+T matrix =
+[ 1 -2]
+[-1  3]
+inverse T matrix =
+[3 2]
+[1 1]
+new F matrix =
+[ 1 -6]
+[ 3 13]
+=======================
+old F matrix =
+[  1  12]
+[ -2 -11]
+T matrix =
+[1 3]
+[1 4]
+inverse T matrix =
+[ 4 -3]
+[-1  1]
+new F matrix =
+[  1  -6]
+[  4 -11]
+=======================
+old F matrix =
+[11  9]
+[ 9 -8]
+T matrix =
+[ 1 -2]
+[-2  5]
+inverse T matrix =
+[5 2]
+[2 1]
+new F matrix =
+[ 15  11]
+[ -1 -12]
+=======================
+old F matrix =
+[ -7  -2]
+[  1 -12]
+T matrix =
+[-1  2]
+[-1  1]
+inverse T matrix =
+[ 1 -2]
+[ 1 -1]
+new F matrix =
+[-13   4]
+[ -2  -6]
+=======================
+old F matrix =
+[-8 -2]
+[ 4 -3]
+T matrix =
+[ 2  3]
+[-1 -1]
+inverse T matrix =
+[-1 -3]
+[ 1  2]
+new F matrix =
+[ -9 -14]
+[  1  -2]
+=======================
+old F matrix =
+[15 -5]
+[ 7  1]
+T matrix =
+[ 2 -1]
+[-1  1]
+inverse T matrix =
+[1 1]
+[1 2]
+new F matrix =
+[12  1]
+[-2  4]
